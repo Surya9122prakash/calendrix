@@ -1,4 +1,3 @@
-import { default as React } from 'react';
 import { Moment } from 'moment-timezone';
 export interface ConflictTheme {
     primaryColor: string;

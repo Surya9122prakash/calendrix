@@ -138,18 +138,24 @@ export const EventFormModal: React.FC<EventFormModalProps> = ({
     enabledTimeInterval,
     disableTimeInterval,
 }) => {
-    console.log("[EventFormModal] LOADING COMPONENT - version 1.1.7-hardened");
     const [validationErrors, setValidationErrors] = useState<string[]>([]);
     const [activePicker, setActivePicker] = useState<{ name: string; type: "date" | "time" } | null>(null);
 
     if (!isOpen) return null;
 
     return (
-        <div className="fixed inset-0 bg-black/40 flex items-center justify-center z-50">
-            <div className="bg-white rounded-xl p-6 w-96 shadow-xl max-h-[90vh] overflow-y-auto">
-                <h3 className="text-lg font-semibold mb-4">
-                    {editingEvent ? "Edit Event" : "Create Event"}
-                </h3>
+        <div className="fixed inset-0 bg-gray-900/60 flex items-center justify-center z-50 backdrop-blur-sm animate-fadeIn">
+            <div className="bg-white rounded-2xl p-8 w-[450px] shadow-2xl border border-gray-100 max-h-[90vh] overflow-y-auto transform animate-scaleIn">
+                <div className="flex justify-between items-center mb-6">
+                    <h3 className="text-xl font-bold text-gray-800">
+                        {editingEvent ? "Edit Event" : "Create Event"}
+                    </h3>
+                    <button onClick={onClose} className="text-gray-400 hover:text-gray-600 transition-colors">
+                        <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 18L18 6M6 6l12 12" />
+                        </svg>
+                    </button>
+                </div>
 
                 {formFields?.map((field) => (
                     <div key={field.name} className="mb-4">
@@ -160,11 +166,11 @@ export const EventFormModal: React.FC<EventFormModalProps> = ({
                         {(() => {
                             switch (field.type) {
                                 case "textarea":
-                                    return <textarea required={field.required} value={formData[field.name] || ""} onChange={(e) => setFormData({ ...formData, [field.name]: e.target.value })} className="w-full border rounded px-3 py-2" rows={3} />;
+                                    return <textarea required={field.required} value={formData[field.name] || ""} onChange={(e) => setFormData({ ...formData, [field.name]: e.target.value })} className="w-full border border-gray-200 rounded-lg px-4 py-2.5 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition-all text-gray-700 bg-gray-50/50" rows={3} />;
                                 case "dropdown":
                                 case "singleSelect":
                                     return (
-                                        <select required={field.required} value={formData[field.name] || ""} onChange={(e) => setFormData({ ...formData, [field.name]: e.target.value })} className="w-full border rounded px-3 py-2">
+                                        <select required={field.required} value={formData[field.name] || ""} onChange={(e) => setFormData({ ...formData, [field.name]: e.target.value })} className="w-full border border-gray-200 rounded-lg px-4 py-2.5 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition-all text-gray-700 bg-gray-50/50">
                                             <option value="">Select...</option>
                                             {field.options?.map((o: any) => <option key={o.value} value={o.value}>{o.label}</option>)}
                                         </select>
@@ -174,7 +180,7 @@ export const EventFormModal: React.FC<EventFormModalProps> = ({
                                         <select multiple required={field.required} value={formData[field.name] || []} onChange={(e) => {
                                             const values = Array.from(e.target.selectedOptions, option => option.value);
                                             setFormData({ ...formData, [field.name]: values });
-                                        }} className="w-full border rounded px-3 py-2 h-24">
+                                        }} className="w-full border border-gray-200 rounded-lg px-4 py-2.5 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition-all text-gray-700 bg-gray-50/50 h-24">
                                             {field.options?.map((o: any) => <option key={o.value} value={o.value}>{o.label}</option>)}
                                         </select>
                                     );
@@ -182,8 +188,8 @@ export const EventFormModal: React.FC<EventFormModalProps> = ({
                                     return (
                                         <div className="flex gap-4 mt-1">
                                             {field.options?.map((o: any) => (
-                                                <label key={o.value} className="flex items-center gap-1 cursor-pointer">
-                                                    <input type="radio" name={field.name} value={o.value} checked={formData[field.name] === o.value} onChange={(e) => setFormData({ ...formData, [field.name]: e.target.value })} />
+                                                <label key={o.value} className="flex items-center gap-2 cursor-pointer text-gray-700">
+                                                    <input type="radio" name={field.name} value={o.value} checked={formData[field.name] === o.value} onChange={(e) => setFormData({ ...formData, [field.name]: e.target.value })} className="w-4 h-4 text-blue-600 focus:ring-blue-500" />
                                                     {o.label}
                                                 </label>
                                             ))}
@@ -191,7 +197,7 @@ export const EventFormModal: React.FC<EventFormModalProps> = ({
                                     );
                                 case "boolean":
                                     return (
-                                        <input type="checkbox" checked={!!formData[field.name]} onChange={(e) => setFormData({ ...formData, [field.name]: e.target.checked })} className="w-5 h-5 mt-1 cursor-pointer" />
+                                        <input type="checkbox" checked={!!formData[field.name]} onChange={(e) => setFormData({ ...formData, [field.name]: e.target.checked })} className="w-5 h-5 mt-1 cursor-pointer accent-blue-600 rounded" />
                                     );
                                 case "attachment":
                                     return (
@@ -199,14 +205,14 @@ export const EventFormModal: React.FC<EventFormModalProps> = ({
                                             if (e.target.files && e.target.files.length > 0) {
                                                 setFormData({ ...formData, [field.name]: e.target.files[0].name });
                                             }
-                                        }} className="w-full border rounded px-3 py-2" />
+                                        }} className="w-full border border-gray-200 rounded-lg px-4 py-2 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition-all text-gray-700 bg-gray-50/50" />
                                     );
                                 case "colorPicker":
-                                    return <input type="color" required={field.required} value={formData[field.name] || "#000000"} onChange={(e) => setFormData({ ...formData, [field.name]: e.target.value })} className="w-16 h-10 p-1 border rounded cursor-pointer" />;
+                                    return <input type="color" required={field.required} value={formData[field.name] || "#000000"} onChange={(e) => setFormData({ ...formData, [field.name]: e.target.value })} className="w-16 h-10 p-1 border border-gray-200 rounded-lg cursor-pointer bg-white" />;
                                 case "year":
-                                    return <input type="number" required={field.required} placeholder="YYYY" value={formData[field.name] || ""} onChange={(e) => setFormData({ ...formData, [field.name]: e.target.value })} className="w-full border rounded px-3 py-2" />;
+                                    return <input type="number" required={field.required} placeholder="YYYY" value={formData[field.name] || ""} onChange={(e) => setFormData({ ...formData, [field.name]: e.target.value })} className="w-full border border-gray-200 rounded-lg px-4 py-2.5 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition-all text-gray-700 bg-gray-50/50" />;
                                 case "day":
-                                    return <input type="number" required={field.required} min="1" max="31" placeholder="DD" value={formData[field.name] || ""} onChange={(e) => setFormData({ ...formData, [field.name]: e.target.value })} className="w-full border rounded px-3 py-2" />;
+                                    return <input type="number" required={field.required} min="1" max="31" placeholder="DD" value={formData[field.name] || ""} onChange={(e) => setFormData({ ...formData, [field.name]: e.target.value })} className="w-full border border-gray-200 rounded-lg px-4 py-2.5 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition-all text-gray-700 bg-gray-50/50" />;
                                 default:
                                     const isCustomFormat = !!((field.type === "datetime-local" || field.type === "datetime" || field.type === "date" || field.type === "time") && (dateFormat || timeFormat));
 
@@ -229,7 +235,7 @@ export const EventFormModal: React.FC<EventFormModalProps> = ({
                                                         setActivePicker({ name: field.name, type: (field.type === "time" ? "time" : "date") });
                                                     }
                                                 }}
-                                                className={`w-full border rounded px-3 py-2 cursor-pointer ${isCustomFormat ? "pr-8" : ""}`}
+                                                className={`w-full border border-gray-200 rounded-lg px-4 py-2.5 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition-all text-gray-700 bg-gray-50/50 cursor-pointer ${isCustomFormat ? "pr-10" : ""}`}
                                                 readOnly={isCustomFormat}
                                             />
                                             {isCustomFormat && (
@@ -319,16 +325,16 @@ export const EventFormModal: React.FC<EventFormModalProps> = ({
                                 onDeleteEvent(editingEvent.id);
                                 onClose();
                             }}
-                            className="text-red-600 text-sm"
+                            className="text-red-500 hover:text-red-700 text-sm font-medium transition-colors"
                         >
-                            Delete
+                            Delete Event
                         </button>
                     )}
 
                     <div className="flex gap-2 ml-auto">
                         <button
                             onClick={onClose}
-                            className="px-3 py-1 border rounded"
+                            className="px-5 py-2 border border-gray-200 rounded-lg hover:bg-gray-50 transition-colors text-gray-600 font-medium"
                         >
                             Cancel
                         </button>
@@ -403,9 +409,9 @@ export const EventFormModal: React.FC<EventFormModalProps> = ({
                                     alert("SAVE ERROR: " + err.message);
                                 }
                             }}
-                            className="px-4 py-1 bg-blue-600 text-white rounded"
+                            className="px-6 py-2 bg-blue-600 hover:bg-blue-700 text-white rounded-lg transition-all shadow-md hover:shadow-lg font-medium"
                         >
-                            Save
+                            Save Event
                         </button>
                     </div>
                 </div>
