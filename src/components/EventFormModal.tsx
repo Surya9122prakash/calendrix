@@ -158,21 +158,21 @@ export const EventFormModal: React.FC<EventFormModalProps> = ({
                 </div>
 
                 {formFields?.map((field) => (
-                    <div key={field.name} className="mb-4">
-                        <label className="block text-sm mb-1">
+                    <div key={field.name} className="mb-[16px]">
+                        <label className="block text-sm mb-[4px]">
                             {field.label}
                         </label>
 
                         {(() => {
                             switch (field.type) {
                                 case "textarea":
-                                    return <textarea required={field.required} value={formData[field.name] || ""} onChange={(e) => setFormData({ ...formData, [field.name]: e.target.value })} className="w-full border border-gray-200 rounded-lg px-5 py-4 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition-all text-gray-700 bg-gray-50/50" rows={3} />;
+                                    return <textarea required={field.required} value={formData[field.name] || ""} onChange={(e) => setFormData({ ...formData, [field.name]: e.target.value })} className="w-full border border-[#e5e7eb] rounded-lg p-[20px] focus:ring-2 focus:ring-[#3b82f6] focus:border-[#3b82f6] outline-none transition-all text-[#374151] bg-[#f9fafb80]" rows={3} />;
                                 case "dropdown":
                                 case "singleSelect":
                                     return (
-                                        <select required={field.required} value={formData[field.name] || ""} onChange={(e) => setFormData({ ...formData, [field.name]: e.target.value })} className="w-full border border-gray-200 rounded-lg px-5 py-4 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition-all text-gray-700 bg-gray-50/50">
+                                        <select required={field.required} value={formData[field.name] || ""} onChange={(e) => setFormData({ ...formData, [field.name]: e.target.value })} className="w-full border border-[#e5e7eb] rounded-lg p-[20px] focus:ring-2 focus:ring-[#3b82f6] focus:border-[#3b82f6] outline-none transition-all text-[#374151] bg-[#f9fafb80]">
                                             <option value="">Select...</option>
-                                            {field.options?.map((o: any) => <option key={o.value} value={o.value}>{o.label}</option>)}
+                                            {field.options?.map((opt: any) => <option key={opt.value} value={opt.value}>{opt.label}</option>)}
                                         </select>
                                     );
                                 case "multiselect":
@@ -180,24 +180,24 @@ export const EventFormModal: React.FC<EventFormModalProps> = ({
                                         <select multiple required={field.required} value={formData[field.name] || []} onChange={(e) => {
                                             const values = Array.from(e.target.selectedOptions, option => option.value);
                                             setFormData({ ...formData, [field.name]: values });
-                                        }} className="w-full border border-gray-200 rounded-lg px-5 py-4 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition-all text-gray-700 bg-gray-50/50 h-32">
-                                            {field.options?.map((o: any) => <option key={o.value} value={o.value}>{o.label}</option>)}
+                                        }} className="w-full border border-[#e5e7eb] rounded-lg p-[20px] focus:ring-2 focus:ring-[#3b82f6] focus:border-[#3b82f6] outline-none transition-all text-[#374151] bg-[#f9fafb80] h-[128px]">
+                                            {field.options?.map((opt: any) => <option key={opt.value} value={opt.value}>{opt.label}</option>)}
                                         </select>
                                     );
                                 case "radio":
                                     return (
-                                        <div className="flex gap-4 mt-1">
-                                            {field.options?.map((o: any) => (
-                                                <label key={o.value} className="flex items-center gap-2 cursor-pointer text-gray-700">
-                                                    <input type="radio" name={field.name} value={o.value} checked={formData[field.name] === o.value} onChange={(e) => setFormData({ ...formData, [field.name]: e.target.value })} className="w-4 h-4 text-blue-600 focus:ring-blue-500" />
-                                                    {o.label}
+                                        <div className="flex gap-[16px] mt-[4px]">
+                                            {field.options?.map((opt: any) => (
+                                                <label key={opt.value} className="flex items-center gap-[8px] cursor-pointer text-[#374151]">
+                                                    <input type="radio" name={field.name} value={opt.value} checked={formData[field.name] === opt.value} onChange={(e) => setFormData({ ...formData, [field.name]: e.target.value })} className="w-[16px] h-[16px] text-[#3b82f6] focus:ring-[#3b82f6]" />
+                                                    {opt.label}
                                                 </label>
                                             ))}
                                         </div>
                                     );
                                 case "boolean":
                                     return (
-                                        <input type="checkbox" checked={!!formData[field.name]} onChange={(e) => setFormData({ ...formData, [field.name]: e.target.checked })} className="w-5 h-5 mt-1 cursor-pointer accent-blue-600 rounded" />
+                                        <input type="checkbox" checked={!!formData[field.name]} onChange={(e) => setFormData({ ...formData, [field.name]: e.target.checked })} className="w-[20px] h-[20px] mt-[4px] cursor-pointer accent-[#3b82f6] rounded" />
                                     );
                                 case "attachment":
                                     return (
@@ -205,14 +205,14 @@ export const EventFormModal: React.FC<EventFormModalProps> = ({
                                             if (e.target.files && e.target.files.length > 0) {
                                                 setFormData({ ...formData, [field.name]: e.target.files[0].name });
                                             }
-                                        }} className="w-full border border-gray-200 rounded-lg px-5 py-4 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition-all text-gray-700 bg-gray-50/50" />
+                                        }} className="w-full border border-[#e5e7eb] rounded-lg p-[20px] focus:ring-2 focus:ring-[#3b82f6] focus:border-[#3b82f6] outline-none transition-all text-[#374151] bg-[#f9fafb80]" />
                                     );
                                 case "colorPicker":
-                                    return <input type="color" required={field.required} value={formData[field.name] || "#000000"} onChange={(e) => setFormData({ ...formData, [field.name]: e.target.value })} className="w-16 h-10 p-1 border border-gray-200 rounded-lg cursor-pointer bg-white" />;
+                                    return <input type="color" required={field.required} value={formData[field.name] || "#000000"} onChange={(e) => setFormData({ ...formData, [field.name]: e.target.value })} className="w-[64px] h-[40px] p-[4px] border border-[#e5e7eb] rounded-lg cursor-pointer bg-white" />;
                                 case "year":
-                                    return <input type="number" required={field.required} placeholder="YYYY" value={formData[field.name] || ""} onChange={(e) => setFormData({ ...formData, [field.name]: e.target.value })} className="w-full border border-gray-200 rounded-lg px-5 py-4 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition-all text-gray-700 bg-gray-50/50" />;
+                                    return <input type="number" required={field.required} placeholder="YYYY" value={formData[field.name] || ""} onChange={(e) => setFormData({ ...formData, [field.name]: e.target.value })} className="w-full border border-[#e5e7eb] rounded-lg p-[20px] focus:ring-2 focus:ring-[#3b82f6] focus:border-[#3b82f6] outline-none transition-all text-[#374151] bg-[#f9fafb80]" />;
                                 case "day":
-                                    return <input type="number" required={field.required} min="1" max="31" placeholder="DD" value={formData[field.name] || ""} onChange={(e) => setFormData({ ...formData, [field.name]: e.target.value })} className="w-full border border-gray-200 rounded-lg px-5 py-4 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition-all text-gray-700 bg-gray-50/50" />;
+                                    return <input type="number" required={field.required} min="1" max="31" placeholder="DD" value={formData[field.name] || ""} onChange={(e) => setFormData({ ...formData, [field.name]: e.target.value })} className="w-full border border-[#e5e7eb] rounded-lg p-[20px] focus:ring-2 focus:ring-[#3b82f6] focus:border-[#3b82f6] outline-none transition-all text-[#374151] bg-[#f9fafb80]" />;
                                 default:
                                     const isCustomFormat = !!((field.type === "datetime-local" || field.type === "datetime" || field.type === "date" || field.type === "time") && (dateFormat || timeFormat));
                                     const displayValue = (() => {
@@ -250,12 +250,12 @@ export const EventFormModal: React.FC<EventFormModalProps> = ({
                                                         setActivePicker({ name: field.name, type: (field.type === "time" ? "time" : "date") });
                                                     }
                                                 }}
-                                                className={`w-full border border-gray-200 rounded-lg px-5 py-4 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition-all text-gray-700 bg-gray-50/50 cursor-pointer ${isCustomFormat ? "pr-12" : ""}`}
+                                                className={`w-full border border-[#e5e7eb] rounded-lg p-[20px] focus:ring-2 focus:ring-[#3b82f6] focus:border-[#3b82f6] outline-none transition-all text-[#374151] bg-[#f9fafb80] cursor-pointer ${isCustomFormat ? "pr-[48px]" : ""}`}
                                                 readOnly={isCustomFormat}
                                             />
                                             {isCustomFormat && (
                                                 <div
-                                                    className="absolute right-3.5 top-1/2 -translate-y-1/2 cursor-pointer text-gray-400 hover:text-blue-500 transition-colors z-10"
+                                                    className="absolute right-[14px] top-1/2 -translate-y-1/2 cursor-pointer text-[#9ca3af] hover:text-[#3b82f6] transition-colors z-10"
                                                     onClick={() => {
                                                         setActivePicker({ name: field.name, type: (field.type === "time" ? "time" : "date") });
                                                     }}
