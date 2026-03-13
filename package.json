@@ -2,6 +2,7 @@
   "name": "calendrix",
   "version": "1.0.0",
   "type": "module",
+  "types": "dist/index.d.ts",
   "description": "A powerful, framework-agnostic, and highly customizable React calendar component library.",
   "license": "MIT",
   "scripts": {
@@ -17,6 +18,7 @@
   "style": "dist/calendrix.css",
   "exports": {
     ".": {
+      "types": "./dist/index.d.ts",
       "import": "./dist/calendrix.es.js",
       "require": "./dist/calendrix.umd.js"
     },
@@ -42,6 +44,7 @@
     "@types/react-dom": "^19.2.3",
     "typescript": "~5.9.3",
     "vite": "^7.3.1",
-    "vite-plugin-css-injected-by-js": "^3.5.0"
+    "vite-plugin-css-injected-by-js": "^3.5.0",
+    "vite-plugin-dts": "^4.5.4"
   }
 }
