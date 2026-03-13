@@ -1,4 +1,4 @@
-import moment, { type Moment } from "moment-timezone";
+import { type Moment } from "moment-timezone";
 
 export interface ConflictTheme {
     primaryColor: string;
@@ -81,6 +81,7 @@ export interface NavigationActions {
     defaultNav: React.ReactNode;
     currentDate: Moment;
     timezone: string;
+    timezoneLabelInclude: boolean;
 }
 
 export interface CalendarProps {

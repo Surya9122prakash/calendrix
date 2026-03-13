@@ -164,6 +164,7 @@ export const MonthView: React.FC<CalendarProps> = ({
         defaultNav,
         currentDate: zonedDate,
         timezone,
+        timezoneLabelInclude,
     }) : null;
 
     return (

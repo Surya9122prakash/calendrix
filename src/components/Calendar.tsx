@@ -21,6 +21,7 @@ export const Calendar: React.FC<CalendarProps> = (props) => {
         dateFormat = "MMMM YYYY",
         timeFormat = "HH:mm",
         showTimeSlots = false,
+        timezoneLabelInclude = false,
     } = props;
 
     // Uncontrolled State Fallbacks for Date
@@ -98,6 +99,11 @@ export const Calendar: React.FC<CalendarProps> = (props) => {
             <h2 className="text-xl font-semibold" style={{ color: "var(--calendar-text)" }}>
                 {zonedDate.format(dateFormat)}
             </h2>
+            {timezoneLabelInclude && (
+                <p className="text-xs mt-1" style={{ color: "var(--calendar-secondary-text)" }}>
+                    GMT{zonedDate.format("Z")} • {timezone}
+                </p>
+            )}
             <button onClick={goToToday} className="mt-1 text-sm font-medium" style={{ color: "var(--calendar-primary)" }}>
                 Today
             </button>
@@ -133,6 +139,7 @@ export const Calendar: React.FC<CalendarProps> = (props) => {
         defaultNav,
         currentDate: zonedDate,
         timezone,
+        timezoneLabelInclude,
     }) : null;
 
     return (

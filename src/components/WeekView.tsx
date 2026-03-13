@@ -295,6 +295,7 @@ export const WeekView: React.FC<CalendarProps> = ({
         defaultNav,
         currentDate: startOfWeek,
         timezone,
+        timezoneLabelInclude,
     }) : null;
 
     return (

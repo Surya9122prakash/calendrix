@@ -76,6 +76,7 @@ export interface NavigationActions {
     defaultNav: React.ReactNode;
     currentDate: Moment;
     timezone: string;
+    timezoneLabelInclude: boolean;
 }
 export interface CalendarProps {
     timezone?: string;

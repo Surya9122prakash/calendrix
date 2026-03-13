@@ -446,6 +446,7 @@ export const DayView: React.FC<CalendarProps> = ({
         defaultNav,
         currentDate: zonedDate,
         timezone,
+        timezoneLabelInclude,
     }) : null;
 
     return (
