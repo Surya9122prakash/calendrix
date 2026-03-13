@@ -158,19 +158,19 @@ export const EventFormModal: React.FC<EventFormModalProps> = ({
                 </div>
 
                 {formFields?.map((field) => (
-                    <div key={field.name} className="mb-[16px]">
-                        <label className="block text-sm mb-[4px]">
+                    <div key={field.name} className="calendrix-field-container">
+                        <label className="calendrix-label-hardened">
                             {field.label}
                         </label>
 
                         {(() => {
                             switch (field.type) {
                                 case "textarea":
-                                    return <textarea required={field.required} value={formData[field.name] || ""} onChange={(e) => setFormData({ ...formData, [field.name]: e.target.value })} className="w-full border border-[#e5e7eb] rounded-lg p-[20px] focus:ring-2 focus:ring-[#3b82f6] focus:border-[#3b82f6] outline-none transition-all text-[#374151] bg-[#f9fafb80]" rows={3} />;
+                                    return <textarea required={field.required} value={formData[field.name] || ""} onChange={(e) => setFormData({ ...formData, [field.name]: e.target.value })} className="calendrix-input-hardened" rows={3} />;
                                 case "dropdown":
                                 case "singleSelect":
                                     return (
-                                        <select required={field.required} value={formData[field.name] || ""} onChange={(e) => setFormData({ ...formData, [field.name]: e.target.value })} className="w-full border border-[#e5e7eb] rounded-lg p-[20px] focus:ring-2 focus:ring-[#3b82f6] focus:border-[#3b82f6] outline-none transition-all text-[#374151] bg-[#f9fafb80]">
+                                        <select required={field.required} value={formData[field.name] || ""} onChange={(e) => setFormData({ ...formData, [field.name]: e.target.value })} className="calendrix-input-hardened">
                                             <option value="">Select...</option>
                                             {field.options?.map((opt: any) => <option key={opt.value} value={opt.value}>{opt.label}</option>)}
                                         </select>
@@ -180,7 +180,7 @@ export const EventFormModal: React.FC<EventFormModalProps> = ({
                                         <select multiple required={field.required} value={formData[field.name] || []} onChange={(e) => {
                                             const values = Array.from(e.target.selectedOptions, option => option.value);
                                             setFormData({ ...formData, [field.name]: values });
-                                        }} className="w-full border border-[#e5e7eb] rounded-lg p-[20px] focus:ring-2 focus:ring-[#3b82f6] focus:border-[#3b82f6] outline-none transition-all text-[#374151] bg-[#f9fafb80] h-[128px]">
+                                        }} className="calendrix-input-hardened h-[128px]">
                                             {field.options?.map((opt: any) => <option key={opt.value} value={opt.value}>{opt.label}</option>)}
                                         </select>
                                     );
@@ -205,14 +205,14 @@ export const EventFormModal: React.FC<EventFormModalProps> = ({
                                             if (e.target.files && e.target.files.length > 0) {
                                                 setFormData({ ...formData, [field.name]: e.target.files[0].name });
                                             }
-                                        }} className="w-full border border-[#e5e7eb] rounded-lg p-[20px] focus:ring-2 focus:ring-[#3b82f6] focus:border-[#3b82f6] outline-none transition-all text-[#374151] bg-[#f9fafb80]" />
+                                        }} className="calendrix-input-hardened" />
                                     );
                                 case "colorPicker":
                                     return <input type="color" required={field.required} value={formData[field.name] || "#000000"} onChange={(e) => setFormData({ ...formData, [field.name]: e.target.value })} className="w-[64px] h-[40px] p-[4px] border border-[#e5e7eb] rounded-lg cursor-pointer bg-white" />;
                                 case "year":
-                                    return <input type="number" required={field.required} placeholder="YYYY" value={formData[field.name] || ""} onChange={(e) => setFormData({ ...formData, [field.name]: e.target.value })} className="w-full border border-[#e5e7eb] rounded-lg p-[20px] focus:ring-2 focus:ring-[#3b82f6] focus:border-[#3b82f6] outline-none transition-all text-[#374151] bg-[#f9fafb80]" />;
+                                    return <input type="number" required={field.required} placeholder="YYYY" value={formData[field.name] || ""} onChange={(e) => setFormData({ ...formData, [field.name]: e.target.value })} className="calendrix-input-hardened" />;
                                 case "day":
-                                    return <input type="number" required={field.required} min="1" max="31" placeholder="DD" value={formData[field.name] || ""} onChange={(e) => setFormData({ ...formData, [field.name]: e.target.value })} className="w-full border border-[#e5e7eb] rounded-lg p-[20px] focus:ring-2 focus:ring-[#3b82f6] focus:border-[#3b82f6] outline-none transition-all text-[#374151] bg-[#f9fafb80]" />;
+                                    return <input type="number" required={field.required} min="1" max="31" placeholder="DD" value={formData[field.name] || ""} onChange={(e) => setFormData({ ...formData, [field.name]: e.target.value })} className="calendrix-input-hardened" />;
                                 default:
                                     const isCustomFormat = !!((field.type === "datetime-local" || field.type === "datetime" || field.type === "date" || field.type === "time") && (dateFormat || timeFormat));
                                     const displayValue = (() => {
@@ -250,7 +250,7 @@ export const EventFormModal: React.FC<EventFormModalProps> = ({
                                                         setActivePicker({ name: field.name, type: (field.type === "time" ? "time" : "date") });
                                                     }
                                                 }}
-                                                className={`w-full border border-[#e5e7eb] rounded-lg p-[20px] focus:ring-2 focus:ring-[#3b82f6] focus:border-[#3b82f6] outline-none transition-all text-[#374151] bg-[#f9fafb80] cursor-pointer ${isCustomFormat ? "pr-[48px]" : ""}`}
+                                                className={`calendrix-input-hardened ${isCustomFormat ? "pr-[48px]" : ""}`}
                                                 readOnly={isCustomFormat}
                                             />
                                             {isCustomFormat && (

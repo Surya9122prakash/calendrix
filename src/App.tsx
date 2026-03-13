@@ -165,7 +165,7 @@ const App: React.FC = () => {
             { start: "09:00", end: "17:00" },
           ]}
 
-          disabledTimeSlots={["13:00", "13:30"]}
+          // disabledTimeSlots={["13:00", "13:30"]}
 
           /* Optional restriction examples */
           futureDaysOnly={true}
