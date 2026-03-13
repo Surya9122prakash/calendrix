@@ -144,10 +144,10 @@ export const EventFormModal: React.FC<EventFormModalProps> = ({
     if (!isOpen) return null;
 
     return (
-        <div className="fixed inset-0 bg-gray-900/60 flex items-center justify-center z-50 backdrop-blur-sm animate-fadeIn">
-            <div className="bg-white rounded-2xl p-8 w-[450px] shadow-2xl border border-gray-100 max-h-[90vh] overflow-y-auto transform animate-scaleIn">
+        <div className="calendrix-modal-overlay animate-fadeIn">
+            <div className="calendrix-modal-content animate-scaleIn">
                 <div className="flex justify-between items-center mb-6">
-                    <h3 className="text-xl font-bold text-gray-800">
+                    <h3 className="calendrix-modal-title">
                         {editingEvent ? "Edit Event" : "Create Event"}
                     </h3>
                     <button onClick={onClose} className="text-gray-400 hover:text-gray-600 transition-colors">
@@ -340,7 +340,7 @@ export const EventFormModal: React.FC<EventFormModalProps> = ({
                                 onDeleteEvent(editingEvent.id);
                                 onClose();
                             }}
-                            className="text-red-500 hover:text-red-700 text-sm font-medium transition-colors"
+                            className="calendrix-btn-danger"
                         >
                             Delete Event
                         </button>
@@ -349,7 +349,7 @@ export const EventFormModal: React.FC<EventFormModalProps> = ({
                     <div className="flex gap-2 ml-auto">
                         <button
                             onClick={onClose}
-                            className="px-5 py-2 border border-gray-200 rounded-lg hover:bg-gray-50 transition-colors text-gray-600 font-medium"
+                            className="calendrix-btn-secondary"
                         >
                             Cancel
                         </button>
@@ -424,7 +424,7 @@ export const EventFormModal: React.FC<EventFormModalProps> = ({
                                     alert("SAVE ERROR: " + err.message);
                                 }
                             }}
-                            className="px-6 py-2 bg-blue-600 hover:bg-blue-700 text-white rounded-lg transition-all shadow-md hover:shadow-lg font-medium"
+                            className="calendrix-btn-primary"
                         >
                             Save Event
                         </button>

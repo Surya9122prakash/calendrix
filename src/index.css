@@ -73,3 +73,82 @@
 .calendrix-field-container {
     margin-bottom: 16px !important;
 }
+
+/* Modal Hardening */
+.calendrix-modal-overlay {
+    position: fixed !important;
+    inset: 0 !important;
+    background-color: rgba(17, 24, 39, 0.6) !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    z-index: 50 !important;
+    backdrop-filter: blur(4px) !important;
+}
+
+.calendrix-modal-content {
+    background-color: #ffffff !important;
+    border-radius: 1rem !important;
+    padding: 2rem !important;
+    width: 450px !important;
+    max-width: 90vw !important;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25) !important;
+    border: 1px solid #f3f4f6 !important;
+    max-height: 90vh !important;
+    overflow-y: auto !important;
+}
+
+.calendrix-modal-title {
+    font-size: 1.25rem !important;
+    font-weight: 700 !important;
+    color: #1f2937 !important;
+    margin: 0 !important;
+}
+
+/* Button Hardening */
+.calendrix-btn-primary {
+    padding: 0.5rem 1.5rem !important;
+    background-color: #2563eb !important;
+    color: #ffffff !important;
+    border-radius: 0.5rem !important;
+    font-weight: 500 !important;
+    transition: all 0.2s !important;
+    border: none !important;
+    cursor: pointer !important;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1) !important;
+}
+
+.calendrix-btn-primary:hover {
+    background-color: #1d4ed8 !important;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1) !important;
+}
+
+.calendrix-btn-secondary {
+    padding: 0.5rem 1.25rem !important;
+    background-color: transparent !important;
+    color: #4b5563 !important;
+    border: 1px solid #e5e7eb !important;
+    border-radius: 0.5rem !important;
+    font-weight: 500 !important;
+    transition: all 0.2s !important;
+    cursor: pointer !important;
+}
+
+.calendrix-btn-secondary:hover {
+    background-color: #f9fafb !important;
+}
+
+.calendrix-btn-danger {
+    background-color: transparent !important;
+    color: #ef4444 !important;
+    font-size: 0.875rem !important;
+    font-weight: 500 !important;
+    border: none !important;
+    cursor: pointer !important;
+    transition: color 0.2s !important;
+    padding: 0 !important;
+}
+
+.calendrix-btn-danger:hover {
+    color: #b91c1c !important;
+}
