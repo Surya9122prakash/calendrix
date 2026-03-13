@@ -166,11 +166,11 @@ export const EventFormModal: React.FC<EventFormModalProps> = ({
                         {(() => {
                             switch (field.type) {
                                 case "textarea":
-                                    return <textarea required={field.required} value={formData[field.name] || ""} onChange={(e) => setFormData({ ...formData, [field.name]: e.target.value })} className="w-full border border-gray-200 rounded-lg px-4 py-2.5 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition-all text-gray-700 bg-gray-50/50" rows={3} />;
+                                    return <textarea required={field.required} value={formData[field.name] || ""} onChange={(e) => setFormData({ ...formData, [field.name]: e.target.value })} className="w-full border border-gray-200 rounded-lg px-5 py-4 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition-all text-gray-700 bg-gray-50/50" rows={3} />;
                                 case "dropdown":
                                 case "singleSelect":
                                     return (
-                                        <select required={field.required} value={formData[field.name] || ""} onChange={(e) => setFormData({ ...formData, [field.name]: e.target.value })} className="w-full border border-gray-200 rounded-lg px-4 py-2.5 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition-all text-gray-700 bg-gray-50/50">
+                                        <select required={field.required} value={formData[field.name] || ""} onChange={(e) => setFormData({ ...formData, [field.name]: e.target.value })} className="w-full border border-gray-200 rounded-lg px-5 py-4 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition-all text-gray-700 bg-gray-50/50">
                                             <option value="">Select...</option>
                                             {field.options?.map((o: any) => <option key={o.value} value={o.value}>{o.label}</option>)}
                                         </select>
@@ -180,7 +180,7 @@ export const EventFormModal: React.FC<EventFormModalProps> = ({
                                         <select multiple required={field.required} value={formData[field.name] || []} onChange={(e) => {
                                             const values = Array.from(e.target.selectedOptions, option => option.value);
                                             setFormData({ ...formData, [field.name]: values });
-                                        }} className="w-full border border-gray-200 rounded-lg px-4 py-2.5 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition-all text-gray-700 bg-gray-50/50 h-24">
+                                        }} className="w-full border border-gray-200 rounded-lg px-5 py-4 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition-all text-gray-700 bg-gray-50/50 h-32">
                                             {field.options?.map((o: any) => <option key={o.value} value={o.value}>{o.label}</option>)}
                                         </select>
                                     );
@@ -205,14 +205,14 @@ export const EventFormModal: React.FC<EventFormModalProps> = ({
                                             if (e.target.files && e.target.files.length > 0) {
                                                 setFormData({ ...formData, [field.name]: e.target.files[0].name });
                                             }
-                                        }} className="w-full border border-gray-200 rounded-lg px-4 py-2 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition-all text-gray-700 bg-gray-50/50" />
+                                        }} className="w-full border border-gray-200 rounded-lg px-5 py-4 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition-all text-gray-700 bg-gray-50/50" />
                                     );
                                 case "colorPicker":
                                     return <input type="color" required={field.required} value={formData[field.name] || "#000000"} onChange={(e) => setFormData({ ...formData, [field.name]: e.target.value })} className="w-16 h-10 p-1 border border-gray-200 rounded-lg cursor-pointer bg-white" />;
                                 case "year":
-                                    return <input type="number" required={field.required} placeholder="YYYY" value={formData[field.name] || ""} onChange={(e) => setFormData({ ...formData, [field.name]: e.target.value })} className="w-full border border-gray-200 rounded-lg px-4 py-2.5 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition-all text-gray-700 bg-gray-50/50" />;
+                                    return <input type="number" required={field.required} placeholder="YYYY" value={formData[field.name] || ""} onChange={(e) => setFormData({ ...formData, [field.name]: e.target.value })} className="w-full border border-gray-200 rounded-lg px-5 py-4 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition-all text-gray-700 bg-gray-50/50" />;
                                 case "day":
-                                    return <input type="number" required={field.required} min="1" max="31" placeholder="DD" value={formData[field.name] || ""} onChange={(e) => setFormData({ ...formData, [field.name]: e.target.value })} className="w-full border border-gray-200 rounded-lg px-4 py-2.5 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition-all text-gray-700 bg-gray-50/50" />;
+                                    return <input type="number" required={field.required} min="1" max="31" placeholder="DD" value={formData[field.name] || ""} onChange={(e) => setFormData({ ...formData, [field.name]: e.target.value })} className="w-full border border-gray-200 rounded-lg px-5 py-4 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition-all text-gray-700 bg-gray-50/50" />;
                                 default:
                                     const isCustomFormat = !!((field.type === "datetime-local" || field.type === "datetime" || field.type === "date" || field.type === "time") && (dateFormat || timeFormat));
 
@@ -235,7 +235,7 @@ export const EventFormModal: React.FC<EventFormModalProps> = ({
                                                         setActivePicker({ name: field.name, type: (field.type === "time" ? "time" : "date") });
                                                     }
                                                 }}
-                                                className={`w-full border border-gray-200 rounded-lg px-4 py-2.5 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition-all text-gray-700 bg-gray-50/50 cursor-pointer ${isCustomFormat ? "pr-12" : ""}`}
+                                                className={`w-full border border-gray-200 rounded-lg px-5 py-4 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition-all text-gray-700 bg-gray-50/50 cursor-pointer ${isCustomFormat ? "pr-12" : ""}`}
                                                 readOnly={isCustomFormat}
                                             />
                                             {isCustomFormat && (
