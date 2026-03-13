@@ -215,6 +215,21 @@ export const EventFormModal: React.FC<EventFormModalProps> = ({
                                     return <input type="number" required={field.required} min="1" max="31" placeholder="DD" value={formData[field.name] || ""} onChange={(e) => setFormData({ ...formData, [field.name]: e.target.value })} className="w-full border border-gray-200 rounded-lg px-5 py-4 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition-all text-gray-700 bg-gray-50/50" />;
                                 default:
                                     const isCustomFormat = !!((field.type === "datetime-local" || field.type === "datetime" || field.type === "date" || field.type === "time") && (dateFormat || timeFormat));
+                                    const displayValue = (() => {
+                                        const val = formData[field.name];
+                                        if (!val || !isCustomFormat) return val || "";
+                                        const m = moment.tz(val, timezone);
+                                        if (!m.isValid()) return val || "";
+
+                                        if (field.type === "datetime-local" || field.type === "datetime") {
+                                            return m.format(`${dateFormat || "YYYY-MM-DD"} ${timeFormat || "HH:mm"}`);
+                                        } else if (field.type === "date") {
+                                            return m.format(dateFormat || "YYYY-MM-DD");
+                                        } else if (field.type === "time") {
+                                            return m.format(timeFormat || "HH:mm");
+                                        }
+                                        return val;
+                                    })();
 
                                     return (
                                         <div className="relative">
@@ -228,7 +243,7 @@ export const EventFormModal: React.FC<EventFormModalProps> = ({
                                                             : field.type === "time" ? (timeFormat || "HH:mm")
                                                                 : ""
                                                 }
-                                                value={formData[field.name] || ""}
+                                                value={displayValue}
                                                 onChange={(e) => setFormData({ ...formData, [field.name]: e.target.value })}
                                                 onClick={() => {
                                                     if (isCustomFormat) {

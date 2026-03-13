@@ -143,22 +143,22 @@ const App: React.FC = () => {
           /* Enable internal form */
           onlyCreateEditRequired
 
-          formFields={[
-            { name: "title", label: "Event Title", type: "text", required: true },
-            { name: "description", label: "Description", type: "textarea" },
-            { name: "category", label: "Category", type: "dropdown", options: [{ label: "Work", value: "work" }, { label: "Personal", value: "personal" }] },
-            { name: "priority", label: "Priority", type: "singleSelect", options: [{ label: "High", value: "high" }, { label: "Low", value: "low" }] },
-            { name: "tags", label: "Tags", type: "multiselect", options: [{ label: "Urgent", value: "urgent" }, { label: "Meeting", value: "meeting" }] },
-            { name: "status", label: "Status", type: "radio", options: [{ label: "Active", value: "active" }, { label: "Inactive", value: "inactive" }] },
-            { name: "color", label: "Color Picker", type: "colorPicker" },
-            { name: "file", label: "Attachment", type: "attachment" },
-            { name: "isAllDay", label: "All Day Event", type: "boolean" },
-            { name: "yearField", label: "Year", type: "year" },
-            { name: "monthField", label: "Month", type: "month" },
-            { name: "dayField", label: "Day", type: "day" },
-            { name: "start", label: "Start Time", type: "datetime-local", required: true },
-            { name: "end", label: "End Time", type: "datetime-local", required: true },
-          ]}
+          // formFields={[
+          //   { name: "title", label: "Event Title", type: "text", required: true },
+          //   { name: "description", label: "Description", type: "textarea" },
+          //   { name: "category", label: "Category", type: "dropdown", options: [{ label: "Work", value: "work" }, { label: "Personal", value: "personal" }] },
+          //   { name: "priority", label: "Priority", type: "singleSelect", options: [{ label: "High", value: "high" }, { label: "Low", value: "low" }] },
+          //   { name: "tags", label: "Tags", type: "multiselect", options: [{ label: "Urgent", value: "urgent" }, { label: "Meeting", value: "meeting" }] },
+          //   { name: "status", label: "Status", type: "radio", options: [{ label: "Active", value: "active" }, { label: "Inactive", value: "inactive" }] },
+          //   { name: "color", label: "Color Picker", type: "colorPicker" },
+          //   { name: "file", label: "Attachment", type: "attachment" },
+          //   { name: "isAllDay", label: "All Day Event", type: "boolean" },
+          //   { name: "yearField", label: "Year", type: "year" },
+          //   { name: "monthField", label: "Month", type: "month" },
+          //   { name: "dayField", label: "Day", type: "day" },
+          //   { name: "start", label: "Start Time", type: "datetime-local", required: true },
+          //   { name: "end", label: "End Time", type: "datetime-local", required: true },
+          // ]}
 
           /* Working hours */
           enabledTimeInterval={[
