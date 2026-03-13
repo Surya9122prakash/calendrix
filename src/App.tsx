@@ -1,14 +1,14 @@
 import React, { useState } from "react";
-import moment from "moment-timezone";
+import moment, { type Moment } from "moment-timezone";
 import { DayView, WeekView, MonthView } from "./components";
-import type { CalendarEvent, Plugin, NavigationActions } from "./components/types";
+import type { CalendarEvent, Plugin } from "./components/types";
 import { detectConflicts } from "./components/utils";
 
 const App: React.FC = () => {
   const timezone = "America/New_York";
   const timezoneLabelInclude = true;
 
-  const [selectedDate, setSelectedDate] = useState(
+  const [selectedDate, setSelectedDate] = useState<Moment>(
     moment().tz(timezone)
   );
   const [view, setView] = useState<"day" | "week" | "month">("day");
@@ -95,23 +95,6 @@ const App: React.FC = () => {
   };
 
   const plugins = [tooltipPlugin, conflictPlugin];
-  const renderNavigation = ({ goToPreviousDay, goToNextDay, goToToday }: NavigationActions) => {
-    return (
-      <div className="slotrix-nav">
-        <button className="slotrix-nav-btn" onClick={goToPreviousDay}>
-          Prev
-        </button>
-
-        <button className="slotrix-today-btn" onClick={goToToday}>
-          Today
-        </button>
-
-        <button className="slotrix-nav-btn" onClick={goToNextDay}>
-          Next
-        </button>
-      </div>
-    );
-  };
   return (
     <div className="h-screen flex flex-col bg-gray-100">
       <div className="bg-white border-b px-6 py-4 flex items-center justify-between">

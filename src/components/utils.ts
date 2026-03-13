@@ -1,4 +1,4 @@
-import moment from "moment-timezone";
+import moment, { type Moment } from "moment-timezone";
 import type { CalendarEvent } from "./types";
 
 export const SLOT_HEIGHT = 64;
@@ -34,8 +34,8 @@ export const getWorkingHoursRange = (enabledTimeInterval?: { start: string; end:
     };
 };
 
-export const generateTimeSlots = (startOfDay: moment.Moment, slotInterval: number) => {
-    const slots: moment.Moment[] = [];
+export const generateTimeSlots = (startOfDay: Moment, slotInterval: number) => {
+    const slots: Moment[] = [];
     const start = startOfDay.clone().startOf("day");
 
     for (let mins = 0; mins < 24 * 60; mins += slotInterval) {
@@ -46,7 +46,7 @@ export const generateTimeSlots = (startOfDay: moment.Moment, slotInterval: numbe
 };
 
 export const checkIsSlotEnabled = (
-    slot: moment.Moment,
+    slot: Moment,
     enabledTimeSlots?: string[],
     disabledTimeSlots?: string[],
     enabledTimeInterval?: { start: string; end: string }[],
@@ -95,7 +95,7 @@ export const checkIsSlotEnabled = (
 // Expanded events filter for a specific day
 export const getDayEvents = (
     safeEvents: CalendarEvent[],
-    targetDate: moment.Moment,
+    targetDate: Moment,
     timezone: string
 ) => {
     const result: CalendarEvent[] = [];
@@ -137,11 +137,11 @@ export const getDayEvents = (
 
 export const calculateLayoutEvents = (
     dayEvents: CalendarEvent[],
-    targetDate: moment.Moment,
+    targetDate: Moment,
     slotInterval: number
 ) => {
     const sorted = [...dayEvents].sort(
-        (a, b) => (a.start as moment.Moment).valueOf() - (b.start as moment.Moment).valueOf()
+        (a, b) => (a.start as Moment).valueOf() - (b.start as Moment).valueOf()
     );
 
     const columns: any[][] = [];
@@ -150,7 +150,7 @@ export const calculateLayoutEvents = (
         let placed = false;
         for (const column of columns) {
             const last = column[column.length - 1];
-            if ((event.start as moment.Moment).isSameOrAfter(last.end as moment.Moment)) {
+            if ((event.start as Moment).isSameOrAfter(last.end as Moment)) {
                 column.push(event);
                 placed = true;
                 break;
@@ -167,8 +167,8 @@ export const calculateLayoutEvents = (
             if (col.includes(event)) columnIndex = i;
         });
 
-        const startMoment = event.start as moment.Moment;
-        const endMoment = event.end as moment.Moment;
+        const startMoment = event.start as Moment;
+        const endMoment = event.end as Moment;
 
         const top =
             (startMoment.diff(targetDate.clone().startOf("day"), "minutes") /

@@ -32,10 +32,10 @@ npm install calendrix
 
 ```tsx
 import { WeekView, DayView, MonthView } from 'calendrix';
-import moment from 'moment-timezone';
+import moment, { Moment } from 'moment-timezone';
 
 const App = () => {
-  const handleDateChange = (date) => {
+  const handleDateChange = (date: Moment) => {
     console.log('Selected date:', date.format());
   };
 
@@ -75,8 +75,8 @@ All calendar views (`DayView`, `WeekView`, `MonthView`) accept the following pro
 | ------------------------ | --------------------------------- | ----------------------------------------------------------------- |
 | `timezone`             | `string`                        | The timezone string (e.g.,`"America/New_York"`).                |
 | `timezoneLabelInclude` | `boolean`                       | Whether to display the timezone label next to the date.           |
-| `selectedDate`         | `moment.Moment \| string \| Date` | The currently selected date to display.                           |
-| `onDateChange`         | `(date: moment.Moment) => void` | Callback triggered when navigation dates or selecting a new date. |
+| `selectedDate`         | `Moment \| string \| Date` | The currently selected date to display.                           |
+| `onDateChange`         | `(date: Moment) => void` | Callback triggered when navigation dates or selecting a new date. |
 | `slotInterval`         | `number`                        | Duration of each time slot in minutes (e.g., 15, 30, 60).         |
 | `dateFormat`           | `string`                        | Format template for dates (Moment.js compatible).                 |
 | `timeFormat`           | `string`                        | Display format for time (default:`HH:mm`).                      |
@@ -192,8 +192,8 @@ const MyLoggingPlugin = {
 export interface CalendarEvent {
     id: string;
     title: string;
-    start: string | Date | moment.Moment;
-    end: string | Date | moment.Moment;
+    start: string | Date | Moment;
+    end: string | Date | Moment;
     allDay?: boolean;
     hasConflict?: boolean; // Managed by conflict detection
     [key: string]: any;
@@ -207,7 +207,7 @@ export interface NavigationActions {
     prevNode: React.ReactNode;
     nextNode: React.ReactNode;
     defaultNav: React.ReactNode;
-    currentDate: moment.Moment;
+    currentDate: Moment;
     timezone: string;
     // ... nodes for default rendering
 }

@@ -5,7 +5,7 @@ import React, {
     useState,
     useLayoutEffect
 } from "react";
-import moment from "moment-timezone";
+import moment, { type Moment } from "moment-timezone";
 
 import type { CalendarEvent, CalendarProps } from "./types";
 import {
@@ -62,9 +62,9 @@ export const DayView: React.FC<CalendarProps> = ({
     const gridRef = useRef<HTMLDivElement>(null);
 
     // Uncontrolled State Fallbacks
-    const [internalDate, setInternalDate] = useState<moment.Moment>(() => moment.tz(externalSelectedDate || new Date(), timezone));
+    const [internalDate, setInternalDate] = useState<Moment>(() => moment.tz(externalSelectedDate || new Date(), timezone));
     const selectedDate = externalSelectedDate !== undefined ? externalSelectedDate : internalDate;
-    const onDateChange = (date: moment.Moment) => {
+    const onDateChange = (date: Moment) => {
         if (externalOnDateChange) {
             externalOnDateChange(date);
         } else {
@@ -272,8 +272,8 @@ export const DayView: React.FC<CalendarProps> = ({
         };
     }, [dragging, resizing, zonedDate, slotInterval, onEventChange]);
 
-    const handleGridDoubleClick = (e: React.MouseEvent, slot?: moment.Moment) => {
-        let start: moment.Moment;
+    const handleGridDoubleClick = (e: React.MouseEvent, slot?: Moment) => {
+        let start: Moment;
         if (slot) {
             start = slot.clone();
         } else if (gridRef.current) {
@@ -310,7 +310,7 @@ export const DayView: React.FC<CalendarProps> = ({
         [zonedDate, slotInterval]
     );
 
-    const isSlotEnabled = (slot: moment.Moment) => checkIsSlotEnabled(
+    const isSlotEnabled = (slot: Moment) => checkIsSlotEnabled(
         slot,
         enabledTimeSlots,
         disabledTimeSlots,

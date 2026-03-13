@@ -1,5 +1,4 @@
-import React from "react";
-import moment from "moment-timezone";
+import moment, { type Moment } from "moment-timezone";
 
 export interface ConflictTheme {
     primaryColor: string;
@@ -23,8 +22,8 @@ export interface ConflictTemplate {
 export interface CalendarEvent {
     id: string;
     title: string;
-    start: string | Date | moment.Moment;
-    end: string | Date | moment.Moment;
+    start: string | Date | Moment;
+    end: string | Date | Moment;
     allDay?: boolean;
     [key: string]: any;
 }
@@ -80,7 +79,7 @@ export interface NavigationActions {
     prevNode: React.ReactNode;
     nextNode: React.ReactNode;
     defaultNav: React.ReactNode;
-    currentDate: moment.Moment;
+    currentDate: Moment;
     timezone: string;
 }
 
@@ -92,8 +91,8 @@ export interface CalendarProps {
     timeFormat?: string;
     showTimeSlots?: boolean;
 
-    selectedDate?: moment.Moment | string | Date;
-    onDateChange?: (date: moment.Moment) => void;
+    selectedDate?: Moment | string | Date;
+    onDateChange?: (date: Moment) => void;
 
     events?: CalendarEvent[];
     onEventChange?: (event: CalendarEvent) => void;

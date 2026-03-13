@@ -1,5 +1,5 @@
 import React, { useMemo, useState } from "react";
-import moment from "moment-timezone";
+import moment, { type Moment } from "moment-timezone";
 import type { CalendarProps, CalendarEvent } from "./types";
 import { normalizeDate } from "./utils";
 import { PREDEFINED_CALENDAR_THEMES } from "./calendarThemes";
@@ -24,7 +24,7 @@ export const Calendar: React.FC<CalendarProps> = (props) => {
     } = props;
 
     // Uncontrolled State Fallbacks for Date
-    const [internalDate, setInternalDate] = useState<moment.Moment>(() => moment.tz(externalSelectedDate || new Date(), timezone));
+    const [internalDate, setInternalDate] = useState<Moment>(() => moment.tz(externalSelectedDate || new Date(), timezone));
     const selectedDate = externalSelectedDate !== undefined ? externalSelectedDate : internalDate;
 
     // Mini Calendar Logic
@@ -33,9 +33,9 @@ export const Calendar: React.FC<CalendarProps> = (props) => {
         [selectedDate, timezone]
     );
 
-    const [currentMonth, setCurrentMonth] = useState(() => zonedDate.clone().startOf("month"));
+    const [currentMonth, setCurrentMonth] = useState<Moment>(() => zonedDate.clone().startOf("month"));
 
-    const handleDateChange = (date: moment.Moment) => {
+    const handleDateChange = (date: Moment) => {
         if (externalOnDateChange) {
             externalOnDateChange(date);
         } else {

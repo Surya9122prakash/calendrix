@@ -1,16 +1,16 @@
 (function(){"use strict";try{if(typeof document<"u"){var t=document.createElement("style");t.appendChild(document.createTextNode('@layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orient:inline) and (not (color:rgb(from red r g b)))){*,:before,:after,::backdrop{--tw-translate-x:0;--tw-translate-y:0;--tw-translate-z:0;--tw-rotate-x:initial;--tw-rotate-y:initial;--tw-rotate-z:initial;--tw-skew-x:initial;--tw-skew-y:initial;--tw-border-style:solid;--tw-leading:initial;--tw-font-weight:initial;--tw-tracking:initial;--tw-shadow:0 0 #0000;--tw-shadow-color:initial;--tw-shadow-alpha:100%;--tw-inset-shadow:0 0 #0000;--tw-inset-shadow-color:initial;--tw-inset-shadow-alpha:100%;--tw-ring-color:initial;--tw-ring-shadow:0 0 #0000;--tw-inset-ring-color:initial;--tw-inset-ring-shadow:0 0 #0000;--tw-ring-inset:initial;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-offset-shadow:0 0 #0000;--tw-blur:initial;--tw-brightness:initial;--tw-contrast:initial;--tw-grayscale:initial;--tw-hue-rotate:initial;--tw-invert:initial;--tw-opacity:initial;--tw-saturate:initial;--tw-sepia:initial;--tw-drop-shadow:initial;--tw-drop-shadow-color:initial;--tw-drop-shadow-alpha:100%;--tw-drop-shadow-size:initial}}}@layer theme{:root,:host{--font-sans:ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";--font-mono:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;--color-red-50:oklch(97.1% .013 17.38);--color-red-500:oklch(63.7% .237 25.331);--color-red-600:oklch(57.7% .245 27.325);--color-red-700:oklch(50.5% .213 27.518);--color-blue-50:oklch(97% .014 254.604);--color-blue-100:oklch(93.2% .032 255.585);--color-blue-600:oklch(54.6% .245 262.881);--color-gray-50:oklch(98.5% .002 247.839);--color-gray-100:oklch(96.7% .003 264.542);--color-gray-200:oklch(92.8% .006 264.531);--color-gray-300:oklch(87.2% .01 258.338);--color-gray-500:oklch(55.1% .027 264.364);--color-gray-600:oklch(44.6% .03 256.802);--color-gray-700:oklch(37.3% .034 259.733);--color-gray-800:oklch(27.8% .033 256.848);--color-gray-900:oklch(21% .034 264.665);--color-black:#000;--color-white:#fff;--spacing:.25rem;--text-xs:.75rem;--text-xs--line-height:calc(1 / .75);--text-sm:.875rem;--text-sm--line-height:calc(1.25 / .875);--text-base:1rem;--text-base--line-height: 1.5 ;--text-lg:1.125rem;--text-lg--line-height:calc(1.75 / 1.125);--text-xl:1.25rem;--text-xl--line-height:calc(1.75 / 1.25);--text-2xl:1.5rem;--text-2xl--line-height:calc(2 / 1.5);--font-weight-medium:500;--font-weight-semibold:600;--font-weight-bold:700;--tracking-wider:.05em;--leading-relaxed:1.625;--radius-md:.375rem;--radius-lg:.5rem;--radius-xl:.75rem;--radius-2xl:1rem;--default-transition-duration:.15s;--default-transition-timing-function:cubic-bezier(.4, 0, .2, 1);--default-font-family:var(--font-sans);--default-mono-font-family:var(--font-mono)}}@layer base{*,:after,:before,::backdrop{box-sizing:border-box;border:0 solid;margin:0;padding:0}::file-selector-button{box-sizing:border-box;border:0 solid;margin:0;padding:0}html,:host{-webkit-text-size-adjust:100%;tab-size:4;line-height:1.5;font-family:var(--default-font-family,ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji");font-feature-settings:var(--default-font-feature-settings,normal);font-variation-settings:var(--default-font-variation-settings,normal);-webkit-tap-highlight-color:transparent}hr{height:0;color:inherit;border-top-width:1px}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;-webkit-text-decoration:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,samp,pre{font-family:var(--default-mono-font-family,ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace);font-feature-settings:var(--default-mono-font-feature-settings,normal);font-variation-settings:var(--default-mono-font-variation-settings,normal);font-size:1em}small{font-size:80%}sub,sup{vertical-align:baseline;font-size:75%;line-height:0;position:relative}sub{bottom:-.25em}sup{top:-.5em}table{text-indent:0;border-color:inherit;border-collapse:collapse}:-moz-focusring{outline:auto}progress{vertical-align:baseline}summary{display:list-item}ol,ul,menu{list-style:none}img,svg,video,canvas,audio,iframe,embed,object{vertical-align:middle;display:block}img,video{max-width:100%;height:auto}button,input,select,optgroup,textarea{font:inherit;font-feature-settings:inherit;font-variation-settings:inherit;letter-spacing:inherit;color:inherit;opacity:1;background-color:#0000;border-radius:0}::file-selector-button{font:inherit;font-feature-settings:inherit;font-variation-settings:inherit;letter-spacing:inherit;color:inherit;opacity:1;background-color:#0000;border-radius:0}:where(select:is([multiple],[size])) optgroup{font-weight:bolder}:where(select:is([multiple],[size])) optgroup option{padding-inline-start:20px}::file-selector-button{margin-inline-end:4px}::placeholder{opacity:1}@supports (not ((-webkit-appearance:-apple-pay-button))) or (contain-intrinsic-size:1px){::placeholder{color:currentColor}@supports (color:color-mix(in lab,red,red)){::placeholder{color:color-mix(in oklab,currentcolor 50%,transparent)}}}textarea{resize:vertical}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-date-and-time-value{min-height:1lh;text-align:inherit}::-webkit-datetime-edit{display:inline-flex}::-webkit-datetime-edit-fields-wrapper{padding:0}::-webkit-datetime-edit{padding-block:0}::-webkit-datetime-edit-year-field{padding-block:0}::-webkit-datetime-edit-month-field{padding-block:0}::-webkit-datetime-edit-day-field{padding-block:0}::-webkit-datetime-edit-hour-field{padding-block:0}::-webkit-datetime-edit-minute-field{padding-block:0}::-webkit-datetime-edit-second-field{padding-block:0}::-webkit-datetime-edit-millisecond-field{padding-block:0}::-webkit-datetime-edit-meridiem-field{padding-block:0}::-webkit-calendar-picker-indicator{line-height:1}:-moz-ui-invalid{box-shadow:none}button,input:where([type=button],[type=reset],[type=submit]){appearance:button}::file-selector-button{appearance:button}::-webkit-inner-spin-button{height:auto}::-webkit-outer-spin-button{height:auto}[hidden]:where(:not([hidden=until-found])){display:none!important}}@layer components;@layer utilities{.pointer-events-auto{pointer-events:auto}.pointer-events-none{pointer-events:none}.absolute{position:absolute}.fixed{position:fixed}.relative{position:relative}.sticky{position:sticky}.inset-0{inset:calc(var(--spacing) * 0)}.start{inset-inline-start:var(--spacing)}.end{inset-inline-end:var(--spacing)}.-top-\\[5px\\]{top:-5px}.top-0{top:calc(var(--spacing) * 0)}.top-1{top:calc(var(--spacing) * 1)}.top-1\\/2{top:50%}.top-\\[2px\\]{top:2px}.right-0{right:calc(var(--spacing) * 0)}.right-1{right:calc(var(--spacing) * 1)}.right-2{right:calc(var(--spacing) * 2)}.right-3{right:calc(var(--spacing) * 3)}.right-\\[2px\\]{right:2px}.bottom-0{bottom:calc(var(--spacing) * 0)}.-left-1{left:calc(var(--spacing) * -1)}.left-0{left:calc(var(--spacing) * 0)}.left-1{left:calc(var(--spacing) * 1)}.z-0{z-index:0}.z-10{z-index:10}.z-20{z-index:20}.z-50{z-index:50}.z-\\[60\\]{z-index:60}.z-\\[70\\]{z-index:70}.m-4{margin:calc(var(--spacing) * 4)}.m-5{margin:calc(var(--spacing) * 5)}.mx-auto{margin-inline:auto}.mt-1{margin-top:calc(var(--spacing) * 1)}.mt-2{margin-top:calc(var(--spacing) * 2)}.mt-4{margin-top:calc(var(--spacing) * 4)}.mb-1{margin-bottom:calc(var(--spacing) * 1)}.mb-2{margin-bottom:calc(var(--spacing) * 2)}.mb-3{margin-bottom:calc(var(--spacing) * 3)}.mb-4{margin-bottom:calc(var(--spacing) * 4)}.mb-6{margin-bottom:calc(var(--spacing) * 6)}.ml-2{margin-left:calc(var(--spacing) * 2)}.ml-auto{margin-left:auto}.block{display:block}.flex{display:flex}.grid{display:grid}.table{display:table}.h-2{height:calc(var(--spacing) * 2)}.h-4{height:calc(var(--spacing) * 4)}.h-5{height:calc(var(--spacing) * 5)}.h-7{height:calc(var(--spacing) * 7)}.h-8{height:calc(var(--spacing) * 8)}.h-10{height:calc(var(--spacing) * 10)}.h-12{height:calc(var(--spacing) * 12)}.h-24{height:calc(var(--spacing) * 24)}.h-full{height:100%}.h-screen{height:100vh}.max-h-48{max-height:calc(var(--spacing) * 48)}.max-h-60{max-height:calc(var(--spacing) * 60)}.max-h-\\[90vh\\]{max-height:90vh}.min-h-0{min-height:calc(var(--spacing) * 0)}.min-h-\\[80px\\]{min-height:80px}.min-h-\\[120px\\]{min-height:120px}.min-h-\\[200px\\]{min-height:200px}.min-h-full{min-height:100%}.w-2{width:calc(var(--spacing) * 2)}.w-4{width:calc(var(--spacing) * 4)}.w-5{width:calc(var(--spacing) * 5)}.w-7{width:calc(var(--spacing) * 7)}.w-8{width:calc(var(--spacing) * 8)}.w-10{width:calc(var(--spacing) * 10)}.w-12{width:calc(var(--spacing) * 12)}.w-16{width:calc(var(--spacing) * 16)}.w-24{width:calc(var(--spacing) * 24)}.w-64{width:calc(var(--spacing) * 64)}.w-96{width:calc(var(--spacing) * 96)}.w-\\[450px\\]{width:450px}.w-full{width:100%}.min-w-0{min-width:calc(var(--spacing) * 0)}.min-w-\\[700px\\]{min-width:700px}.flex-1{flex:1}.flex-shrink-0{flex-shrink:0}.-translate-y-1{--tw-translate-y:calc(var(--spacing) * -1);translate:var(--tw-translate-x) var(--tw-translate-y)}.-translate-y-1\\/2{--tw-translate-y: -50% ;translate:var(--tw-translate-x) var(--tw-translate-y)}.transform{transform:var(--tw-rotate-x,) var(--tw-rotate-y,) var(--tw-rotate-z,) var(--tw-skew-x,) var(--tw-skew-y,)}.cursor-move{cursor:move}.cursor-not-allowed{cursor:not-allowed}.cursor-ns-resize{cursor:ns-resize}.cursor-pointer{cursor:pointer}.grid-cols-7{grid-template-columns:repeat(7,minmax(0,1fr))}.flex-col{flex-direction:column}.items-center{align-items:center}.items-start{align-items:flex-start}.justify-between{justify-content:space-between}.justify-center{justify-content:center}.justify-end{justify-content:flex-end}.justify-start{justify-content:flex-start}.gap-1{gap:calc(var(--spacing) * 1)}.gap-2{gap:calc(var(--spacing) * 2)}.gap-3{gap:calc(var(--spacing) * 3)}.gap-4{gap:calc(var(--spacing) * 4)}.truncate{text-overflow:ellipsis;white-space:nowrap;overflow:hidden}.overflow-hidden{overflow:hidden}.overflow-x-hidden{overflow-x:hidden}.overflow-y-auto{overflow-y:auto}.rounded{border-radius:.25rem}.rounded-2xl{border-radius:var(--radius-2xl)}.rounded-\\[4px\\]{border-radius:4px}.rounded-full{border-radius:3.40282e38px}.rounded-lg{border-radius:var(--radius-lg)}.rounded-md{border-radius:var(--radius-md)}.rounded-xl{border-radius:var(--radius-xl)}.border{border-style:var(--tw-border-style);border-width:1px}.border-2{border-style:var(--tw-border-style);border-width:2px}.border-t-2{border-top-style:var(--tw-border-style);border-top-width:2px}.border-r{border-right-style:var(--tw-border-style);border-right-width:1px}.border-b{border-bottom-style:var(--tw-border-style);border-bottom-width:1px}.border-dashed{--tw-border-style:dashed;border-style:dashed}.border-dotted{--tw-border-style:dotted;border-style:dotted}.border-gray-100{border-color:var(--color-gray-100)}.bg-black{background-color:var(--color-black)}.bg-black\\/40{background-color:#0006}@supports (color:color-mix(in lab,red,red)){.bg-black\\/40{background-color:color-mix(in oklab,var(--color-black) 40%,transparent)}}.bg-black\\/60{background-color:#0009}@supports (color:color-mix(in lab,red,red)){.bg-black\\/60{background-color:color-mix(in oklab,var(--color-black) 60%,transparent)}}.bg-blue-100{background-color:var(--color-blue-100)}.bg-blue-600{background-color:var(--color-blue-600)}.bg-gray-50{background-color:var(--color-gray-50)}.bg-gray-100{background-color:var(--color-gray-100)}.bg-red-50{background-color:var(--color-red-50)}.bg-red-500{background-color:var(--color-red-500)}.bg-transparent{background-color:#0000}.bg-white{background-color:var(--color-white)}.p-1{padding:calc(var(--spacing) * 1)}.p-1\\.5{padding:calc(var(--spacing) * 1.5)}.p-2{padding:calc(var(--spacing) * 2)}.p-3{padding:calc(var(--spacing) * 3)}.p-4{padding:calc(var(--spacing) * 4)}.p-6{padding:calc(var(--spacing) * 6)}.p-8{padding:calc(var(--spacing) * 8)}.px-1{padding-inline:calc(var(--spacing) * 1)}.px-1\\.5{padding-inline:calc(var(--spacing) * 1.5)}.px-2{padding-inline:calc(var(--spacing) * 2)}.px-3{padding-inline:calc(var(--spacing) * 3)}.px-4{padding-inline:calc(var(--spacing) * 4)}.px-6{padding-inline:calc(var(--spacing) * 6)}.px-8{padding-inline:calc(var(--spacing) * 8)}.py-0{padding-block:calc(var(--spacing) * 0)}.py-0\\.5{padding-block:calc(var(--spacing) * .5)}.py-1{padding-block:calc(var(--spacing) * 1)}.py-1\\.5{padding-block:calc(var(--spacing) * 1.5)}.py-2{padding-block:calc(var(--spacing) * 2)}.py-3{padding-block:calc(var(--spacing) * 3)}.py-4{padding-block:calc(var(--spacing) * 4)}.py-6{padding-block:calc(var(--spacing) * 6)}.pr-1{padding-right:calc(var(--spacing) * 1)}.pr-3{padding-right:calc(var(--spacing) * 3)}.pr-8{padding-right:calc(var(--spacing) * 8)}.pb-8{padding-bottom:calc(var(--spacing) * 8)}.text-center{text-align:center}.text-right{text-align:right}.text-2xl{font-size:var(--text-2xl);line-height:var(--tw-leading,var(--text-2xl--line-height))}.text-base{font-size:var(--text-base);line-height:var(--tw-leading,var(--text-base--line-height))}.text-lg{font-size:var(--text-lg);line-height:var(--tw-leading,var(--text-lg--line-height))}.text-sm{font-size:var(--text-sm);line-height:var(--tw-leading,var(--text-sm--line-height))}.text-xl{font-size:var(--text-xl);line-height:var(--tw-leading,var(--text-xl--line-height))}.text-xs{font-size:var(--text-xs);line-height:var(--tw-leading,var(--text-xs--line-height))}.text-\\[9px\\]{font-size:9px}.text-\\[10px\\]{font-size:10px}.leading-none{--tw-leading:1;line-height:1}.leading-relaxed{--tw-leading:var(--leading-relaxed);line-height:var(--leading-relaxed)}.font-bold{--tw-font-weight:var(--font-weight-bold);font-weight:var(--font-weight-bold)}.font-medium{--tw-font-weight:var(--font-weight-medium);font-weight:var(--font-weight-medium)}.font-semibold{--tw-font-weight:var(--font-weight-semibold);font-weight:var(--font-weight-semibold)}.tracking-wider{--tw-tracking:var(--tracking-wider);letter-spacing:var(--tracking-wider)}.whitespace-pre-line{white-space:pre-line}.text-gray-300{color:var(--color-gray-300)}.text-gray-500{color:var(--color-gray-500)}.text-gray-600{color:var(--color-gray-600)}.text-gray-800{color:var(--color-gray-800)}.text-red-500{color:var(--color-red-500)}.text-red-600{color:var(--color-red-600)}.text-white{color:var(--color-white)}.uppercase{text-transform:uppercase}.opacity-0{opacity:0}.opacity-50{opacity:.5}.opacity-70{opacity:.7}.opacity-80{opacity:.8}.shadow{--tw-shadow:0 1px 3px 0 var(--tw-shadow-color,#0000001a), 0 1px 2px -1px var(--tw-shadow-color,#0000001a);box-shadow:var(--tw-inset-shadow),var(--tw-inset-ring-shadow),var(--tw-ring-offset-shadow),var(--tw-ring-shadow),var(--tw-shadow)}.shadow-2xl{--tw-shadow:0 25px 50px -12px var(--tw-shadow-color,#00000040);box-shadow:var(--tw-inset-shadow),var(--tw-inset-ring-shadow),var(--tw-ring-offset-shadow),var(--tw-ring-shadow),var(--tw-shadow)}.shadow-\\[1px_0_5px_rgba\\(0\\,0\\,0\\,0\\.02\\)\\]{--tw-shadow:1px 0 5px var(--tw-shadow-color,#00000005);box-shadow:var(--tw-inset-shadow),var(--tw-inset-ring-shadow),var(--tw-ring-offset-shadow),var(--tw-ring-shadow),var(--tw-shadow)}.shadow-lg{--tw-shadow:0 10px 15px -3px var(--tw-shadow-color,#0000001a), 0 4px 6px -4px var(--tw-shadow-color,#0000001a);box-shadow:var(--tw-inset-shadow),var(--tw-inset-ring-shadow),var(--tw-ring-offset-shadow),var(--tw-ring-shadow),var(--tw-shadow)}.shadow-sm{--tw-shadow:0 1px 3px 0 var(--tw-shadow-color,#0000001a), 0 1px 2px -1px var(--tw-shadow-color,#0000001a);box-shadow:var(--tw-inset-shadow),var(--tw-inset-ring-shadow),var(--tw-ring-offset-shadow),var(--tw-ring-shadow),var(--tw-shadow)}.shadow-xl{--tw-shadow:0 20px 25px -5px var(--tw-shadow-color,#0000001a), 0 8px 10px -6px var(--tw-shadow-color,#0000001a);box-shadow:var(--tw-inset-shadow),var(--tw-inset-ring-shadow),var(--tw-ring-offset-shadow),var(--tw-ring-shadow),var(--tw-shadow)}.invert{--tw-invert:invert(100%);filter:var(--tw-blur,) var(--tw-brightness,) var(--tw-contrast,) var(--tw-grayscale,) var(--tw-hue-rotate,) var(--tw-invert,) var(--tw-saturate,) var(--tw-sepia,) var(--tw-drop-shadow,)}.filter{filter:var(--tw-blur,) var(--tw-brightness,) var(--tw-contrast,) var(--tw-grayscale,) var(--tw-hue-rotate,) var(--tw-invert,) var(--tw-saturate,) var(--tw-sepia,) var(--tw-drop-shadow,)}.transition-all{transition-property:all;transition-timing-function:var(--tw-ease,var(--default-transition-timing-function));transition-duration:var(--tw-duration,var(--default-transition-duration))}.transition-colors{transition-property:color,background-color,border-color,outline-color,text-decoration-color,fill,stroke,--tw-gradient-from,--tw-gradient-via,--tw-gradient-to;transition-timing-function:var(--tw-ease,var(--default-transition-timing-function));transition-duration:var(--tw-duration,var(--default-transition-duration))}.transition-opacity{transition-property:opacity;transition-timing-function:var(--tw-ease,var(--default-transition-timing-function));transition-duration:var(--tw-duration,var(--default-transition-duration))}.transition-transform{transition-property:transform,translate,scale,rotate;transition-timing-function:var(--tw-ease,var(--default-transition-timing-function));transition-duration:var(--tw-duration,var(--default-transition-duration))}.last\\:mb-0:last-child{margin-bottom:calc(var(--spacing) * 0)}.last\\:border-0:last-child{border-style:var(--tw-border-style);border-width:0}@media(hover:hover){.hover\\:z-20:hover{z-index:20}.hover\\:scale-\\[1\\.01\\]:hover{scale:1.01}.hover\\:scale-\\[1\\.02\\]:hover{scale:1.02}.hover\\:bg-blue-50:hover{background-color:var(--color-blue-50)}.hover\\:bg-blue-100:hover{background-color:var(--color-blue-100)}.hover\\:bg-gray-50:hover{background-color:var(--color-gray-50)}.hover\\:bg-gray-100:hover{background-color:var(--color-gray-100)}.hover\\:bg-gray-200:hover{background-color:var(--color-gray-200)}.hover\\:bg-red-50:hover{background-color:var(--color-red-50)}.hover\\:bg-red-600:hover{background-color:var(--color-red-600)}.hover\\:text-gray-700:hover{color:var(--color-gray-700)}.hover\\:text-gray-900:hover{color:var(--color-gray-900)}.hover\\:text-red-700:hover{color:var(--color-red-700)}.hover\\:opacity-70:hover{opacity:.7}.hover\\:opacity-100:hover{opacity:1}}@media(min-width:48rem){.md\\:w-80{width:calc(var(--spacing) * 80)}.md\\:flex-row{flex-direction:row}}}.no-scrollbar::-webkit-scrollbar{display:none}.no-scrollbar{-ms-overflow-style:none;scrollbar-width:none}@keyframes fadeIn{0%{opacity:0}to{opacity:1}}@keyframes scaleIn{0%{opacity:0;transform:scale(.95)}to{opacity:1;transform:scale(1)}}.animate-fadeIn{animation:.3s forwards fadeIn}.animate-scaleIn{animation:.3s forwards scaleIn}@property --tw-translate-x{syntax:"*";inherits:false;initial-value:0}@property --tw-translate-y{syntax:"*";inherits:false;initial-value:0}@property --tw-translate-z{syntax:"*";inherits:false;initial-value:0}@property --tw-rotate-x{syntax:"*";inherits:false}@property --tw-rotate-y{syntax:"*";inherits:false}@property --tw-rotate-z{syntax:"*";inherits:false}@property --tw-skew-x{syntax:"*";inherits:false}@property --tw-skew-y{syntax:"*";inherits:false}@property --tw-border-style{syntax:"*";inherits:false;initial-value:solid}@property --tw-leading{syntax:"*";inherits:false}@property --tw-font-weight{syntax:"*";inherits:false}@property --tw-tracking{syntax:"*";inherits:false}@property --tw-shadow{syntax:"*";inherits:false;initial-value:0 0 #0000}@property --tw-shadow-color{syntax:"*";inherits:false}@property --tw-shadow-alpha{syntax:"<percentage>";inherits:false;initial-value:100%}@property --tw-inset-shadow{syntax:"*";inherits:false;initial-value:0 0 #0000}@property --tw-inset-shadow-color{syntax:"*";inherits:false}@property --tw-inset-shadow-alpha{syntax:"<percentage>";inherits:false;initial-value:100%}@property --tw-ring-color{syntax:"*";inherits:false}@property --tw-ring-shadow{syntax:"*";inherits:false;initial-value:0 0 #0000}@property --tw-inset-ring-color{syntax:"*";inherits:false}@property --tw-inset-ring-shadow{syntax:"*";inherits:false;initial-value:0 0 #0000}@property --tw-ring-inset{syntax:"*";inherits:false}@property --tw-ring-offset-width{syntax:"<length>";inherits:false;initial-value:0}@property --tw-ring-offset-color{syntax:"*";inherits:false;initial-value:#fff}@property --tw-ring-offset-shadow{syntax:"*";inherits:false;initial-value:0 0 #0000}@property --tw-blur{syntax:"*";inherits:false}@property --tw-brightness{syntax:"*";inherits:false}@property --tw-contrast{syntax:"*";inherits:false}@property --tw-grayscale{syntax:"*";inherits:false}@property --tw-hue-rotate{syntax:"*";inherits:false}@property --tw-invert{syntax:"*";inherits:false}@property --tw-opacity{syntax:"*";inherits:false}@property --tw-saturate{syntax:"*";inherits:false}@property --tw-sepia{syntax:"*";inherits:false}@property --tw-drop-shadow{syntax:"*";inherits:false}@property --tw-drop-shadow-color{syntax:"*";inherits:false}@property --tw-drop-shadow-alpha{syntax:"<percentage>";inherits:false;initial-value:100%}@property --tw-drop-shadow-size{syntax:"*";inherits:false}')),document.head.appendChild(t)}}catch(a){console.error("vite-plugin-css-injected-by-js",a)}})();
-import { jsxs as a, jsx as e, Fragment as le } from "react/jsx-runtime";
-import { useState as q, useMemo as y, useRef as et, useEffect as Ge, useLayoutEffect as lt } from "react";
-import i from "moment-timezone";
-const V = 64, Ae = (t, c) => i.utc(t).tz(c), ut = ["HH:mm", "hh:mm A", "h:mm a", "H:mm", "h:mmA", "h:mma", "hh:mm a", "HH:mm:ss"], at = (t) => i(t, ut, !0), Ue = (t) => {
+import { jsxs as a, jsx as e, Fragment as se } from "react/jsx-runtime";
+import { useState as R, useMemo as b, useRef as Fe, useEffect as Le, useLayoutEffect as lt } from "react";
+import f from "moment-timezone";
+const U = 64, $e = (t, c) => f.utc(t).tz(c), ut = ["HH:mm", "hh:mm A", "h:mm a", "H:mm", "h:mmA", "h:mma", "hh:mm a", "HH:mm:ss"], at = (t) => f(t, ut, !0), We = (t) => {
   const c = at(t);
   return c.isValid() ? c.hours() * 60 + c.minutes() : 0;
 }, st = (t) => {
   if (t?.length) {
-    const c = t[0].start, n = t[t.length - 1].end;
+    const c = t[0].start, l = t[t.length - 1].end;
     return {
-      startMinutes: Ue(c),
-      endMinutes: Ue(n)
+      startMinutes: We(c),
+      endMinutes: We(l)
     };
   }
   return {
@@ -18,97 +18,97 @@ const V = 64, Ae = (t, c) => i.utc(t).tz(c), ut = ["HH:mm", "hh:mm A", "h:mm a",
     endMinutes: 1440
   };
 }, ct = (t, c) => {
-  const n = [], r = t.clone().startOf("day");
-  for (let o = 0; o < 1440; o += c)
-    n.push(r.clone().add(o, "minutes"));
-  return n;
-}, tt = (t, c, n, r, o) => {
-  const N = t.format("HH:mm"), u = (m) => m.some((h) => {
+  const l = [], r = t.clone().startOf("day");
+  for (let n = 0; n < 1440; n += c)
+    l.push(r.clone().add(n, "minutes"));
+  return l;
+}, et = (t, c, l, r, n) => {
+  const w = t.format("HH:mm"), u = (m) => m.some((h) => {
     const g = at(h);
-    return g.isValid() && g.format("HH:mm") === N;
+    return g.isValid() && g.format("HH:mm") === w;
   });
   if (c?.length)
     return u(c);
-  if (n?.length && u(n))
+  if (l?.length && u(l))
     return !1;
   const d = (m, h = !1) => {
     if (!m?.length) return !!h;
-    const g = t.hours() * 60 + t.minutes(), j = m.some((T) => {
-      const v = Ue(T.start), K = Ue(T.end);
-      return g >= v && g < K;
+    const g = t.hours() * 60 + t.minutes(), A = m.some((D) => {
+      const v = We(D.start), ee = We(D.end);
+      return g >= v && g < ee;
     });
-    return h ? !j : j;
+    return h ? !A : A;
   };
-  return r?.length ? d(r) : o?.length ? d(o, !0) : !0;
-}, rt = (t, c, n) => {
+  return r?.length ? d(r) : n?.length ? d(n, !0) : !0;
+}, tt = (t, c, l) => {
   const r = [];
-  return t.forEach((o) => {
-    const N = Ae(o.start, n), u = Ae(o.end, n);
-    if (o.allDay) {
-      N.isSame(c, "day") && r.push({ ...o, start: N, end: u, allDay: !0 });
+  return t.forEach((n) => {
+    const w = $e(n.start, l), u = $e(n.end, l);
+    if (n.allDay) {
+      w.isSame(c, "day") && r.push({ ...n, start: w, end: u, allDay: !0 });
       return;
     }
-    let d = N.clone().startOf("day");
+    let d = w.clone().startOf("day");
     for (; d.isBefore(u); ) {
-      const m = d.clone(), h = d.clone().endOf("day"), g = i.max(N, m), j = i.min(u, h);
+      const m = d.clone(), h = d.clone().endOf("day"), g = f.max(w, m), A = f.min(u, h);
       g.isSame(c, "day") && r.push({
-        ...o,
+        ...n,
         start: g,
-        end: j
+        end: A
       }), d.add(1, "day");
     }
   }), r;
-}, dt = (t, c, n) => {
+}, dt = (t, c, l) => {
   const r = [...t].sort(
     (u, d) => u.start.valueOf() - d.start.valueOf()
-  ), o = [];
+  ), n = [];
   r.forEach((u) => {
     let d = !1;
-    for (const m of o) {
+    for (const m of n) {
       const h = m[m.length - 1];
       if (u.start.isSameOrAfter(h.end)) {
         m.push(u), d = !0;
         break;
       }
     }
-    d || o.push([u]);
+    d || n.push([u]);
   });
-  const N = o.length;
+  const w = n.length;
   return r.map((u) => {
     let d = 0;
-    o.forEach((T, v) => {
-      T.includes(u) && (d = v);
+    n.forEach((D, v) => {
+      D.includes(u) && (d = v);
     });
-    const m = u.start, h = u.end, g = m.diff(c.clone().startOf("day"), "minutes") / n * V, j = h.diff(m, "minutes") / n * V;
+    const m = u.start, h = u.end, g = m.diff(c.clone().startOf("day"), "minutes") / l * U, A = h.diff(m, "minutes") / l * U;
     return {
       ...u,
       columnIndex: d,
-      columnCount: N,
+      columnCount: w,
       top: g,
-      height: j
+      height: A
     };
   });
 }, vt = (t, c) => {
-  if (console.log("[detectConflicts] Checking events count:", t.length, "Timezone:", c), console.log("[detectConflicts] Events data:", t.map((o) => ({ id: o.id, title: o.title, start: o.start, end: o.end }))), t.length < 2) return [];
-  const n = [], r = t.map((o) => ({
-    ...o,
-    _mStart: i.tz(o.start, c),
-    _mEnd: i.tz(o.end, c)
-  })).filter((o) => o._mStart.isValid() && o._mEnd.isValid());
-  r.sort((o, N) => o._mStart.diff(N._mStart));
-  for (let o = 0; o < r.length; o++)
-    for (let N = o + 1; N < r.length; N++) {
-      const u = r[o], d = r[N];
+  if (console.log("[detectConflicts] Checking events count:", t.length, "Timezone:", c), console.log("[detectConflicts] Events data:", t.map((n) => ({ id: n.id, title: n.title, start: n.start, end: n.end }))), t.length < 2) return [];
+  const l = [], r = t.map((n) => ({
+    ...n,
+    _mStart: f.tz(n.start, c),
+    _mEnd: f.tz(n.end, c)
+  })).filter((n) => n._mStart.isValid() && n._mEnd.isValid());
+  r.sort((n, w) => n._mStart.diff(w._mStart));
+  for (let n = 0; n < r.length; n++)
+    for (let w = n + 1; w < r.length; w++) {
+      const u = r[n], d = r[w];
       if (u._mStart.isBefore(d._mEnd) && u._mEnd.isAfter(d._mStart)) {
-        const m = i.max(u._mStart, d._mStart), h = i.min(u._mEnd, d._mEnd);
-        n.push({
+        const m = f.max(u._mStart, d._mStart), h = f.min(u._mEnd, d._mEnd);
+        l.push({
           eventId: u.id,
           withId: d.id,
           eventTitle: u.title,
           withTitle: d.title,
           overlapStart: m.toISOString(),
           overlapEnd: h.toISOString()
-        }), n.push({
+        }), l.push({
           eventId: d.id,
           withId: u.id,
           eventTitle: d.title,
@@ -118,13 +118,13 @@ const V = 64, Ae = (t, c) => i.utc(t).tz(c), ut = ["HH:mm", "hh:mm A", "h:mm a",
         });
       }
     }
-  return console.log("[detectConflicts] Conflicts found:", n.length), n;
+  return console.log("[detectConflicts] Conflicts found:", l.length), l;
 };
-class ot {
+class rt {
   plugins = [];
   context;
-  constructor(c = [], n) {
-    this.plugins = c, this.context = n;
+  constructor(c = [], l) {
+    this.plugins = c, this.context = l;
   }
   setContext(c) {
     this.context = c;
@@ -139,14 +139,14 @@ class ot {
       c.hooks?.beforeRender && c.hooks.beforeRender(this.context);
     });
   }
-  triggerOnEventRender(c, n) {
+  triggerOnEventRender(c, l) {
     this.plugins.forEach((r) => {
-      r.hooks?.onEventRender && r.hooks.onEventRender(c, n);
+      r.hooks?.onEventRender && r.hooks.onEventRender(c, l);
     });
   }
   triggerOnEventClick(c) {
-    this.plugins.forEach((n) => {
-      n.hooks?.onEventClick && n.hooks.onEventClick(c);
+    this.plugins.forEach((l) => {
+      l.hooks?.onEventClick && l.hooks.onEventClick(c);
     });
   }
   triggerAfterRender() {
@@ -155,150 +155,150 @@ class ot {
     });
   }
   triggerOnEventChange(c) {
-    this.plugins.forEach((n) => {
-      n.hooks?.onEventChange && n.hooks.onEventChange(c);
+    this.plugins.forEach((l) => {
+      l.hooks?.onEventChange && l.hooks.onEventChange(c);
     });
   }
   triggerValidateSave(c) {
-    const n = [];
+    const l = [];
     return this.plugins.forEach((r) => {
       if (r.hooks?.validateSave) {
-        const o = r.hooks.validateSave(c, this.context);
-        o && n.push(o);
+        const n = r.hooks.validateSave(c, this.context);
+        n && l.push(n);
       }
-    }), n;
+    }), l;
   }
 }
-const mt = ({ onChange: t, timeFormat: c, slotInterval: n, timezone: r, enabledTimeSlots: o, disabledTimeSlots: N, enabledTimeInterval: u, disableTimeInterval: d, checkIsSlotEnabled: m }) => {
-  const h = y(() => {
-    const g = [], j = i.tz(r).startOf("day");
-    for (let T = 0; T < 1440; T += n)
-      g.push(j.clone().add(T, "minutes"));
+const mt = ({ onChange: t, timeFormat: c, slotInterval: l, timezone: r, enabledTimeSlots: n, disabledTimeSlots: w, enabledTimeInterval: u, disableTimeInterval: d, checkIsSlotEnabled: m }) => {
+  const h = b(() => {
+    const g = [], A = f.tz(r).startOf("day");
+    for (let D = 0; D < 1440; D += l)
+      g.push(A.clone().add(D, "minutes"));
     return g;
-  }, [n, r]);
-  return /* @__PURE__ */ e("div", { className: "absolute z-[70] bg-white border rounded shadow-xl mt-1 max-h-48 overflow-y-auto w-full no-scrollbar", children: h.map((g, j) => {
-    const T = m(g, o, N, u, d);
+  }, [l, r]);
+  return /* @__PURE__ */ e("div", { className: "absolute z-[70] bg-white border rounded shadow-xl mt-1 max-h-48 overflow-y-auto w-full no-scrollbar", children: h.map((g, A) => {
+    const D = m(g, n, w, u, d);
     return /* @__PURE__ */ e(
       "div",
       {
         onClick: () => {
-          T && t(g.format(c));
+          D && t(g.format(c));
         },
-        className: `px-3 py-2 text-sm border-b last:border-0 ${T ? "hover:bg-blue-50 cursor-pointer text-gray-800" : "bg-gray-50 text-gray-300 cursor-not-allowed"}`,
+        className: `px-3 py-2 text-sm border-b last:border-0 ${D ? "hover:bg-blue-50 cursor-pointer text-gray-800" : "bg-gray-50 text-gray-300 cursor-not-allowed"}`,
         children: g.format(c)
       },
-      j
+      A
     );
   }) });
-}, ht = ({ value: t, onChange: c, dateFormat: n, timezone: r }) => {
-  const [o, N] = q(() => i.tz(t, n, r).isValid() ? i.tz(t, n, r) : i.tz(r)), u = y(() => {
-    const d = o.clone().startOf("month").startOf("week"), m = o.clone().endOf("month").endOf("week"), h = [];
+}, ht = ({ value: t, onChange: c, dateFormat: l, timezone: r }) => {
+  const [n, w] = R(() => f.tz(t, l, r).isValid() ? f.tz(t, l, r) : f.tz(r)), u = b(() => {
+    const d = n.clone().startOf("month").startOf("week"), m = n.clone().endOf("month").endOf("week"), h = [];
     let g = d.clone();
     for (; g.isBefore(m); )
       h.push(g.clone()), g.add(1, "day");
     return h;
-  }, [o]);
+  }, [n]);
   return /* @__PURE__ */ a("div", { className: "absolute z-[70] bg-white border rounded shadow-xl mt-1 p-3 w-64 animate-fadeIn", children: [
     /* @__PURE__ */ a("div", { className: "flex justify-between items-center mb-2", children: [
-      /* @__PURE__ */ e("button", { onClick: () => N(o.clone().subtract(1, "month")), className: "p-1 hover:bg-gray-100 rounded", children: "←" }),
-      /* @__PURE__ */ e("span", { className: "font-semibold", children: o.format("MMMM YYYY") }),
-      /* @__PURE__ */ e("button", { onClick: () => N(o.clone().add(1, "month")), className: "p-1 hover:bg-gray-100 rounded", children: "→" })
+      /* @__PURE__ */ e("button", { onClick: () => w(n.clone().subtract(1, "month")), className: "p-1 hover:bg-gray-100 rounded", children: "←" }),
+      /* @__PURE__ */ e("span", { className: "font-semibold", children: n.format("MMMM YYYY") }),
+      /* @__PURE__ */ e("button", { onClick: () => w(n.clone().add(1, "month")), className: "p-1 hover:bg-gray-100 rounded", children: "→" })
     ] }),
     /* @__PURE__ */ e("div", { className: "grid grid-cols-7 gap-1 text-center text-xs mb-1 font-bold text-gray-500", children: ["Su", "Mo", "Tu", "We", "Th", "Fr", "Sa"].map((d) => /* @__PURE__ */ e("div", { children: d }, d)) }),
     /* @__PURE__ */ e("div", { className: "grid grid-cols-7 gap-1", children: u.map((d, m) => /* @__PURE__ */ e(
       "div",
       {
-        onClick: () => c(d.format(n)),
-        className: `p-1.5 text-xs rounded cursor-pointer transition-colors ${d.isSame(o, "month") ? "hover:bg-blue-100" : "text-gray-300"} ${t === d.format(n) ? "bg-blue-600 text-white" : ""}`,
+        onClick: () => c(d.format(l)),
+        className: `p-1.5 text-xs rounded cursor-pointer transition-colors ${d.isSame(n, "month") ? "hover:bg-blue-100" : "text-gray-300"} ${t === d.format(l) ? "bg-blue-600 text-white" : ""}`,
         children: d.date()
       },
       m
     )) })
   ] });
-}, nt = ({
+}, ot = ({
   isOpen: t,
   onClose: c,
-  editingEvent: n,
+  editingEvent: l,
   formData: r,
-  setFormData: o,
-  formFields: N,
+  setFormData: n,
+  formFields: w,
   timezone: u,
   dateFormat: d = "YYYY-MM-DD",
   timeFormat: m = "HH:mm",
   onAddEvent: h,
   onEditEvent: g,
-  onDeleteEvent: j,
-  pluginManager: T,
+  onDeleteEvent: A,
+  pluginManager: D,
   conflictTemplate: v,
-  slotInterval: K = 30,
-  enabledTimeSlots: ie,
-  disabledTimeSlots: ae,
-  enabledTimeInterval: te,
-  disableTimeInterval: W
+  slotInterval: ee = 30,
+  enabledTimeSlots: fe,
+  disabledTimeSlots: ce,
+  enabledTimeInterval: ne,
+  disableTimeInterval: Z
 }) => {
   console.log("[EventFormModal] LOADING COMPONENT - version 1.1.7-hardened");
-  const [re, G] = q([]), [H, z] = q(null);
+  const [le, P] = R([]), [$, q] = R(null);
   return t ? /* @__PURE__ */ a("div", { className: "fixed inset-0 bg-black/40 flex items-center justify-center z-50", children: [
     /* @__PURE__ */ a("div", { className: "bg-white rounded-xl p-6 w-96 shadow-xl max-h-[90vh] overflow-y-auto", children: [
-      /* @__PURE__ */ e("h3", { className: "text-lg font-semibold mb-4", children: n ? "Edit Event" : "Create Event" }),
-      N?.map((l) => /* @__PURE__ */ a("div", { className: "mb-4", children: [
-        /* @__PURE__ */ e("label", { className: "block text-sm mb-1", children: l.label }),
+      /* @__PURE__ */ e("h3", { className: "text-lg font-semibold mb-4", children: l ? "Edit Event" : "Create Event" }),
+      w?.map((o) => /* @__PURE__ */ a("div", { className: "mb-4", children: [
+        /* @__PURE__ */ e("label", { className: "block text-sm mb-1", children: o.label }),
         (() => {
-          switch (l.type) {
+          switch (o.type) {
             case "textarea":
-              return /* @__PURE__ */ e("textarea", { required: l.required, value: r[l.name] || "", onChange: (f) => o({ ...r, [l.name]: f.target.value }), className: "w-full border rounded px-3 py-2", rows: 3 });
+              return /* @__PURE__ */ e("textarea", { required: o.required, value: r[o.name] || "", onChange: (i) => n({ ...r, [o.name]: i.target.value }), className: "w-full border rounded px-3 py-2", rows: 3 });
             case "dropdown":
             case "singleSelect":
-              return /* @__PURE__ */ a("select", { required: l.required, value: r[l.name] || "", onChange: (f) => o({ ...r, [l.name]: f.target.value }), className: "w-full border rounded px-3 py-2", children: [
+              return /* @__PURE__ */ a("select", { required: o.required, value: r[o.name] || "", onChange: (i) => n({ ...r, [o.name]: i.target.value }), className: "w-full border rounded px-3 py-2", children: [
                 /* @__PURE__ */ e("option", { value: "", children: "Select..." }),
-                l.options?.map((f) => /* @__PURE__ */ e("option", { value: f.value, children: f.label }, f.value))
+                o.options?.map((i) => /* @__PURE__ */ e("option", { value: i.value, children: i.label }, i.value))
               ] });
             case "multiselect":
-              return /* @__PURE__ */ e("select", { multiple: !0, required: l.required, value: r[l.name] || [], onChange: (f) => {
-                const b = Array.from(f.target.selectedOptions, (D) => D.value);
-                o({ ...r, [l.name]: b });
-              }, className: "w-full border rounded px-3 py-2 h-24", children: l.options?.map((f) => /* @__PURE__ */ e("option", { value: f.value, children: f.label }, f.value)) });
+              return /* @__PURE__ */ e("select", { multiple: !0, required: o.required, value: r[o.name] || [], onChange: (i) => {
+                const N = Array.from(i.target.selectedOptions, (I) => I.value);
+                n({ ...r, [o.name]: N });
+              }, className: "w-full border rounded px-3 py-2 h-24", children: o.options?.map((i) => /* @__PURE__ */ e("option", { value: i.value, children: i.label }, i.value)) });
             case "radio":
-              return /* @__PURE__ */ e("div", { className: "flex gap-4 mt-1", children: l.options?.map((f) => /* @__PURE__ */ a("label", { className: "flex items-center gap-1 cursor-pointer", children: [
-                /* @__PURE__ */ e("input", { type: "radio", name: l.name, value: f.value, checked: r[l.name] === f.value, onChange: (b) => o({ ...r, [l.name]: b.target.value }) }),
-                f.label
-              ] }, f.value)) });
+              return /* @__PURE__ */ e("div", { className: "flex gap-4 mt-1", children: o.options?.map((i) => /* @__PURE__ */ a("label", { className: "flex items-center gap-1 cursor-pointer", children: [
+                /* @__PURE__ */ e("input", { type: "radio", name: o.name, value: i.value, checked: r[o.name] === i.value, onChange: (N) => n({ ...r, [o.name]: N.target.value }) }),
+                i.label
+              ] }, i.value)) });
             case "boolean":
-              return /* @__PURE__ */ e("input", { type: "checkbox", checked: !!r[l.name], onChange: (f) => o({ ...r, [l.name]: f.target.checked }), className: "w-5 h-5 mt-1 cursor-pointer" });
+              return /* @__PURE__ */ e("input", { type: "checkbox", checked: !!r[o.name], onChange: (i) => n({ ...r, [o.name]: i.target.checked }), className: "w-5 h-5 mt-1 cursor-pointer" });
             case "attachment":
-              return /* @__PURE__ */ e("input", { type: "file", required: l.required, onChange: (f) => {
-                f.target.files && f.target.files.length > 0 && o({ ...r, [l.name]: f.target.files[0].name });
+              return /* @__PURE__ */ e("input", { type: "file", required: o.required, onChange: (i) => {
+                i.target.files && i.target.files.length > 0 && n({ ...r, [o.name]: i.target.files[0].name });
               }, className: "w-full border rounded px-3 py-2" });
             case "colorPicker":
-              return /* @__PURE__ */ e("input", { type: "color", required: l.required, value: r[l.name] || "#000000", onChange: (f) => o({ ...r, [l.name]: f.target.value }), className: "w-16 h-10 p-1 border rounded cursor-pointer" });
+              return /* @__PURE__ */ e("input", { type: "color", required: o.required, value: r[o.name] || "#000000", onChange: (i) => n({ ...r, [o.name]: i.target.value }), className: "w-16 h-10 p-1 border rounded cursor-pointer" });
             case "year":
-              return /* @__PURE__ */ e("input", { type: "number", required: l.required, placeholder: "YYYY", value: r[l.name] || "", onChange: (f) => o({ ...r, [l.name]: f.target.value }), className: "w-full border rounded px-3 py-2" });
+              return /* @__PURE__ */ e("input", { type: "number", required: o.required, placeholder: "YYYY", value: r[o.name] || "", onChange: (i) => n({ ...r, [o.name]: i.target.value }), className: "w-full border rounded px-3 py-2" });
             case "day":
-              return /* @__PURE__ */ e("input", { type: "number", required: l.required, min: "1", max: "31", placeholder: "DD", value: r[l.name] || "", onChange: (f) => o({ ...r, [l.name]: f.target.value }), className: "w-full border rounded px-3 py-2" });
+              return /* @__PURE__ */ e("input", { type: "number", required: o.required, min: "1", max: "31", placeholder: "DD", value: r[o.name] || "", onChange: (i) => n({ ...r, [o.name]: i.target.value }), className: "w-full border rounded px-3 py-2" });
             default:
-              const S = !!((l.type === "datetime-local" || l.type === "datetime" || l.type === "date" || l.type === "time") && (d || m));
+              const Y = !!((o.type === "datetime-local" || o.type === "datetime" || o.type === "date" || o.type === "time") && (d || m));
               return /* @__PURE__ */ a("div", { className: "relative", children: [
                 /* @__PURE__ */ e(
                   "input",
                   {
-                    type: S ? "text" : l.type,
-                    required: l.required,
-                    placeholder: l.type === "datetime-local" || l.type === "datetime" ? `${d || "YYYY-MM-DD"} ${m || "HH:mm"}` : l.type === "date" ? d || "YYYY-MM-DD" : l.type === "time" ? m || "HH:mm" : "",
-                    value: r[l.name] || "",
-                    onChange: (f) => o({ ...r, [l.name]: f.target.value }),
+                    type: Y ? "text" : o.type,
+                    required: o.required,
+                    placeholder: o.type === "datetime-local" || o.type === "datetime" ? `${d || "YYYY-MM-DD"} ${m || "HH:mm"}` : o.type === "date" ? d || "YYYY-MM-DD" : o.type === "time" ? m || "HH:mm" : "",
+                    value: r[o.name] || "",
+                    onChange: (i) => n({ ...r, [o.name]: i.target.value }),
                     onClick: () => {
-                      S && z({ name: l.name, type: l.type === "time" ? "time" : "date" });
+                      Y && q({ name: o.name, type: o.type === "time" ? "time" : "date" });
                     },
-                    className: `w-full border rounded px-3 py-2 cursor-pointer ${S ? "pr-8" : ""}`,
-                    readOnly: S
+                    className: `w-full border rounded px-3 py-2 cursor-pointer ${Y ? "pr-8" : ""}`,
+                    readOnly: Y
                   }
                 ),
-                S && /* @__PURE__ */ e(
+                Y && /* @__PURE__ */ e(
                   "div",
                   {
                     className: "absolute right-3 top-1/2 -translate-y-1/2 cursor-pointer text-gray-500 hover:text-gray-700 z-10",
                     onClick: () => {
-                      z({ name: l.name, type: l.type === "time" ? "time" : "date" });
+                      q({ name: o.name, type: o.type === "time" ? "time" : "date" });
                     },
                     children: /* @__PURE__ */ a("svg", { xmlns: "http://www.w3.org/2000/svg", width: "18", height: "18", viewBox: "0 0 24 24", fill: "none", stroke: "currentColor", strokeWidth: "2", strokeLinecap: "round", strokeLinejoin: "round", children: [
                       /* @__PURE__ */ e("rect", { x: "3", y: "4", width: "18", height: "18", rx: "2", ry: "2" }),
@@ -308,61 +308,61 @@ const mt = ({ onChange: t, timeFormat: c, slotInterval: n, timezone: r, enabledT
                     ] })
                   }
                 ),
-                S && H?.name === l.name && H.type === "date" && /* @__PURE__ */ a(le, { children: [
-                  /* @__PURE__ */ e("div", { className: "fixed inset-0 z-[60]", onClick: () => z(null) }),
+                Y && $?.name === o.name && $.type === "date" && /* @__PURE__ */ a(se, { children: [
+                  /* @__PURE__ */ e("div", { className: "fixed inset-0 z-[60]", onClick: () => q(null) }),
                   /* @__PURE__ */ e(
                     ht,
                     {
-                      value: r[l.name] ? i.tz(r[l.name], `${d || "YYYY-MM-DD"} ${m || "HH:mm"}`, u).format(d || "YYYY-MM-DD") : "",
-                      onChange: (f) => {
-                        let b = f;
-                        if (l.type === "datetime-local" || l.type === "datetime") {
-                          const D = r[l.name], C = i.tz(D, `${d || "YYYY-MM-DD"} ${m || "HH:mm"}`, u), $ = C.isValid() ? C.format(m || "HH:mm") : i().format(m || "HH:mm");
-                          b = `${f} ${$}`, z({ name: l.name, type: "time" });
+                      value: r[o.name] ? f.tz(r[o.name], `${d || "YYYY-MM-DD"} ${m || "HH:mm"}`, u).format(d || "YYYY-MM-DD") : "",
+                      onChange: (i) => {
+                        let N = i;
+                        if (o.type === "datetime-local" || o.type === "datetime") {
+                          const I = r[o.name], C = f.tz(I, `${d || "YYYY-MM-DD"} ${m || "HH:mm"}`, u), S = C.isValid() ? C.format(m || "HH:mm") : f().format(m || "HH:mm");
+                          N = `${i} ${S}`, q({ name: o.name, type: "time" });
                         } else
-                          z(null);
-                        o({ ...r, [l.name]: b });
+                          q(null);
+                        n({ ...r, [o.name]: N });
                       },
                       dateFormat: d || "YYYY-MM-DD",
                       timezone: u
                     }
                   )
                 ] }),
-                S && H?.name === l.name && H.type === "time" && /* @__PURE__ */ a(le, { children: [
-                  /* @__PURE__ */ e("div", { className: "fixed inset-0 z-[60]", onClick: () => z(null) }),
+                Y && $?.name === o.name && $.type === "time" && /* @__PURE__ */ a(se, { children: [
+                  /* @__PURE__ */ e("div", { className: "fixed inset-0 z-[60]", onClick: () => q(null) }),
                   /* @__PURE__ */ e(
                     mt,
                     {
-                      value: r[l.name] ? i.tz(r[l.name], `${d || "YYYY-MM-DD"} ${m || "HH:mm"}`, u).format(m || "HH:mm") : "",
-                      onChange: (f) => {
-                        let b = f;
-                        if (l.type === "datetime-local" || l.type === "datetime") {
-                          const D = r[l.name], C = i.tz(D, `${d || "YYYY-MM-DD"} ${m || "HH:mm"}`, u);
-                          b = `${C.isValid() ? C.format(d || "YYYY-MM-DD") : i().format(d || "YYYY-MM-DD")} ${f}`;
+                      value: r[o.name] ? f.tz(r[o.name], `${d || "YYYY-MM-DD"} ${m || "HH:mm"}`, u).format(m || "HH:mm") : "",
+                      onChange: (i) => {
+                        let N = i;
+                        if (o.type === "datetime-local" || o.type === "datetime") {
+                          const I = r[o.name], C = f.tz(I, `${d || "YYYY-MM-DD"} ${m || "HH:mm"}`, u);
+                          N = `${C.isValid() ? C.format(d || "YYYY-MM-DD") : f().format(d || "YYYY-MM-DD")} ${i}`;
                         }
-                        o({ ...r, [l.name]: b }), z(null);
+                        n({ ...r, [o.name]: N }), q(null);
                       },
                       timeFormat: m || "HH:mm",
-                      slotInterval: K,
+                      slotInterval: ee,
                       timezone: u,
-                      enabledTimeSlots: ie,
-                      disabledTimeSlots: ae,
-                      enabledTimeInterval: te,
-                      disableTimeInterval: W,
-                      checkIsSlotEnabled: tt
+                      enabledTimeSlots: fe,
+                      disabledTimeSlots: ce,
+                      enabledTimeInterval: ne,
+                      disableTimeInterval: Z,
+                      checkIsSlotEnabled: et
                     }
                   )
                 ] })
               ] });
           }
         })()
-      ] }, l.name)),
+      ] }, o.name)),
       /* @__PURE__ */ a("div", { className: "flex justify-between mt-4", children: [
-        n && j && /* @__PURE__ */ e(
+        l && A && /* @__PURE__ */ e(
           "button",
           {
             onClick: () => {
-              j(n.id), c();
+              A(l.id), c();
             },
             className: "text-red-600 text-sm",
             children: "Delete"
@@ -382,52 +382,52 @@ const mt = ({ onChange: t, timeFormat: c, slotInterval: n, timezone: r, enabledT
             {
               onClick: () => {
                 try {
-                  const l = (b) => {
-                    if (console.log("[EventFormModal] parseInTimezone input:", b), !b) return i().utc().toISOString();
-                    if (b.includes("T") && (b.includes("Z") || b.split(":").length > 2)) {
-                      const C = i(b).toISOString();
+                  const o = (N) => {
+                    if (console.log("[EventFormModal] parseInTimezone input:", N), !N) return f().utc().toISOString();
+                    if (N.includes("T") && (N.includes("Z") || N.split(":").length > 2)) {
+                      const C = f(N).toISOString();
                       return console.log("[EventFormModal] recognized ISO:", C), C;
                     }
                     if (d && m) {
-                      const C = i.tz(b, `${d} ${m}`, u);
+                      const C = f.tz(N, `${d} ${m}`, u);
                       if (C.isValid()) {
-                        const $ = C.toISOString();
-                        return console.log("[EventFormModal] parsed via custom format:", $), $;
+                        const S = C.toISOString();
+                        return console.log("[EventFormModal] parsed via custom format:", S), S;
                       }
                     }
-                    const D = i.tz(b, "YYYY-MM-DDTHH:mm", u);
-                    if (D.isValid()) {
-                      const C = D.toISOString();
+                    const I = f.tz(N, "YYYY-MM-DDTHH:mm", u);
+                    if (I.isValid()) {
+                      const C = I.toISOString();
                       return console.log("[EventFormModal] parsed via fallback format:", C), C;
                     }
-                    return console.warn("[EventFormModal] failed to parse date, returning current time as fallback"), i().utc().toISOString();
-                  }, S = {
+                    return console.warn("[EventFormModal] failed to parse date, returning current time as fallback"), f().utc().toISOString();
+                  }, Y = {
                     ...r,
-                    start: r.start ? l(r.start) : r.start,
-                    end: r.end ? l(r.end) : r.end
+                    start: r.start ? o(r.start) : r.start,
+                    end: r.end ? o(r.end) : r.end
                   };
-                  console.log("[EventFormModal] finalData:", S);
-                  const f = T.triggerValidateSave(S);
-                  if (f.length > 0) {
-                    G(f);
+                  console.log("[EventFormModal] finalData:", Y);
+                  const i = D.triggerValidateSave(Y);
+                  if (i.length > 0) {
+                    P(i);
                     return;
                   }
-                  if (n) {
-                    const b = {
-                      ...n,
-                      ...S
+                  if (l) {
+                    const N = {
+                      ...l,
+                      ...Y
                     };
-                    g?.(b), T.triggerOnEventChange(b);
+                    g?.(N), D.triggerOnEventChange(N);
                   } else {
-                    const b = {
+                    const N = {
                       id: Date.now().toString(),
-                      ...S
+                      ...Y
                     };
-                    h?.(b);
+                    h?.(N);
                   }
                   c();
-                } catch (l) {
-                  console.error("[EventFormModal] Save Error:", l), alert("SAVE ERROR: " + l.message);
+                } catch (o) {
+                  console.error("[EventFormModal] Save Error:", o), alert("SAVE ERROR: " + o.message);
                 }
               },
               className: "px-4 py-1 bg-blue-600 text-white rounded",
@@ -437,7 +437,7 @@ const mt = ({ onChange: t, timeFormat: c, slotInterval: n, timezone: r, enabledT
         ] })
       ] })
     ] }),
-    re.length > 0 && /* @__PURE__ */ e("div", { className: "fixed inset-0 bg-black/60 flex items-center justify-center z-[60] animate-fadeIn", children: /* @__PURE__ */ a(
+    le.length > 0 && /* @__PURE__ */ e("div", { className: "fixed inset-0 bg-black/60 flex items-center justify-center z-[60] animate-fadeIn", children: /* @__PURE__ */ a(
       "div",
       {
         className: "bg-white rounded-2xl p-8 w-[450px] shadow-2xl border transform animate-scaleIn",
@@ -453,11 +453,11 @@ const mt = ({ onChange: t, timeFormat: c, slotInterval: n, timezone: r, enabledT
               /* @__PURE__ */ e("p", { className: "text-sm opacity-70", children: v?.description || "Overlapping schedule found" })
             ] })
           ] }),
-          /* @__PURE__ */ e("div", { className: "bg-gray-50 rounded-xl p-4 mb-6 max-h-60 overflow-y-auto border border-gray-100", style: { backgroundColor: v?.theme?.backgroundColor === "#fff" ? "#f9fafb" : v?.theme?.backgroundColor }, children: v?.renderDetails ? v.renderDetails(re) : re.map((l, S) => /* @__PURE__ */ e("div", { className: "mb-3 last:mb-0", children: /* @__PURE__ */ e("div", { className: "text-sm font-medium text-gray-800 whitespace-pre-line leading-relaxed", style: { color: v?.theme?.textColor || "#1f2937" }, children: l }) }, S)) }),
-          v?.renderFooter ? v.renderFooter(() => G([]), v.theme || { primaryColor: "#dc2626", secondaryColor: "#ef4444", backgroundColor: "#fff", textColor: "#1f2937", borderColor: "#fee2e2" }) : /* @__PURE__ */ e("div", { className: "flex gap-3", children: /* @__PURE__ */ e(
+          /* @__PURE__ */ e("div", { className: "bg-gray-50 rounded-xl p-4 mb-6 max-h-60 overflow-y-auto border border-gray-100", style: { backgroundColor: v?.theme?.backgroundColor === "#fff" ? "#f9fafb" : v?.theme?.backgroundColor }, children: v?.renderDetails ? v.renderDetails(le) : le.map((o, Y) => /* @__PURE__ */ e("div", { className: "mb-3 last:mb-0", children: /* @__PURE__ */ e("div", { className: "text-sm font-medium text-gray-800 whitespace-pre-line leading-relaxed", style: { color: v?.theme?.textColor || "#1f2937" }, children: o }) }, Y)) }),
+          v?.renderFooter ? v.renderFooter(() => P([]), v.theme || { primaryColor: "#dc2626", secondaryColor: "#ef4444", backgroundColor: "#fff", textColor: "#1f2937", borderColor: "#fee2e2" }) : /* @__PURE__ */ e("div", { className: "flex gap-3", children: /* @__PURE__ */ e(
             "button",
             {
-              onClick: () => G([]),
+              onClick: () => P([]),
               className: "flex-1 px-6 py-3 text-white font-semibold rounded-xl transition-all shadow-lg",
               style: {
                 backgroundColor: v?.theme?.primaryColor || "#dc2626",
@@ -764,264 +764,264 @@ const mt = ({ onChange: t, timeFormat: c, slotInterval: n, timezone: r, enabledT
     eventDefaultTextColor: "#000000"
   }
 }, gt = ({
-  timezone: t = i.tz.guess() || "UTC",
+  timezone: t = f.tz.guess() || "UTC",
   timezoneLabelInclude: c = !1,
-  slotInterval: n = 30,
+  slotInterval: l = 30,
   dateFormat: r = "YYYY-MM-DD",
-  timeFormat: o = "HH:mm",
-  showTimeSlots: N = !0,
+  timeFormat: n = "HH:mm",
+  showTimeSlots: w = !0,
   selectedDate: u,
   onDateChange: d,
   events: m,
   onEventChange: h,
   navigationPosition: g = "center",
-  showTodayBelow: j = !0,
-  renderNavigation: T,
+  showTodayBelow: A = !0,
+  renderNavigation: D,
   showEmptyState: v = !0,
-  enabledTimeSlots: K,
-  disabledTimeSlots: ie,
-  enabledTimeInterval: ae,
-  disableTimeInterval: te,
-  emptyStateContent: W,
-  emptyStateContentPopup: re,
-  futureDaysOnly: G,
-  pastDaysOnly: H,
-  currentDayOnly: z,
-  navigateToFirstEvent: l,
-  onAddEvent: S,
-  onEditEvent: f,
-  onDeleteEvent: b,
-  formFields: D,
+  enabledTimeSlots: ee,
+  disabledTimeSlots: fe,
+  enabledTimeInterval: ce,
+  disableTimeInterval: ne,
+  emptyStateContent: Z,
+  emptyStateContentPopup: le,
+  futureDaysOnly: P,
+  pastDaysOnly: $,
+  currentDayOnly: q,
+  navigateToFirstEvent: o,
+  onAddEvent: Y,
+  onEditEvent: i,
+  onDeleteEvent: N,
+  formFields: I,
   onlyCreateEditRequired: C = !0,
-  plugins: $,
-  conflictTemplate: U,
-  conflictThemeVariant: be,
-  calendarTheme: fe,
-  calendarThemeVariant: oe
+  plugins: S,
+  conflictTemplate: te,
+  conflictThemeVariant: ye,
+  calendarTheme: ie,
+  calendarThemeVariant: ae
 }) => {
-  const Z = et(null), ne = et(null), [ke, ce] = q(() => i.tz(u || /* @__PURE__ */ new Date(), t)), ge = u !== void 0 ? u : ke, _ = (s) => {
-    d ? d(s) : ce(s);
-  }, [ve, Q] = q(() => m || []), F = m !== void 0 ? m : ve, x = S || ((s) => Q((p) => [...p, s])), E = f || ((s) => Q((p) => p.map((M) => M.id === s.id ? s : M))), L = b || ((s) => Q((p) => p.filter((M) => M.id !== s))), ue = D || [
+  const L = Fe(null), X = Fe(null), [De, G] = R(() => f.tz(u || /* @__PURE__ */ new Date(), t)), ge = u !== void 0 ? u : De, z = (s) => {
+    d ? d(s) : G(s);
+  }, [J, re] = R(() => m || []), oe = m !== void 0 ? m : J, x = Y || ((s) => re((p) => [...p, s])), O = i || ((s) => re((p) => p.map((M) => M.id === s.id ? s : M))), V = N || ((s) => re((p) => p.filter((M) => M.id !== s))), ve = I || [
     { name: "title", label: "Event Title", type: "text", required: !0 },
     { name: "description", label: "Description", type: "textarea" },
     { name: "start", label: "Start Time", type: "datetime-local", required: !0 },
     { name: "end", label: "End Time", type: "datetime-local", required: !0 }
-  ], X = y(() => fe || (oe && xe[oe] ? xe[oe] : xe.classic_light), [fe, oe]), Ce = y(() => ({
-    "--calendar-primary": X.primaryColor,
-    "--calendar-bg": X.backgroundColor,
-    "--calendar-secondary-bg": X.secondaryBackgroundColor,
-    "--calendar-grid": X.gridColor,
-    "--calendar-text": X.textColor,
-    "--calendar-secondary-text": X.secondaryTextColor,
-    "--calendar-accent": X.accentColor,
-    "--calendar-event-bg": X.eventDefaultColor,
-    "--calendar-event-text": X.eventDefaultTextColor
-  }), [X]), J = y(() => F ?? [], [F]), P = y(() => new ot($, {
+  ], K = b(() => ie || (ae && xe[ae] ? xe[ae] : xe.classic_light), [ie, ae]), Ne = b(() => ({
+    "--calendar-primary": K.primaryColor,
+    "--calendar-bg": K.backgroundColor,
+    "--calendar-secondary-bg": K.secondaryBackgroundColor,
+    "--calendar-grid": K.gridColor,
+    "--calendar-text": K.textColor,
+    "--calendar-secondary-text": K.secondaryTextColor,
+    "--calendar-accent": K.accentColor,
+    "--calendar-event-bg": K.eventDefaultColor,
+    "--calendar-event-text": K.eventDefaultTextColor
+  }), [K]), Q = b(() => oe ?? [], [oe]), _ = b(() => new rt(S, {
     timezone: t,
-    slotInterval: n,
-    events: J,
+    slotInterval: l,
+    events: Q,
     onEventChange: h,
     onAddEvent: x,
-    onEditEvent: E,
-    onDeleteEvent: L
-  }), [$, t, n, J, h, x, E, L]);
-  Ge(() => {
-    P.init();
-  }, [P]);
-  const w = y(
-    () => Ae(ge, t),
+    onEditEvent: O,
+    onDeleteEvent: V
+  }), [S, t, l, Q, h, x, O, V]);
+  Le(() => {
+    _.init();
+  }, [_]);
+  const k = b(
+    () => $e(ge, t),
     [ge, t]
-  ), se = y(() => i.utc().tz(t), [t]), we = w.isSame(se, "day"), [O, I] = q(!1), [de, me] = q(null), [Ye, A] = q({}), he = G && H, je = !he && G && w.isBefore(i().tz(t), "day") || z && w.isBefore(i().tz(t), "day"), Re = !he && H && w.isAfter(i().tz(t), "day") || z && w.isAfter(i().tz(t), "day"), Te = je || Re || z && !we, Se = y(
-    () => st(ae),
-    [ae]
-  ), Ze = () => {
-    I(!1), me(null), A({});
-  }, Y = y(
-    () => rt(J, w, t),
-    [J, w, t]
-  ).filter((s) => !s.allDay), R = y(() => {
-    P.triggerBeforeRender();
-    const s = dt(Y, w, n);
-    return P.triggerAfterRender(), s;
-  }, [Y, w, n, P]), ee = !z && (he || !(G && w.isSameOrBefore(se, "day"))), B = !z && (he || !(H && w.isSameOrAfter(se, "day"))), pe = () => {
-    ee && _(w.clone().subtract(1, "day"));
+  ), pe = b(() => f.utc().tz(t), [t]), Ye = k.isSame(pe, "day"), [T, B] = R(!1), [de, ue] = R(null), [ke, H] = R({}), me = P && $, _e = !me && P && k.isBefore(f().tz(t), "day") || q && k.isBefore(f().tz(t), "day"), Ae = !me && $ && k.isAfter(f().tz(t), "day") || q && k.isAfter(f().tz(t), "day"), Re = _e || Ae || q && !Ye, y = b(
+    () => st(ce),
+    [ce]
+  ), E = () => {
+    B(!1), ue(null), H({});
+  }, F = b(
+    () => tt(Q, k, t),
+    [Q, k, t]
+  ).filter((s) => !s.allDay), j = b(() => {
+    _.triggerBeforeRender();
+    const s = dt(F, k, l);
+    return _.triggerAfterRender(), s;
+  }, [F, k, l, _]), he = !q && (me || !(P && k.isSameOrBefore(pe, "day"))), Se = !q && (me || !($ && k.isSameOrAfter(pe, "day"))), Oe = () => {
+    he && z(k.clone().subtract(1, "day"));
   }, Be = () => {
-    B && _(w.clone().add(1, "day"));
-  }, $e = () => _(i.utc().tz(t)), [De, qe] = q(null), [Oe, Me] = q(null), Pe = (s) => Math.round(s / n) * n;
-  Ge(() => {
+    Se && z(k.clone().add(1, "day"));
+  }, qe = () => z(f.utc().tz(t)), [Ee, Me] = R(null), [He, nt] = R(null), Ue = (s) => Math.round(s / l) * l;
+  Le(() => {
     const s = (M) => {
-      if (!ne.current) return;
-      const ye = ne.current.getBoundingClientRect(), _e = (M.clientY - ye.top) / V * n;
-      if (De) {
-        const Ee = Pe(_e), Ne = w.clone().startOf("day").add(Ee, "minutes"), He = De.end.diff(
-          De.start,
+      if (!X.current) return;
+      const be = X.current.getBoundingClientRect(), je = (M.clientY - be.top) / U * l;
+      if (Ee) {
+        const we = Ue(je), Ce = k.clone().startOf("day").add(we, "minutes"), Te = Ee.end.diff(
+          Ee.start,
           "minutes"
-        ), Ie = {
-          ...De,
-          start: Ne,
-          end: Ne.clone().add(He, "minutes")
+        ), Pe = {
+          ...Ee,
+          start: Ce,
+          end: Ce.clone().add(Te, "minutes")
         };
-        h?.(Ie), P.triggerOnEventChange(Ie);
+        h?.(Pe), _.triggerOnEventChange(Pe);
       }
-      if (Oe) {
-        const Ee = Pe(_e), Ne = w.clone().startOf("day").add(Ee, "minutes");
-        if (Ne.isAfter(Oe.start)) {
-          const He = {
-            ...Oe,
-            end: Ne
+      if (He) {
+        const we = Ue(je), Ce = k.clone().startOf("day").add(we, "minutes");
+        if (Ce.isAfter(He.start)) {
+          const Te = {
+            ...He,
+            end: Ce
           };
-          h?.(He), P.triggerOnEventChange(He);
+          h?.(Te), _.triggerOnEventChange(Te);
         }
       }
     }, p = () => {
-      qe(null), Me(null);
+      Me(null), nt(null);
     };
     return window.addEventListener("mousemove", s), window.addEventListener("mouseup", p), () => {
       window.removeEventListener("mousemove", s), window.removeEventListener("mouseup", p);
     };
-  }, [De, Oe, w, n, h]);
-  const Xe = (s, p) => {
+  }, [Ee, He, k, l, h]);
+  const Ze = (s, p) => {
     let M;
     if (p)
       M = p.clone();
-    else if (ne.current) {
-      const We = ne.current.getBoundingClientRect(), Ee = (s.clientY - We.top) / V * n, Ne = Pe(Ee);
-      M = w.clone().startOf("day").add(Ne, "minutes");
+    else if (X.current) {
+      const Ve = X.current.getBoundingClientRect(), we = (s.clientY - Ve.top) / U * l, Ce = Ue(we);
+      M = k.clone().startOf("day").add(Ce, "minutes");
     } else
       return;
-    if (!ze(M)) return;
-    const ye = M.clone().add(n, "minutes");
-    me(null), A({
-      start: M.format(`${r || "YYYY-MM-DD"} ${o || "HH:mm"}`),
-      end: ye.format(`${r || "YYYY-MM-DD"} ${o || "HH:mm"}`)
-    }), I(!0);
-  }, Je = y(
-    () => ct(w, n),
-    [w, n]
-  ), ze = (s) => tt(
+    if (!Ge(M)) return;
+    const be = M.clone().add(l, "minutes");
+    ue(null), H({
+      start: M.format(`${r || "YYYY-MM-DD"} ${n || "HH:mm"}`),
+      end: be.format(`${r || "YYYY-MM-DD"} ${n || "HH:mm"}`)
+    }), B(!0);
+  }, Xe = b(
+    () => ct(k, l),
+    [k, l]
+  ), Ge = (s) => et(
     s,
-    K,
-    ie,
-    ae,
-    te
+    ee,
+    fe,
+    ce,
+    ne
   );
   lt(() => {
-    Z.current && (Z.current.scrollTop = 0);
-  }, [w, l]), Ge(() => {
-    if (!Z.current || !l) return;
+    L.current && (L.current.scrollTop = 0);
+  }, [k, o]), Le(() => {
+    if (!L.current || !o) return;
     const s = setTimeout(() => {
-      Z.current && requestAnimationFrame(() => {
+      L.current && requestAnimationFrame(() => {
         requestAnimationFrame(() => {
-          if (!Z.current) return;
+          if (!L.current) return;
           let p = 0;
-          if (R.length > 0)
-            p = R[0].top;
+          if (j.length > 0)
+            p = j[0].top;
           else {
-            const M = Je.findIndex((ye) => ze(ye));
-            M !== -1 && (p = M * V);
+            const M = Xe.findIndex((be) => Ge(be));
+            M !== -1 && (p = M * U);
           }
           if (p > 0) {
-            const M = Math.max(0, p - V), ye = Z.current.scrollTop, We = M - ye, _e = 2e3;
-            let Ee = null;
-            const Ne = (He) => {
-              Ee === null && (Ee = He);
-              const Ie = He - Ee, Le = Ie / _e, ft = Le < 0.5 ? 4 * Le * Le * Le : 1 - Math.pow(-2 * Le + 2, 3) / 2;
-              Z.current && (Z.current.scrollTop = ye + We * ft, Ie < _e ? requestAnimationFrame(Ne) : Z.current.scrollTop = M);
+            const M = Math.max(0, p - U), be = L.current.scrollTop, Ve = M - be, je = 2e3;
+            let we = null;
+            const Ce = (Te) => {
+              we === null && (we = Te);
+              const Pe = Te - we, Ie = Pe / je, ft = Ie < 0.5 ? 4 * Ie * Ie * Ie : 1 - Math.pow(-2 * Ie + 2, 3) / 2;
+              L.current && (L.current.scrollTop = be + Ve * ft, Pe < je ? requestAnimationFrame(Ce) : L.current.scrollTop = M);
             };
-            requestAnimationFrame(Ne);
+            requestAnimationFrame(Ce);
           }
         });
       });
     }, 100);
     return () => clearTimeout(s);
-  }, [w, R.length, l]);
-  const Ve = /* @__PURE__ */ a("div", { className: "text-center flex flex-col items-center", children: [
-    /* @__PURE__ */ e("h2", { className: "text-xl font-semibold px-4 py-1 rounded-full text-white", style: we ? { backgroundColor: "var(--calendar-primary)" } : { color: "var(--calendar-text)" }, children: w.format(r) }),
+  }, [k, j.length, o]);
+  const ze = /* @__PURE__ */ a("div", { className: "text-center flex flex-col items-center", children: [
+    /* @__PURE__ */ e("h2", { className: "text-xl font-semibold px-4 py-1 rounded-full text-white", style: Ye ? { backgroundColor: "var(--calendar-primary)" } : { color: "var(--calendar-text)" }, children: k.format(r) }),
     c && /* @__PURE__ */ a("p", { className: "text-xs text-gray-500 mt-1", children: [
       "GMT",
-      w.format("Z"),
+      k.format("Z"),
       " • ",
       t
     ] }),
-    j && /* @__PURE__ */ e("button", { onClick: $e, className: "mt-1 text-sm font-medium", style: { color: "var(--calendar-primary)" }, children: "Today" })
-  ] }), Ke = /* @__PURE__ */ e(
+    A && /* @__PURE__ */ e("button", { onClick: qe, className: "mt-1 text-sm font-medium", style: { color: "var(--calendar-primary)" }, children: "Today" })
+  ] }), Je = /* @__PURE__ */ e(
     "button",
     {
-      onClick: pe,
-      disabled: !ee,
-      className: `px-3 py-1 rounded ${ee ? "hover:bg-gray-200" : "opacity-50 cursor-not-allowed"}`,
+      onClick: Oe,
+      disabled: !he,
+      className: `px-3 py-1 rounded ${he ? "hover:bg-gray-200" : "opacity-50 cursor-not-allowed"}`,
       children: "◀"
     }
-  ), Qe = /* @__PURE__ */ e(
+  ), Ke = /* @__PURE__ */ e(
     "button",
     {
       onClick: Be,
-      disabled: !B,
-      className: `px-3 py-1 rounded ${B ? "hover:bg-gray-200" : "opacity-50 cursor-not-allowed"}`,
+      disabled: !Se,
+      className: `px-3 py-1 rounded ${Se ? "hover:bg-gray-200" : "opacity-50 cursor-not-allowed"}`,
       children: "▶"
     }
-  ), Fe = /* @__PURE__ */ a("div", { className: "flex items-center gap-2", children: [
-    Ke,
-    Qe
-  ] }), it = T ? T({
-    goToPreviousDay: pe,
+  ), Qe = /* @__PURE__ */ a("div", { className: "flex items-center gap-2", children: [
+    Je,
+    Ke
+  ] }), it = D ? D({
+    goToPreviousDay: Oe,
     goToNextDay: Be,
-    goToToday: $e,
-    dateNode: Ve,
-    prevNode: Ke,
-    nextNode: Qe,
-    defaultNav: Fe,
-    currentDate: w,
+    goToToday: qe,
+    dateNode: ze,
+    prevNode: Je,
+    nextNode: Ke,
+    defaultNav: Qe,
+    currentDate: k,
     timezone: t
   }) : null;
-  return /* @__PURE__ */ a("div", { className: "flex flex-col flex-1 h-full w-full min-h-0 no-scrollbar", style: { ...Ce, backgroundColor: "var(--calendar-bg)", color: "var(--calendar-text)" }, children: [
-    T != null ? /* @__PURE__ */ e("div", { children: it }, "custom-nav-wrapper") : /* @__PURE__ */ a("div", { className: "sticky top-0 z-20 border-b px-6 py-4 flex items-center min-h-[80px]", style: { backgroundColor: "var(--calendar-bg)", borderColor: "var(--calendar-grid)" }, children: [
-      g === "left" && /* @__PURE__ */ a(le, { children: [
-        /* @__PURE__ */ e("div", { className: "flex-1 flex justify-start items-center", children: Fe }),
-        /* @__PURE__ */ e("div", { className: "flex-1 flex justify-center items-center", children: Ve }),
+  return /* @__PURE__ */ a("div", { className: "flex flex-col flex-1 h-full w-full min-h-0 no-scrollbar", style: { ...Ne, backgroundColor: "var(--calendar-bg)", color: "var(--calendar-text)" }, children: [
+    D != null ? /* @__PURE__ */ e("div", { children: it }, "custom-nav-wrapper") : /* @__PURE__ */ a("div", { className: "sticky top-0 z-20 border-b px-6 py-4 flex items-center min-h-[80px]", style: { backgroundColor: "var(--calendar-bg)", borderColor: "var(--calendar-grid)" }, children: [
+      g === "left" && /* @__PURE__ */ a(se, { children: [
+        /* @__PURE__ */ e("div", { className: "flex-1 flex justify-start items-center", children: Qe }),
+        /* @__PURE__ */ e("div", { className: "flex-1 flex justify-center items-center", children: ze }),
         /* @__PURE__ */ e("div", { className: "flex-1 flex justify-end items-center" })
       ] }),
-      g === "center" && /* @__PURE__ */ a(le, { children: [
+      g === "center" && /* @__PURE__ */ a(se, { children: [
         /* @__PURE__ */ e("div", { className: "flex-1 flex justify-start items-center" }),
         /* @__PURE__ */ a("div", { className: "flex-1 flex justify-center items-center gap-4", children: [
-          Ke,
-          Ve,
-          Qe
+          Je,
+          ze,
+          Ke
         ] }),
         /* @__PURE__ */ e("div", { className: "flex-1 flex justify-end items-center" })
       ] }),
-      g === "right" && /* @__PURE__ */ a(le, { children: [
+      g === "right" && /* @__PURE__ */ a(se, { children: [
         /* @__PURE__ */ e("div", { className: "flex-1 flex justify-start items-center" }),
-        /* @__PURE__ */ e("div", { className: "flex-1 flex justify-center items-center", children: Ve }),
-        /* @__PURE__ */ e("div", { className: "flex-1 flex justify-end items-center gap-4", children: Fe })
+        /* @__PURE__ */ e("div", { className: "flex-1 flex justify-center items-center", children: ze }),
+        /* @__PURE__ */ e("div", { className: "flex-1 flex justify-end items-center gap-4", children: Qe })
       ] })
     ] }),
-    N === !1 ? /* @__PURE__ */ a("div", { className: "flex flex-col flex-1 min-h-0 m-5 p-4 overflow-y-auto no-scrollbar relative", children: [
+    w === !1 ? /* @__PURE__ */ a("div", { className: "flex flex-col flex-1 min-h-0 m-5 p-4 overflow-y-auto no-scrollbar relative", children: [
       C && /* @__PURE__ */ e("div", { className: "flex justify-end mb-4", children: /* @__PURE__ */ e(
         "button",
         {
           onClick: () => {
-            me(null);
-            const s = w.clone().hour(9).minute(0), p = s.clone().add(n, "minutes");
-            A({
+            ue(null);
+            const s = k.clone().hour(9).minute(0), p = s.clone().add(l, "minutes");
+            H({
               start: s.format("YYYY-MM-DDTHH:mm"),
               end: p.format("YYYY-MM-DDTHH:mm")
-            }), I(!0);
+            }), B(!0);
           },
           className: "px-4 py-2 text-sm text-white rounded shadow transition-colors",
           style: { backgroundColor: "var(--calendar-primary)" },
           children: "+ Add Event"
         }
       ) }),
-      Y.length === 0 ? /* @__PURE__ */ e("div", { className: "flex flex-col items-center justify-center flex-1 h-full min-h-[200px] border-2 border-dashed rounded-xl", style: { borderColor: "var(--calendar-grid)" }, children: /* @__PURE__ */ e("p", { className: "text-gray-500 font-medium mb-4", children: W || "No events scheduled" }) }) : /* @__PURE__ */ e("div", { className: "flex flex-col gap-3 pb-8", children: Y.sort((s, p) => i(s.start).diff(i(p.start))).map((s) => /* @__PURE__ */ a(
+      F.length === 0 ? /* @__PURE__ */ e("div", { className: "flex flex-col items-center justify-center flex-1 h-full min-h-[200px] border-2 border-dashed rounded-xl", style: { borderColor: "var(--calendar-grid)" }, children: /* @__PURE__ */ e("p", { className: "text-gray-500 font-medium mb-4", children: Z || "No events scheduled" }) }) : /* @__PURE__ */ e("div", { className: "flex flex-col gap-3 pb-8", children: F.sort((s, p) => f(s.start).diff(f(p.start))).map((s) => /* @__PURE__ */ a(
         "div",
         {
           onClick: (p) => {
-            p.stopPropagation(), P.triggerOnEventClick(s), C && (me(s), A({
+            p.stopPropagation(), _.triggerOnEventClick(s), C && (ue(s), H({
               ...s,
-              start: i(s.start).tz(t).format("YYYY-MM-DDTHH:mm"),
-              end: i(s.end).tz(t).format("YYYY-MM-DDTHH:mm")
-            }), I(!0));
+              start: f(s.start).tz(t).format("YYYY-MM-DDTHH:mm"),
+              end: f(s.end).tz(t).format("YYYY-MM-DDTHH:mm")
+            }), B(!0));
           },
           className: "p-4 rounded-xl border flex flex-col cursor-pointer transition-transform hover:scale-[1.01] shadow-sm relative group",
           style: {
@@ -1037,7 +1037,7 @@ const mt = ({ onChange: t, timeFormat: c, slotInterval: n, timezone: r, enabledT
                 "button",
                 {
                   onClick: (p) => {
-                    p.stopPropagation(), L(s.id);
+                    p.stopPropagation(), V(s.id);
                   },
                   className: "text-red-500 hover:text-red-700 p-1 rounded-full hover:bg-red-50 transition-colors",
                   title: "Delete Event",
@@ -1046,44 +1046,44 @@ const mt = ({ onChange: t, timeFormat: c, slotInterval: n, timezone: r, enabledT
               )
             ] }),
             /* @__PURE__ */ a("div", { className: "text-sm opacity-80 mt-1", children: [
-              i(s.start).tz(t).format(o),
+              f(s.start).tz(t).format(n),
               " - ",
-              i(s.end).tz(t).format(o)
+              f(s.end).tz(t).format(n)
             ] })
           ]
         },
         s.id
       )) })
-    ] }) : /* @__PURE__ */ e("div", { ref: Z, className: "flex-1 overflow-y-auto no-scrollbar", children: /* @__PURE__ */ a("div", { className: "flex min-h-full", children: [
-      /* @__PURE__ */ e("div", { className: "w-24 flex-shrink-0", style: { backgroundColor: "var(--calendar-secondary-bg)" }, children: Je.map((s, p) => {
-        const M = ze(s);
+    ] }) : /* @__PURE__ */ e("div", { ref: L, className: "flex-1 overflow-y-auto no-scrollbar", children: /* @__PURE__ */ a("div", { className: "flex min-h-full", children: [
+      /* @__PURE__ */ e("div", { className: "w-24 flex-shrink-0", style: { backgroundColor: "var(--calendar-secondary-bg)" }, children: Xe.map((s, p) => {
+        const M = Ge(s);
         return /* @__PURE__ */ e(
           "div",
           {
             className: "relative text-xs text-right pr-3 border-b border-dotted border-r",
             style: {
-              height: V,
+              height: U,
               borderColor: "var(--calendar-grid)",
               color: M ? "var(--calendar-secondary-text)" : "var(--calendar-grid)",
               cursor: M ? "pointer" : "not-allowed",
               backgroundColor: M ? "transparent" : "var(--calendar-secondary-bg)"
             },
-            children: /* @__PURE__ */ e("span", { className: "absolute top-1/2 -translate-y-1/2 right-2", children: s.format(o) })
+            children: /* @__PURE__ */ e("span", { className: "absolute top-1/2 -translate-y-1/2 right-2", children: s.format(n) })
           },
           p
         );
       }) }),
-      /* @__PURE__ */ a("div", { ref: ne, className: "flex-1 relative", onDoubleClick: (s) => Xe(s), children: [
-        Je.map((s, p) => {
-          const M = ze(s);
+      /* @__PURE__ */ a("div", { ref: X, className: "flex-1 relative", onDoubleClick: (s) => Ze(s), children: [
+        Xe.map((s, p) => {
+          const M = Ge(s);
           return /* @__PURE__ */ e(
             "div",
             {
-              onDoubleClick: (ye) => {
-                ye.stopPropagation(), M && Xe(ye, s);
+              onDoubleClick: (be) => {
+                be.stopPropagation(), M && Ze(be, s);
               },
               style: {
-                height: V,
+                height: U,
                 borderColor: "var(--calendar-grid)",
                 cursor: M ? "pointer" : "not-allowed",
                 backgroundColor: M ? "transparent" : "rgba(0,0,0,0.02)"
@@ -1093,19 +1093,19 @@ const mt = ({ onChange: t, timeFormat: c, slotInterval: n, timezone: r, enabledT
             p
           );
         }),
-        R.map((s) => /* @__PURE__ */ a(
+        j.map((s) => /* @__PURE__ */ a(
           "div",
           {
             ref: (p) => {
-              p && P.triggerOnEventRender(s, p);
+              p && _.triggerOnEventRender(s, p);
             },
-            onMouseDown: () => qe(s),
+            onMouseDown: () => Me(s),
             onDoubleClick: (p) => {
-              p.stopPropagation(), P.triggerOnEventClick(s), E && (me(s), A({
+              p.stopPropagation(), _.triggerOnEventClick(s), O && (ue(s), H({
                 ...s,
-                start: i(s.start).tz(t).format(`${r || "YYYY-MM-DD"} ${o || "HH:mm"}`),
-                end: i(s.end).tz(t).format(`${r || "YYYY-MM-DD"} ${o || "HH:mm"}`)
-              }), I(!0));
+                start: f(s.start).tz(t).format(`${r || "YYYY-MM-DD"} ${n || "HH:mm"}`),
+                end: f(s.end).tz(t).format(`${r || "YYYY-MM-DD"} ${n || "HH:mm"}`)
+              }), B(!0));
             },
             className: "absolute rounded px-2 text-sm cursor-move z-10",
             style: {
@@ -1118,11 +1118,11 @@ const mt = ({ onChange: t, timeFormat: c, slotInterval: n, timezone: r, enabledT
             },
             children: [
               s.title,
-              L && /* @__PURE__ */ e(
+              V && /* @__PURE__ */ e(
                 "button",
                 {
                   onClick: (p) => {
-                    p.stopPropagation(), L(s.id);
+                    p.stopPropagation(), V(s.id);
                   },
                   className: "absolute top-1 right-1 text-xs bg-red-500 rounded px-1",
                   children: "✕"
@@ -1132,7 +1132,7 @@ const mt = ({ onChange: t, timeFormat: c, slotInterval: n, timezone: r, enabledT
                 "div",
                 {
                   onMouseDown: (p) => {
-                    p.stopPropagation(), Me(s);
+                    p.stopPropagation(), nt(s);
                   },
                   className: "absolute bottom-0 left-0 right-0 h-2 cursor-ns-resize",
                   style: { backgroundColor: "var(--calendar-primary)", opacity: 0.5 }
@@ -1142,25 +1142,25 @@ const mt = ({ onChange: t, timeFormat: c, slotInterval: n, timezone: r, enabledT
           },
           s.id
         )),
-        v && R.length === 0 && !Te && /* @__PURE__ */ e(
+        v && j.length === 0 && !Re && /* @__PURE__ */ e(
           "div",
           {
             className: "absolute left-0 right-0 flex items-center justify-center animate-fadeIn",
             onDoubleClick: (s) => {
-              Te || Xe(s);
+              Re || Ze(s);
             },
             style: {
-              top: Se.startMinutes / n * V,
-              height: (Se.endMinutes - Se.startMinutes) / n * V,
-              cursor: Te ? "not-allowed" : "pointer"
+              top: y.startMinutes / l * U,
+              height: (y.endMinutes - y.startMinutes) / l * U,
+              cursor: Re ? "not-allowed" : "pointer"
             },
             children: /* @__PURE__ */ a("div", { className: "bg-white shadow-xl rounded-2xl px-8 py-6 border text-center animate-scaleIn", children: [
-              /* @__PURE__ */ e("p", { className: "text-gray-600 font-medium", children: W || "No events scheduled" }),
-              re || /* @__PURE__ */ e(
+              /* @__PURE__ */ e("p", { className: "text-gray-600 font-medium", children: Z || "No events scheduled" }),
+              le || /* @__PURE__ */ e(
                 "button",
                 {
                   onClick: () => {
-                    me(null), A({}), I(!0);
+                    ue(null), H({}), B(!0);
                   },
                   className: "mt-4 px-4 py-2 text-white rounded",
                   style: { backgroundColor: "var(--calendar-primary)" },
@@ -1170,327 +1170,325 @@ const mt = ({ onChange: t, timeFormat: c, slotInterval: n, timezone: r, enabledT
             ] })
           }
         ),
-        we && /* @__PURE__ */ e(
+        Ye && /* @__PURE__ */ e(
           "div",
           {
             className: "absolute left-0 right-0 border-t-2",
             style: {
               borderColor: "var(--calendar-primary)",
-              top: (se.hours() * 60 + se.minutes()) / n * V
+              top: (pe.hours() * 60 + pe.minutes()) / l * U
             }
           }
         )
       ] })
     ] }) }),
     C && /* @__PURE__ */ e(
-      nt,
+      ot,
       {
-        isOpen: O,
-        onClose: Ze,
+        isOpen: T,
+        onClose: E,
         editingEvent: de,
-        formData: Ye,
-        setFormData: A,
-        formFields: ue,
+        formData: ke,
+        setFormData: H,
+        formFields: ve,
         timezone: t,
         dateFormat: r,
-        timeFormat: o,
+        timeFormat: n,
         onAddEvent: x,
-        onEditEvent: E,
-        onDeleteEvent: L,
-        pluginManager: P,
-        conflictTemplate: U || (be ? xt[be] : void 0),
-        slotInterval: n,
-        enabledTimeSlots: K,
-        disabledTimeSlots: ie,
-        enabledTimeInterval: ae,
-        disableTimeInterval: te,
-        events: J
+        onEditEvent: O,
+        onDeleteEvent: V,
+        pluginManager: _,
+        conflictTemplate: te || (ye ? xt[ye] : void 0),
+        slotInterval: l,
+        enabledTimeSlots: ee,
+        disabledTimeSlots: fe,
+        enabledTimeInterval: ce,
+        disableTimeInterval: ne,
+        events: Q
       }
     )
   ] });
 }, Ct = ({
-  timezone: t = i.tz.guess() || "UTC",
+  timezone: t = f.tz.guess() || "UTC",
   timezoneLabelInclude: c = !1,
-  slotInterval: n = 30,
+  slotInterval: l = 30,
   dateFormat: r = "YYYY-MM-DD",
-  timeFormat: o = "HH:mm",
-  selectedDate: N,
+  timeFormat: n = "HH:mm",
+  selectedDate: w,
   onDateChange: u,
   events: d,
   onEventChange: m,
   navigationPosition: h = "center",
   renderNavigation: g,
-  showEmptyState: j = !0,
-  enabledTimeSlots: T,
+  showEmptyState: A = !0,
+  enabledTimeSlots: D,
   disabledTimeSlots: v,
-  enabledTimeInterval: K,
-  disableTimeInterval: ie,
-  onAddEvent: ae,
-  onEditEvent: te,
-  onDeleteEvent: W,
-  formFields: re,
-  onlyCreateEditRequired: G = !0,
-  navigateToFirstEvent: H,
-  futureDaysOnly: z,
-  pastDaysOnly: l,
-  plugins: S,
-  calendarTheme: f,
-  calendarThemeVariant: b
+  enabledTimeInterval: ee,
+  disableTimeInterval: fe,
+  onAddEvent: ce,
+  onEditEvent: ne,
+  onDeleteEvent: Z,
+  formFields: le,
+  onlyCreateEditRequired: P = !0,
+  navigateToFirstEvent: $,
+  plugins: q,
+  calendarTheme: o,
+  calendarThemeVariant: Y
 }) => {
-  const D = et(null), [C, $] = q(() => i.tz(N || /* @__PURE__ */ new Date(), t)), U = N !== void 0 ? N : C, be = (k) => {
-    u ? u(k) : $(k);
-  }, [fe, oe] = q(() => d || []), Z = d !== void 0 ? d : fe, ne = ae || ((k) => oe((Y) => [...Y, k])), ke = te || ((k) => oe((Y) => Y.map((R) => R.id === k.id ? k : R))), ce = W || ((k) => oe((Y) => Y.filter((R) => R.id !== k))), ge = re || [
+  const i = Fe(null), [N, I] = R(() => f.tz(w || /* @__PURE__ */ new Date(), t)), C = w !== void 0 ? w : N, S = (y) => {
+    u ? u(y) : I(y);
+  }, [te, ye] = R(() => d || []), ie = d !== void 0 ? d : te, ae = ce || ((y) => ye((E) => [...E, y])), L = ne || ((y) => ye((E) => E.map((W) => W.id === y.id ? y : W))), X = Z || ((y) => ye((E) => E.filter((W) => W.id !== y))), De = le || [
     { name: "title", label: "Event Title", type: "text", required: !0 },
     { name: "description", label: "Description", type: "textarea" },
     { name: "start", label: "Start Time", type: "datetime-local", required: !0 },
     { name: "end", label: "End Time", type: "datetime-local", required: !0 }
-  ], _ = y(() => f || (b && xe[b] ? xe[b] : xe.classic_light), [f, b]), ve = y(() => ({
-    "--calendar-primary": _.primaryColor,
-    "--calendar-bg": _.backgroundColor,
-    "--calendar-secondary-bg": _.secondaryBackgroundColor,
-    "--calendar-grid": _.gridColor,
-    "--calendar-text": _.textColor,
-    "--calendar-secondary-text": _.secondaryTextColor,
-    "--calendar-accent": _.accentColor,
-    "--calendar-event-bg": _.eventDefaultColor,
-    "--calendar-event-text": _.eventDefaultTextColor
-  }), [_]), Q = y(() => Z ?? [], [Z]), F = y(() => new ot(S, {
+  ], G = b(() => o || (Y && xe[Y] ? xe[Y] : xe.classic_light), [o, Y]), ge = b(() => ({
+    "--calendar-primary": G.primaryColor,
+    "--calendar-bg": G.backgroundColor,
+    "--calendar-secondary-bg": G.secondaryBackgroundColor,
+    "--calendar-grid": G.gridColor,
+    "--calendar-text": G.textColor,
+    "--calendar-secondary-text": G.secondaryTextColor,
+    "--calendar-accent": G.accentColor,
+    "--calendar-event-bg": G.eventDefaultColor,
+    "--calendar-event-text": G.eventDefaultTextColor
+  }), [G]), z = b(() => ie ?? [], [ie]), J = b(() => new rt(q, {
     timezone: t,
-    slotInterval: n,
-    events: Q,
+    slotInterval: l,
+    events: z,
     onEventChange: m,
-    onAddEvent: ne,
-    onEditEvent: ke,
-    onDeleteEvent: ce
-  }), [S, t, n, Q, m, ne, ke, ce]);
-  Ge(() => {
-    F.init();
-  }, [F]);
-  const x = y(
-    () => Ae(U, t),
-    [U, t]
-  ), E = y(() => x.clone().startOf("week"), [x]), L = y(() => {
-    const k = [];
-    for (let Y = 0; Y < 7; Y++)
-      k.push(E.clone().add(Y, "days"));
-    return k;
-  }, [E]), ue = y(() => i.utc().tz(t), [t]), [X, Ce] = q(!1), [J, P] = q(null), [w, se] = q({}), we = y(
-    () => st(K),
-    [K]
-  ), O = () => {
-    Ce(!1), P(null), se({});
-  }, I = () => be(x.clone().subtract(1, "week")), de = () => be(x.clone().add(1, "week")), me = () => be(i.utc().tz(t)), Ye = y(
-    () => ct(E, n),
-    [E, n]
-  ), A = (k) => tt(
-    k,
-    T,
+    onAddEvent: ae,
+    onEditEvent: L,
+    onDeleteEvent: X
+  }), [q, t, l, z, m, ae, L, X]);
+  Le(() => {
+    J.init();
+  }, [J]);
+  const re = b(
+    () => $e(C, t),
+    [C, t]
+  ), oe = b(() => re.clone().startOf("week"), [re]), x = b(() => {
+    const y = [];
+    for (let E = 0; E < 7; E++)
+      y.push(oe.clone().add(E, "days"));
+    return y;
+  }, [oe]), O = b(() => f.utc().tz(t), [t]), [V, ve] = R(!1), [K, Ne] = R(null), [Q, _] = R({}), k = b(
+    () => st(ee),
+    [ee]
+  ), pe = () => {
+    ve(!1), Ne(null), _({});
+  }, Ye = () => S(re.clone().subtract(1, "week")), T = () => S(re.clone().add(1, "week")), B = () => S(f.utc().tz(t)), de = b(
+    () => ct(oe, l),
+    [oe, l]
+  ), ue = (y) => et(
+    y,
+    D,
     v,
-    K,
-    ie
-  ), he = y(() => {
-    F.triggerBeforeRender();
-    const k = L.map((Y) => {
-      const R = rt(Q, Y, t).filter((ee) => !ee.allDay);
-      return dt(R, Y, n);
+    ee,
+    fe
+  ), ke = b(() => {
+    J.triggerBeforeRender();
+    const y = x.map((E) => {
+      const W = tt(z, E, t).filter((F) => !F.allDay);
+      return dt(W, E, l);
     });
-    return F.triggerAfterRender(), k;
-  }, [L, Q, t, n, F]);
+    return J.triggerAfterRender(), y;
+  }, [x, z, t, l, J]);
   lt(() => {
-    D.current && (D.current.scrollTop = 0);
-  }, [E, H]), Ge(() => {
-    if (!D.current || !H) return;
-    const k = setTimeout(() => {
-      D.current && requestAnimationFrame(() => {
+    i.current && (i.current.scrollTop = 0);
+  }, [oe, $]), Le(() => {
+    if (!i.current || !$) return;
+    const y = setTimeout(() => {
+      i.current && requestAnimationFrame(() => {
         requestAnimationFrame(() => {
-          if (!D.current) return;
-          let Y = 1 / 0;
-          he.forEach((ee) => {
-            ee.length > 0 && (Y = Math.min(Y, ee[0].top));
+          if (!i.current) return;
+          let E = 1 / 0;
+          ke.forEach((F) => {
+            F.length > 0 && (E = Math.min(E, F[0].top));
           });
-          let R = 0;
-          if (Y !== 1 / 0)
-            R = Y;
+          let W = 0;
+          if (E !== 1 / 0)
+            W = E;
           else {
-            const ee = Ye.findIndex((B) => A(B));
-            ee !== -1 && (R = ee * V);
+            const F = de.findIndex((j) => ue(j));
+            F !== -1 && (W = F * U);
           }
-          if (R > 0) {
-            const ee = Math.max(0, R - V), B = D.current.scrollTop, pe = ee - B, Be = 2e3;
-            let $e = null;
-            const De = (qe) => {
-              $e === null && ($e = qe);
-              const Oe = qe - $e, Me = Oe / Be, Pe = Me < 0.5 ? 4 * Me * Me * Me : 1 - Math.pow(-2 * Me + 2, 3) / 2;
-              D.current && (D.current.scrollTop = B + pe * Pe, Oe < Be ? requestAnimationFrame(De) : D.current.scrollTop = ee);
+          if (W > 0) {
+            const F = Math.max(0, W - U), j = i.current.scrollTop, he = F - j, Se = 2e3;
+            let Oe = null;
+            const Be = (qe) => {
+              Oe === null && (Oe = qe);
+              const Ee = qe - Oe, Me = Ee / Se, He = Me < 0.5 ? 4 * Me * Me * Me : 1 - Math.pow(-2 * Me + 2, 3) / 2;
+              i.current && (i.current.scrollTop = j + he * He, Ee < Se ? requestAnimationFrame(Be) : i.current.scrollTop = F);
             };
-            requestAnimationFrame(De);
+            requestAnimationFrame(Be);
           }
         });
       });
     }, 100);
-    return () => clearTimeout(k);
-  }, [E, he, H]);
-  const je = /* @__PURE__ */ a("div", { className: "text-center flex flex-col items-center", children: [
-    /* @__PURE__ */ e("h2", { className: "text-xl font-semibold", children: E.format("MMMM YYYY") }),
+    return () => clearTimeout(y);
+  }, [oe, ke, $]);
+  const H = /* @__PURE__ */ a("div", { className: "text-center flex flex-col items-center", children: [
+    /* @__PURE__ */ e("h2", { className: "text-xl font-semibold", children: oe.format("MMMM YYYY") }),
     c && /* @__PURE__ */ a("p", { className: "text-xs text-gray-500 mt-1", children: [
       "GMT",
-      x.format("Z"),
+      re.format("Z"),
       " • ",
       t
     ] }),
-    /* @__PURE__ */ e("button", { onClick: me, className: "mt-1 text-sm font-medium", style: { color: "var(--calendar-primary)" }, children: "Today" })
-  ] }), Re = /* @__PURE__ */ e(
+    /* @__PURE__ */ e("button", { onClick: B, className: "mt-1 text-sm font-medium", style: { color: "var(--calendar-primary)" }, children: "Today" })
+  ] }), me = /* @__PURE__ */ e(
     "button",
     {
-      onClick: I,
+      onClick: Ye,
       className: "px-3 py-1 rounded hover:bg-gray-200",
       children: "◀"
     }
-  ), Te = /* @__PURE__ */ e(
+  ), _e = /* @__PURE__ */ e(
     "button",
     {
-      onClick: de,
+      onClick: T,
       className: "px-3 py-1 rounded hover:bg-gray-200",
       children: "▶"
     }
-  ), Se = /* @__PURE__ */ a("div", { className: "flex items-center gap-2", children: [
-    Re,
-    Te
-  ] }), Ze = g ? g({
-    goToPreviousDay: I,
-    goToNextDay: de,
-    goToToday: me,
-    dateNode: je,
-    prevNode: Re,
-    nextNode: Te,
-    defaultNav: Se,
-    currentDate: E,
+  ), Ae = /* @__PURE__ */ a("div", { className: "flex items-center gap-2", children: [
+    me,
+    _e
+  ] }), Re = g ? g({
+    goToPreviousDay: Ye,
+    goToNextDay: T,
+    goToToday: B,
+    dateNode: H,
+    prevNode: me,
+    nextNode: _e,
+    defaultNav: Ae,
+    currentDate: oe,
     timezone: t
   }) : null;
-  return /* @__PURE__ */ a("div", { className: "flex flex-col flex-1 h-full w-full min-h-0 no-scrollbar", style: { ...ve, backgroundColor: "var(--calendar-bg)", color: "var(--calendar-text)" }, children: [
-    g != null ? /* @__PURE__ */ e("div", { children: Ze }, "custom-nav-wrapper") : /* @__PURE__ */ a("div", { className: "sticky top-0 z-20 border-b px-6 py-4 flex items-center min-h-[80px]", style: { backgroundColor: "var(--calendar-bg)", borderColor: "var(--calendar-grid)" }, children: [
-      h === "left" && /* @__PURE__ */ a(le, { children: [
-        /* @__PURE__ */ e("div", { className: "flex-1 flex justify-start items-center", children: Se }),
-        /* @__PURE__ */ e("div", { className: "flex-1 flex justify-center items-center", children: je }),
+  return /* @__PURE__ */ a("div", { className: "flex flex-col flex-1 h-full w-full min-h-0 no-scrollbar", style: { ...ge, backgroundColor: "var(--calendar-bg)", color: "var(--calendar-text)" }, children: [
+    g != null ? /* @__PURE__ */ e("div", { children: Re }, "custom-nav-wrapper") : /* @__PURE__ */ a("div", { className: "sticky top-0 z-20 border-b px-6 py-4 flex items-center min-h-[80px]", style: { backgroundColor: "var(--calendar-bg)", borderColor: "var(--calendar-grid)" }, children: [
+      h === "left" && /* @__PURE__ */ a(se, { children: [
+        /* @__PURE__ */ e("div", { className: "flex-1 flex justify-start items-center", children: Ae }),
+        /* @__PURE__ */ e("div", { className: "flex-1 flex justify-center items-center", children: H }),
         /* @__PURE__ */ e("div", { className: "flex-1 flex justify-end items-center" })
       ] }),
-      h === "center" && /* @__PURE__ */ a(le, { children: [
+      h === "center" && /* @__PURE__ */ a(se, { children: [
         /* @__PURE__ */ e("div", { className: "flex-1 flex justify-start items-center" }),
         /* @__PURE__ */ a("div", { className: "flex-1 flex justify-center items-center gap-4", children: [
-          Re,
-          je,
-          Te
+          me,
+          H,
+          _e
         ] }),
         /* @__PURE__ */ e("div", { className: "flex-1 flex justify-end items-center" })
       ] }),
-      h === "right" && /* @__PURE__ */ a(le, { children: [
+      h === "right" && /* @__PURE__ */ a(se, { children: [
         /* @__PURE__ */ e("div", { className: "flex-1 flex justify-start items-center" }),
-        /* @__PURE__ */ e("div", { className: "flex-1 flex justify-center items-center", children: je }),
-        /* @__PURE__ */ e("div", { className: "flex-1 flex justify-end items-center gap-4", children: Se })
+        /* @__PURE__ */ e("div", { className: "flex-1 flex justify-center items-center", children: H }),
+        /* @__PURE__ */ e("div", { className: "flex-1 flex justify-end items-center gap-4", children: Ae })
       ] })
     ] }),
     /* @__PURE__ */ a("div", { className: "flex flex-1 flex-col min-h-0 m-5 mt-2 overflow-hidden", style: { backgroundColor: "var(--calendar-bg)" }, children: [
       /* @__PURE__ */ a("div", { className: "flex border-b", style: { borderColor: "var(--calendar-grid)" }, children: [
         /* @__PURE__ */ e("div", { className: "w-24 flex-shrink-0" }),
-        /* @__PURE__ */ e("div", { className: "flex flex-1 min-w-[700px]", children: L.map((k, Y) => /* @__PURE__ */ a("div", { className: "flex-1 text-center font-medium py-3", style: { color: "var(--calendar-text)" }, children: [
-          /* @__PURE__ */ e("div", { className: "text-xs uppercase tracking-wider", style: { color: "var(--calendar-secondary-text)" }, children: k.format("ddd") }),
+        /* @__PURE__ */ e("div", { className: "flex flex-1 min-w-[700px]", children: x.map((y, E) => /* @__PURE__ */ a("div", { className: "flex-1 text-center font-medium py-3", style: { color: "var(--calendar-text)" }, children: [
+          /* @__PURE__ */ e("div", { className: "text-xs uppercase tracking-wider", style: { color: "var(--calendar-secondary-text)" }, children: y.format("ddd") }),
           /* @__PURE__ */ e(
             "div",
             {
-              className: `text-2xl mt-1 w-10 h-10 flex items-center justify-center mx-auto rounded-full ${k.isSame(ue, "day") ? "text-white" : ""}`,
-              style: k.isSame(ue, "day") ? { backgroundColor: "var(--calendar-primary)" } : {},
-              children: k.format("D")
+              className: `text-2xl mt-1 w-10 h-10 flex items-center justify-center mx-auto rounded-full ${y.isSame(O, "day") ? "text-white" : ""}`,
+              style: y.isSame(O, "day") ? { backgroundColor: "var(--calendar-primary)" } : {},
+              children: y.format("D")
             }
           )
-        ] }, Y)) })
+        ] }, E)) })
       ] }),
-      /* @__PURE__ */ e("div", { ref: D, className: "flex-1 overflow-y-auto overflow-x-hidden no-scrollbar relative", children: /* @__PURE__ */ a("div", { className: "flex min-h-full", children: [
-        /* @__PURE__ */ e("div", { className: "w-24 flex-shrink-0 z-10 sticky left-0 shadow-[1px_0_5px_rgba(0,0,0,0.02)]", style: { backgroundColor: "var(--calendar-bg)" }, children: Ye.map((k, Y) => {
-          const R = A(k);
+      /* @__PURE__ */ e("div", { ref: i, className: "flex-1 overflow-y-auto overflow-x-hidden no-scrollbar relative", children: /* @__PURE__ */ a("div", { className: "flex min-h-full", children: [
+        /* @__PURE__ */ e("div", { className: "w-24 flex-shrink-0 z-10 sticky left-0 shadow-[1px_0_5px_rgba(0,0,0,0.02)]", style: { backgroundColor: "var(--calendar-bg)" }, children: de.map((y, E) => {
+          const W = ue(y);
           return /* @__PURE__ */ e(
             "div",
             {
               className: "relative text-xs text-right pr-3 border-b border-dotted",
               style: {
-                height: V,
+                height: U,
                 borderColor: "var(--calendar-grid)",
-                color: R ? "var(--calendar-secondary-text)" : "var(--calendar-grid)",
-                backgroundColor: R ? "transparent" : "var(--calendar-secondary-bg)"
+                color: W ? "var(--calendar-secondary-text)" : "var(--calendar-grid)",
+                backgroundColor: W ? "transparent" : "var(--calendar-secondary-bg)"
               },
-              children: /* @__PURE__ */ e("span", { className: "absolute top-1/2 -translate-y-1/2 right-2 px-1", style: { backgroundColor: "var(--calendar-bg)" }, children: k.format(o) })
+              children: /* @__PURE__ */ e("span", { className: "absolute top-1/2 -translate-y-1/2 right-2 px-1", style: { backgroundColor: "var(--calendar-bg)" }, children: y.format(n) })
             },
-            Y
+            E
           );
         }) }),
         /* @__PURE__ */ a("div", { className: "flex flex-1 relative min-w-[700px]", style: { backgroundColor: "var(--calendar-bg)" }, children: [
-          /* @__PURE__ */ e("div", { className: "absolute inset-0 pointer-events-none", children: Ye.map((k, Y) => /* @__PURE__ */ e(
+          /* @__PURE__ */ e("div", { className: "absolute inset-0 pointer-events-none", children: de.map((y, E) => /* @__PURE__ */ e(
             "div",
             {
-              style: { height: V, borderColor: "var(--calendar-grid)" },
+              style: { height: U, borderColor: "var(--calendar-grid)" },
               className: "border-b border-dotted w-full"
             },
-            `row-${Y}`
+            `row-${E}`
           )) }),
-          L.map((k, Y) => {
-            const R = he[Y], ee = k.isSame(ue, "day");
+          x.map((y, E) => {
+            const W = ke[E], F = y.isSame(O, "day");
             return /* @__PURE__ */ a("div", { className: "flex-1 relative", children: [
               /* @__PURE__ */ e("div", { className: "absolute inset-0 z-0 bg-transparent cursor-pointer", onDoubleClick: () => {
-                G && (se({ start: k.clone().hour(9).format(`${r || "YYYY-MM-DD"} ${o || "HH:mm"}`) }), Ce(!0));
+                P && (_({ start: y.clone().hour(9).format(`${r || "YYYY-MM-DD"} ${n || "HH:mm"}`) }), ve(!0));
               } }),
-              ee && /* @__PURE__ */ e(
+              F && /* @__PURE__ */ e(
                 "div",
                 {
                   className: "absolute left-0 right-0 border-t-2 z-10",
                   style: {
                     borderColor: "var(--calendar-primary)",
-                    top: (ue.hours() * 60 + ue.minutes()) / n * V,
+                    top: (O.hours() * 60 + O.minutes()) / l * U,
                     boxShadow: "0 0 8px var(--calendar-primary-alpha40)"
                   },
                   children: /* @__PURE__ */ e("div", { className: "absolute -left-1 -top-[5px] w-2 h-2 rounded-full", style: { backgroundColor: "var(--calendar-primary)" } })
                 }
               ),
-              j && R.length === 0 && /* @__PURE__ */ e(
+              A && W.length === 0 && /* @__PURE__ */ e(
                 "div",
                 {
                   className: "absolute left-1 right-1 flex items-center justify-center animate-fadeIn opacity-50",
                   style: {
-                    top: we.startMinutes / n * V,
-                    height: (we.endMinutes - we.startMinutes) / n * V
+                    top: k.startMinutes / l * U,
+                    height: (k.endMinutes - k.startMinutes) / l * U
                   },
                   children: /* @__PURE__ */ e("div", { className: "text-xs font-medium", style: { color: "var(--calendar-secondary-text)" }, children: "Clear" })
                 }
               ),
-              /* @__PURE__ */ e("div", { className: "absolute inset-0 z-10 pointer-events-none", children: R.map((B) => /* @__PURE__ */ a(
+              /* @__PURE__ */ e("div", { className: "absolute inset-0 z-10 pointer-events-none", children: W.map((j) => /* @__PURE__ */ a(
                 "div",
                 {
-                  onDoubleClick: (pe) => {
-                    pe.stopPropagation(), F.triggerOnEventClick(B), G && (P(B), se({
-                      ...B,
-                      start: i(B.start).tz(t).format(`${r || "YYYY-MM-DD"} ${o || "HH:mm"}`),
-                      end: i(B.end).tz(t).format(`${r || "YYYY-MM-DD"} ${o || "HH:mm"}`)
-                    }), Ce(!0));
+                  onDoubleClick: (he) => {
+                    he.stopPropagation(), J.triggerOnEventClick(j), P && (Ne(j), _({
+                      ...j,
+                      start: f(j.start).tz(t).format(`${r || "YYYY-MM-DD"} ${n || "HH:mm"}`),
+                      end: f(j.end).tz(t).format(`${r || "YYYY-MM-DD"} ${n || "HH:mm"}`)
+                    }), ve(!0));
                   },
-                  ref: (pe) => {
-                    pe && F.triggerOnEventRender(B, pe);
+                  ref: (he) => {
+                    he && J.triggerOnEventRender(j, he);
                   },
                   className: "absolute rounded-[4px] px-2 text-xs font-medium cursor-pointer shadow-sm hover:z-20 border pointer-events-auto transition-all overflow-hidden",
                   style: {
-                    top: B.top,
-                    height: Math.max(B.height, 20),
-                    left: `${B.columnIndex / B.columnCount * 100}%`,
-                    width: `calc(${100 / B.columnCount}% - 2px)`,
+                    top: j.top,
+                    height: Math.max(j.height, 20),
+                    left: `${j.columnIndex / j.columnCount * 100}%`,
+                    width: `calc(${100 / j.columnCount}% - 2px)`,
                     // Small margin
                     backgroundColor: "var(--calendar-event-bg)",
                     color: "var(--calendar-event-text)",
                     borderColor: "var(--calendar-grid)"
                   },
                   children: [
-                    /* @__PURE__ */ e("div", { className: "truncate", children: B.title }),
-                    ce && G && /* @__PURE__ */ e(
+                    /* @__PURE__ */ e("div", { className: "truncate", children: j.title }),
+                    X && P && /* @__PURE__ */ e(
                       "button",
                       {
-                        onClick: (pe) => {
-                          pe.stopPropagation(), ce(B.id);
+                        onClick: (he) => {
+                          he.stopPropagation(), X(j.id);
                         },
                         className: "absolute top-[2px] right-[2px] w-4 h-4 text-[10px] leading-none bg-red-500 hover:bg-red-600 rounded flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity flex-shrink-0",
                         children: "✕"
@@ -1498,139 +1496,139 @@ const mt = ({ onChange: t, timeFormat: c, slotInterval: n, timezone: r, enabledT
                     )
                   ]
                 },
-                B.id
+                j.id
               )) })
-            ] }, k.format("YYYY-MM-DD"));
+            ] }, y.format("YYYY-MM-DD"));
           })
         ] })
       ] }) }),
-      G && /* @__PURE__ */ e(
-        nt,
+      P && /* @__PURE__ */ e(
+        ot,
         {
-          isOpen: X,
-          onClose: O,
-          editingEvent: J,
-          formData: w,
-          setFormData: se,
-          formFields: ge,
+          isOpen: V,
+          onClose: pe,
+          editingEvent: K,
+          formData: Q,
+          setFormData: _,
+          formFields: De,
           timezone: t,
           dateFormat: r,
-          timeFormat: o,
-          onAddEvent: ne,
-          onEditEvent: ke,
-          onDeleteEvent: ce,
-          pluginManager: F,
-          disableTimeInterval: ie,
-          events: Q
+          timeFormat: n,
+          onAddEvent: ae,
+          onEditEvent: L,
+          onDeleteEvent: X,
+          pluginManager: J,
+          disableTimeInterval: fe,
+          events: z
         }
       )
     ] })
   ] });
 }, Nt = ({
-  timezone: t = i.tz.guess() || "UTC",
+  timezone: t = f.tz.guess() || "UTC",
   timezoneLabelInclude: c = !1,
-  dateFormat: n = "MMMM YYYY",
+  dateFormat: l = "MMMM YYYY",
   timeFormat: r = "HH:mm",
-  selectedDate: o,
-  onDateChange: N,
+  selectedDate: n,
+  onDateChange: w,
   events: u,
   onEventChange: d,
   navigationPosition: m = "center",
   renderNavigation: h,
   onAddEvent: g,
-  onEditEvent: j,
-  onDeleteEvent: T,
+  onEditEvent: A,
+  onDeleteEvent: D,
   formFields: v,
-  onlyCreateEditRequired: K = !0,
-  plugins: ie,
-  calendarTheme: ae,
-  calendarThemeVariant: te
+  onlyCreateEditRequired: ee = !0,
+  plugins: fe,
+  calendarTheme: ce,
+  calendarThemeVariant: ne
 }) => {
-  const [W, re] = q(() => i.tz(o || /* @__PURE__ */ new Date(), t)), G = o !== void 0 ? o : W, H = (O) => {
-    N ? N(O) : re(O);
-  }, [z, l] = q(() => u || []), S = u !== void 0 ? u : z, f = g || ((O) => l((I) => [...I, O])), b = j || ((O) => l((I) => I.map((de) => de.id === O.id ? O : de))), D = T || ((O) => l((I) => I.filter((de) => de.id !== O))), C = v || [
+  const [Z, le] = R(() => f.tz(n || /* @__PURE__ */ new Date(), t)), P = n !== void 0 ? n : Z, $ = (T) => {
+    w ? w(T) : le(T);
+  }, [q, o] = R(() => u || []), Y = u !== void 0 ? u : q, i = g || ((T) => o((B) => [...B, T])), N = A || ((T) => o((B) => B.map((de) => de.id === T.id ? T : de))), I = D || ((T) => o((B) => B.filter((de) => de.id !== T))), C = v || [
     { name: "title", label: "Event Title", type: "text", required: !0 },
     { name: "description", label: "Description", type: "textarea" },
     { name: "start", label: "Start Time", type: "datetime-local", required: !0 },
     { name: "end", label: "End Time", type: "datetime-local", required: !0 }
-  ], $ = y(
-    () => Ae(G, t),
-    [G, t]
-  ), U = y(() => ae || (te && xe[te] ? xe[te] : xe.classic_light), [ae, te]), be = y(() => ({
-    "--calendar-primary": U.primaryColor,
-    "--calendar-bg": U.backgroundColor,
-    "--calendar-secondary-bg": U.secondaryBackgroundColor,
-    "--calendar-grid": U.gridColor,
-    "--calendar-text": U.textColor,
-    "--calendar-secondary-text": U.secondaryTextColor,
-    "--calendar-accent": U.accentColor,
-    "--calendar-event-bg": U.eventDefaultColor,
-    "--calendar-event-text": U.eventDefaultTextColor
-  }), [U]), fe = y(() => S ?? [], [S]), oe = y(() => new ot(ie, {
+  ], S = b(
+    () => $e(P, t),
+    [P, t]
+  ), te = b(() => ce || (ne && xe[ne] ? xe[ne] : xe.classic_light), [ce, ne]), ye = b(() => ({
+    "--calendar-primary": te.primaryColor,
+    "--calendar-bg": te.backgroundColor,
+    "--calendar-secondary-bg": te.secondaryBackgroundColor,
+    "--calendar-grid": te.gridColor,
+    "--calendar-text": te.textColor,
+    "--calendar-secondary-text": te.secondaryTextColor,
+    "--calendar-accent": te.accentColor,
+    "--calendar-event-bg": te.eventDefaultColor,
+    "--calendar-event-text": te.eventDefaultTextColor
+  }), [te]), ie = b(() => Y ?? [], [Y]), ae = b(() => new rt(fe, {
     timezone: t,
     slotInterval: 30,
     // Placeholder for MonthView
-    events: fe,
+    events: ie,
     onEventChange: d,
-    onAddEvent: f,
-    onEditEvent: b,
-    onDeleteEvent: D
-  }), [ie, t, fe, d, f, b, D]), [Z, ne] = q(!1), [ke, ce] = q(null), [ge, _] = q({}), ve = y(() => $.clone().startOf("month"), [$]), Q = y(() => $.clone().endOf("month"), [$]), F = y(() => ve.clone().startOf("week"), [ve]), x = y(() => Q.clone().endOf("week"), [Q]), E = y(() => {
-    const O = [];
-    let I = F.clone();
-    for (; I.isBefore(x) || I.isSame(x, "day"); )
-      O.push(I.clone()), I.add(1, "day");
-    return O;
-  }, [F, x]), L = () => H($.clone().subtract(1, "month")), ue = () => H($.clone().add(1, "month")), X = () => H(i.utc().tz(t)), Ce = () => {
-    ne(!1), ce(null), _({});
-  }, J = /* @__PURE__ */ a("div", { className: "text-center flex flex-col items-center", children: [
-    /* @__PURE__ */ e("h2", { className: "text-xl font-semibold", children: $.format(n) }),
+    onAddEvent: i,
+    onEditEvent: N,
+    onDeleteEvent: I
+  }), [fe, t, ie, d, i, N, I]), [L, X] = R(!1), [De, G] = R(null), [ge, z] = R({}), J = b(() => S.clone().startOf("month"), [S]), re = b(() => S.clone().endOf("month"), [S]), oe = b(() => J.clone().startOf("week"), [J]), x = b(() => re.clone().endOf("week"), [re]), O = b(() => {
+    const T = [];
+    let B = oe.clone();
+    for (; B.isBefore(x) || B.isSame(x, "day"); )
+      T.push(B.clone()), B.add(1, "day");
+    return T;
+  }, [oe, x]), V = () => $(S.clone().subtract(1, "month")), ve = () => $(S.clone().add(1, "month")), K = () => $(f.utc().tz(t)), Ne = () => {
+    X(!1), G(null), z({});
+  }, Q = /* @__PURE__ */ a("div", { className: "text-center flex flex-col items-center", children: [
+    /* @__PURE__ */ e("h2", { className: "text-xl font-semibold", children: S.format(l) }),
     c && /* @__PURE__ */ a("p", { className: "text-xs mt-1", style: { color: "var(--calendar-secondary-text)" }, children: [
       "GMT",
-      $.format("Z"),
+      S.format("Z"),
       " • ",
       t
     ] }),
-    /* @__PURE__ */ e("button", { onClick: X, className: "mt-1 text-sm font-medium", style: { color: "var(--calendar-primary)" }, children: "Today" })
-  ] }), P = /* @__PURE__ */ e("button", { onClick: L, className: "px-3 py-1 rounded hover:opacity-70 transition-opacity", style: { color: "var(--calendar-text)" }, children: "◀" }), w = /* @__PURE__ */ e("button", { onClick: ue, className: "px-3 py-1 rounded hover:opacity-70 transition-opacity", style: { color: "var(--calendar-text)" }, children: "▶" }), se = /* @__PURE__ */ a("div", { className: "flex items-center gap-2", children: [
-    P,
-    w
-  ] }), we = h ? h({
-    goToPreviousDay: L,
-    goToNextDay: ue,
-    goToToday: X,
-    dateNode: J,
-    prevNode: P,
-    nextNode: w,
-    defaultNav: se,
-    currentDate: $,
+    /* @__PURE__ */ e("button", { onClick: K, className: "mt-1 text-sm font-medium", style: { color: "var(--calendar-primary)" }, children: "Today" })
+  ] }), _ = /* @__PURE__ */ e("button", { onClick: V, className: "px-3 py-1 rounded hover:opacity-70 transition-opacity", style: { color: "var(--calendar-text)" }, children: "◀" }), k = /* @__PURE__ */ e("button", { onClick: ve, className: "px-3 py-1 rounded hover:opacity-70 transition-opacity", style: { color: "var(--calendar-text)" }, children: "▶" }), pe = /* @__PURE__ */ a("div", { className: "flex items-center gap-2", children: [
+    _,
+    k
+  ] }), Ye = h ? h({
+    goToPreviousDay: V,
+    goToNextDay: ve,
+    goToToday: K,
+    dateNode: Q,
+    prevNode: _,
+    nextNode: k,
+    defaultNav: pe,
+    currentDate: S,
     timezone: t
   }) : null;
-  return /* @__PURE__ */ a("div", { className: "flex flex-col flex-1 h-full w-full min-h-0 no-scrollbar", style: { ...be, backgroundColor: "var(--calendar-bg)", color: "var(--calendar-text)" }, children: [
-    h != null ? /* @__PURE__ */ e("div", { children: we }, "custom-nav-wrapper") : /* @__PURE__ */ a("div", { className: "sticky top-0 z-20 border-b px-6 py-4 flex items-center min-h-[80px]", style: { backgroundColor: "var(--calendar-bg)", borderColor: "var(--calendar-grid)" }, children: [
-      m === "left" && /* @__PURE__ */ a(le, { children: [
-        /* @__PURE__ */ e("div", { className: "flex-1 flex justify-start items-center", children: se }),
-        /* @__PURE__ */ e("div", { className: "flex-1 flex justify-center items-center", children: J }),
+  return /* @__PURE__ */ a("div", { className: "flex flex-col flex-1 h-full w-full min-h-0 no-scrollbar", style: { ...ye, backgroundColor: "var(--calendar-bg)", color: "var(--calendar-text)" }, children: [
+    h != null ? /* @__PURE__ */ e("div", { children: Ye }, "custom-nav-wrapper") : /* @__PURE__ */ a("div", { className: "sticky top-0 z-20 border-b px-6 py-4 flex items-center min-h-[80px]", style: { backgroundColor: "var(--calendar-bg)", borderColor: "var(--calendar-grid)" }, children: [
+      m === "left" && /* @__PURE__ */ a(se, { children: [
+        /* @__PURE__ */ e("div", { className: "flex-1 flex justify-start items-center", children: pe }),
+        /* @__PURE__ */ e("div", { className: "flex-1 flex justify-center items-center", children: Q }),
         /* @__PURE__ */ e("div", { className: "flex-1 flex justify-end items-center" })
       ] }),
-      m === "center" && /* @__PURE__ */ a(le, { children: [
+      m === "center" && /* @__PURE__ */ a(se, { children: [
         /* @__PURE__ */ e("div", { className: "flex-1 flex justify-start items-center" }),
         /* @__PURE__ */ a("div", { className: "flex-1 flex justify-center items-center gap-4", children: [
-          P,
-          J,
-          w
+          _,
+          Q,
+          k
         ] }),
         /* @__PURE__ */ e("div", { className: "flex-1 flex justify-end items-center" })
       ] }),
-      m === "right" && /* @__PURE__ */ a(le, { children: [
+      m === "right" && /* @__PURE__ */ a(se, { children: [
         /* @__PURE__ */ e("div", { className: "flex-1 flex justify-start items-center" }),
-        /* @__PURE__ */ e("div", { className: "flex-1 flex justify-center items-center", children: J }),
-        /* @__PURE__ */ e("div", { className: "flex-1 flex justify-end items-center gap-4", children: se })
+        /* @__PURE__ */ e("div", { className: "flex-1 flex justify-center items-center", children: Q }),
+        /* @__PURE__ */ e("div", { className: "flex-1 flex justify-end items-center gap-4", children: pe })
       ] })
     ] }),
-    /* @__PURE__ */ e("div", { className: "grid grid-cols-7 border-b", style: { borderColor: "var(--calendar-grid)" }, children: ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"].map((O) => /* @__PURE__ */ e("div", { className: "py-2 text-center text-xs font-semibold uppercase tracking-wider", style: { color: "var(--calendar-secondary-text)" }, children: O }, O)) }),
-    /* @__PURE__ */ e("div", { className: "flex-1 overflow-y-auto no-scrollbar", children: /* @__PURE__ */ e("div", { className: "grid grid-cols-7 min-h-full", children: E.map((O, I) => {
-      const de = O.isSame($, "month"), me = O.isSame(i().tz(t), "day"), Ye = rt(fe, O, t);
+    /* @__PURE__ */ e("div", { className: "grid grid-cols-7 border-b", style: { borderColor: "var(--calendar-grid)" }, children: ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"].map((T) => /* @__PURE__ */ e("div", { className: "py-2 text-center text-xs font-semibold uppercase tracking-wider", style: { color: "var(--calendar-secondary-text)" }, children: T }, T)) }),
+    /* @__PURE__ */ e("div", { className: "flex-1 overflow-y-auto no-scrollbar", children: /* @__PURE__ */ e("div", { className: "grid grid-cols-7 min-h-full", children: O.map((T, B) => {
+      const de = T.isSame(S, "month"), ue = T.isSame(f().tz(t), "day"), ke = tt(ie, T, t);
       return /* @__PURE__ */ a(
         "div",
         {
@@ -1641,98 +1639,98 @@ const mt = ({ onChange: t, timeFormat: c, slotInterval: n, timezone: r, enabledT
             opacity: de ? 1 : 0.5
           },
           onDoubleClick: () => {
-            if (K) {
-              const A = O.clone().hour(9).minute(0), he = A.clone().add(1, "hour");
-              _({
-                start: A.format(`${n || "YYYY-MM-DD"}T${r || "HH:mm"}`),
-                end: he.format(`${n || "YYYY-MM-DD"}T${r || "HH:mm"}`)
-              }), ne(!0);
+            if (ee) {
+              const H = T.clone().hour(9).minute(0), me = H.clone().add(1, "hour");
+              z({
+                start: H.format(`${l || "YYYY-MM-DD"}T${r || "HH:mm"}`),
+                end: me.format(`${l || "YYYY-MM-DD"}T${r || "HH:mm"}`)
+              }), X(!0);
             }
           },
           children: [
             /* @__PURE__ */ e("div", { className: "flex justify-end pr-1", children: /* @__PURE__ */ e(
               "span",
               {
-                className: `text-sm font-medium w-7 h-7 flex items-center justify-center rounded-full ${me ? "text-white" : ""}`,
-                style: me ? { backgroundColor: "var(--calendar-primary)" } : { color: de ? "var(--calendar-text)" : "var(--calendar-secondary-text)" },
-                children: O.date()
+                className: `text-sm font-medium w-7 h-7 flex items-center justify-center rounded-full ${ue ? "text-white" : ""}`,
+                style: ue ? { backgroundColor: "var(--calendar-primary)" } : { color: de ? "var(--calendar-text)" : "var(--calendar-secondary-text)" },
+                children: T.date()
               }
             ) }),
             /* @__PURE__ */ a("div", { className: "flex flex-col gap-1 flex-1 overflow-hidden", children: [
-              Ye.slice(0, 4).map((A) => /* @__PURE__ */ e(
+              ke.slice(0, 4).map((H) => /* @__PURE__ */ e(
                 "div",
                 {
-                  onClick: (he) => {
-                    he.stopPropagation(), oe.triggerOnEventClick(A), K && (ce(A), _({
-                      ...A,
-                      start: i(A.start).tz(t).format(`${n || "YYYY-MM-DD"}T${r || "HH:mm"}`),
-                      end: i(A.end).tz(t).format(`${n || "YYYY-MM-DD"}T${r || "HH:mm"}`)
-                    }), ne(!0));
+                  onClick: (me) => {
+                    me.stopPropagation(), ae.triggerOnEventClick(H), ee && (G(H), z({
+                      ...H,
+                      start: f(H.start).tz(t).format(`${l || "YYYY-MM-DD"}T${r || "HH:mm"}`),
+                      end: f(H.end).tz(t).format(`${l || "YYYY-MM-DD"}T${r || "HH:mm"}`)
+                    }), X(!0));
                   },
                   className: "px-1.5 py-0.5 rounded text-[10px] truncate cursor-pointer transition-transform hover:scale-[1.02]",
                   style: {
                     backgroundColor: "var(--calendar-event-bg)",
                     color: "var(--calendar-event-text)",
-                    border: A.hasConflict ? "1px solid red" : "none"
+                    border: H.hasConflict ? "1px solid red" : "none"
                   },
-                  title: A.title,
-                  children: A.title
+                  title: H.title,
+                  children: H.title
                 },
-                A.id
+                H.id
               )),
-              Ye.length > 4 && /* @__PURE__ */ a("div", { className: "text-[9px] px-1 font-bold", style: { color: "var(--calendar-secondary-text)" }, children: [
+              ke.length > 4 && /* @__PURE__ */ a("div", { className: "text-[9px] px-1 font-bold", style: { color: "var(--calendar-secondary-text)" }, children: [
                 "+",
-                Ye.length - 4,
+                ke.length - 4,
                 " more"
               ] })
             ] })
           ]
         },
-        I
+        B
       );
     }) }) }),
-    K && /* @__PURE__ */ e(
-      nt,
+    ee && /* @__PURE__ */ e(
+      ot,
       {
-        isOpen: Z,
-        onClose: Ce,
-        editingEvent: ke,
+        isOpen: L,
+        onClose: Ne,
+        editingEvent: De,
         formData: ge,
-        setFormData: _,
+        setFormData: z,
         formFields: C,
         timezone: t,
-        dateFormat: n,
+        dateFormat: l,
         timeFormat: r,
-        onAddEvent: f,
-        onEditEvent: b,
-        onDeleteEvent: D,
-        pluginManager: oe,
-        events: S
+        onAddEvent: i,
+        onEditEvent: N,
+        onDeleteEvent: I,
+        pluginManager: ae,
+        events: Y
       }
     )
   ] });
 }, kt = (t) => {
   const {
-    timezone: c = i.tz.guess() || "UTC",
-    selectedDate: n,
+    timezone: c = f.tz.guess() || "UTC",
+    selectedDate: l,
     onDateChange: r,
-    events: o,
-    onAddEvent: N,
+    events: n,
+    onAddEvent: w,
     onEditEvent: u,
     onDeleteEvent: d,
     calendarTheme: m,
     calendarThemeVariant: h,
     navigationPosition: g = "center",
-    renderNavigation: j,
-    dateFormat: T = "MMMM YYYY",
+    renderNavigation: A,
+    dateFormat: D = "MMMM YYYY",
     timeFormat: v = "HH:mm",
-    showTimeSlots: K = !1
-  } = t, [ie, ae] = q(() => i.tz(n || /* @__PURE__ */ new Date(), c)), te = n !== void 0 ? n : ie, W = y(
-    () => Ae(te, c),
-    [te, c]
-  ), [re, G] = q(() => W.clone().startOf("month")), H = (x) => {
-    r ? r(x) : ae(x), G(x.clone().startOf("month"));
-  }, [z, l] = q(() => o || []), S = o !== void 0 ? o : z, f = N || ((x) => l((E) => [...E, x])), b = u || ((x) => l((E) => E.map((L) => L.id === x.id ? x : L))), D = d || ((x) => l((E) => E.filter((L) => L.id !== x))), C = y(() => m || (h && xe[h] ? xe[h] : xe.classic_light), [m, h]), $ = y(() => ({
+    showTimeSlots: ee = !1
+  } = t, [fe, ce] = R(() => f.tz(l || /* @__PURE__ */ new Date(), c)), ne = l !== void 0 ? l : fe, Z = b(
+    () => $e(ne, c),
+    [ne, c]
+  ), [le, P] = R(() => Z.clone().startOf("month")), $ = (x) => {
+    r ? r(x) : ce(x), P(x.clone().startOf("month"));
+  }, [q, o] = R(() => n || []), Y = n !== void 0 ? n : q, i = w || ((x) => o((O) => [...O, x])), N = u || ((x) => o((O) => O.map((V) => V.id === x.id ? x : V))), I = d || ((x) => o((O) => O.filter((V) => V.id !== x))), C = b(() => m || (h && xe[h] ? xe[h] : xe.classic_light), [m, h]), S = b(() => ({
     "--calendar-primary": C.primaryColor,
     "--calendar-bg": C.backgroundColor,
     "--calendar-secondary-bg": C.secondaryBackgroundColor,
@@ -1742,49 +1740,49 @@ const mt = ({ onChange: t, timeFormat: c, slotInterval: n, timezone: r, enabledT
     "--calendar-accent": C.accentColor,
     "--calendar-event-bg": C.eventDefaultColor,
     "--calendar-event-text": C.eventDefaultTextColor
-  }), [C]), U = re.clone().startOf("month"), be = re.clone().endOf("month"), fe = U.clone().startOf("week"), oe = be.clone().endOf("week"), Z = y(() => {
+  }), [C]), te = le.clone().startOf("month"), ye = le.clone().endOf("month"), ie = te.clone().startOf("week"), ae = ye.clone().endOf("week"), L = b(() => {
     const x = [];
-    let E = fe.clone();
-    for (; E.isBefore(oe) || E.isSame(oe, "day"); )
-      x.push(E.clone()), E.add(1, "day");
+    let O = ie.clone();
+    for (; O.isBefore(ae) || O.isSame(ae, "day"); )
+      x.push(O.clone()), O.add(1, "day");
     return x;
-  }, [fe, oe]), ne = () => G((x) => x.clone().subtract(1, "month")), ke = () => G((x) => x.clone().add(1, "month")), ce = () => H(i.utc().tz(c)), ge = /* @__PURE__ */ a("div", { className: "text-center flex flex-col items-center", children: [
-    /* @__PURE__ */ e("h2", { className: "text-xl font-semibold", style: { color: "var(--calendar-text)" }, children: W.format(T) }),
-    /* @__PURE__ */ e("button", { onClick: ce, className: "mt-1 text-sm font-medium", style: { color: "var(--calendar-primary)" }, children: "Today" })
-  ] }), _ = /* @__PURE__ */ e("button", { onClick: () => H(W.clone().subtract(1, "month")), className: "px-3 py-1 rounded hover:bg-gray-100 transition-colors", style: { color: "var(--calendar-text)" }, children: "◀" }), ve = /* @__PURE__ */ e("button", { onClick: () => H(W.clone().add(1, "month")), className: "px-3 py-1 rounded hover:bg-gray-100 transition-colors", style: { color: "var(--calendar-text)" }, children: "▶" }), Q = /* @__PURE__ */ a("div", { className: "flex items-center gap-2", children: [
-    _,
-    ve
-  ] }), F = j ? j({
-    goToPreviousDay: () => H(W.clone().subtract(1, "month")),
-    goToNextDay: () => H(W.clone().add(1, "month")),
-    goToToday: ce,
+  }, [ie, ae]), X = () => P((x) => x.clone().subtract(1, "month")), De = () => P((x) => x.clone().add(1, "month")), G = () => $(f.utc().tz(c)), ge = /* @__PURE__ */ a("div", { className: "text-center flex flex-col items-center", children: [
+    /* @__PURE__ */ e("h2", { className: "text-xl font-semibold", style: { color: "var(--calendar-text)" }, children: Z.format(D) }),
+    /* @__PURE__ */ e("button", { onClick: G, className: "mt-1 text-sm font-medium", style: { color: "var(--calendar-primary)" }, children: "Today" })
+  ] }), z = /* @__PURE__ */ e("button", { onClick: () => $(Z.clone().subtract(1, "month")), className: "px-3 py-1 rounded hover:bg-gray-100 transition-colors", style: { color: "var(--calendar-text)" }, children: "◀" }), J = /* @__PURE__ */ e("button", { onClick: () => $(Z.clone().add(1, "month")), className: "px-3 py-1 rounded hover:bg-gray-100 transition-colors", style: { color: "var(--calendar-text)" }, children: "▶" }), re = /* @__PURE__ */ a("div", { className: "flex items-center gap-2", children: [
+    z,
+    J
+  ] }), oe = A ? A({
+    goToPreviousDay: () => $(Z.clone().subtract(1, "month")),
+    goToNextDay: () => $(Z.clone().add(1, "month")),
+    goToToday: G,
     dateNode: ge,
-    prevNode: _,
-    nextNode: ve,
-    defaultNav: Q,
-    currentDate: W,
+    prevNode: z,
+    nextNode: J,
+    defaultNav: re,
+    currentDate: Z,
     timezone: c
   }) : null;
-  return /* @__PURE__ */ a("div", { className: "flex flex-col h-full w-full no-scrollbar", style: { ...$, backgroundColor: "var(--calendar-bg)" }, children: [
-    j ? F : /* @__PURE__ */ a("div", { className: "sticky top-0 z-20 border-b px-6 py-4 flex items-center min-h-[80px]", style: { backgroundColor: "var(--calendar-bg)", borderColor: "var(--calendar-grid)" }, children: [
-      g === "left" && /* @__PURE__ */ a(le, { children: [
-        /* @__PURE__ */ e("div", { className: "flex-1 flex justify-start items-center", children: Q }),
+  return /* @__PURE__ */ a("div", { className: "flex flex-col h-full w-full no-scrollbar", style: { ...S, backgroundColor: "var(--calendar-bg)" }, children: [
+    A ? oe : /* @__PURE__ */ a("div", { className: "sticky top-0 z-20 border-b px-6 py-4 flex items-center min-h-[80px]", style: { backgroundColor: "var(--calendar-bg)", borderColor: "var(--calendar-grid)" }, children: [
+      g === "left" && /* @__PURE__ */ a(se, { children: [
+        /* @__PURE__ */ e("div", { className: "flex-1 flex justify-start items-center", children: re }),
         /* @__PURE__ */ e("div", { className: "flex-1 flex justify-center items-center", children: ge }),
         /* @__PURE__ */ e("div", { className: "flex-1 flex justify-end items-center" })
       ] }),
-      g === "center" && /* @__PURE__ */ a(le, { children: [
+      g === "center" && /* @__PURE__ */ a(se, { children: [
         /* @__PURE__ */ e("div", { className: "flex-1 flex justify-start items-center" }),
         /* @__PURE__ */ a("div", { className: "flex-1 flex justify-center items-center gap-4", children: [
-          _,
+          z,
           ge,
-          ve
+          J
         ] }),
         /* @__PURE__ */ e("div", { className: "flex-1 flex justify-end items-center" })
       ] }),
-      g === "right" && /* @__PURE__ */ a(le, { children: [
+      g === "right" && /* @__PURE__ */ a(se, { children: [
         /* @__PURE__ */ e("div", { className: "flex-1 flex justify-start items-center" }),
         /* @__PURE__ */ e("div", { className: "flex-1 flex justify-center items-center", children: ge }),
-        /* @__PURE__ */ e("div", { className: "flex-1 flex justify-end items-center gap-4", children: Q })
+        /* @__PURE__ */ e("div", { className: "flex-1 flex justify-end items-center gap-4", children: re })
       ] })
     ] }),
     /* @__PURE__ */ a("div", { className: "flex flex-col md:flex-row flex-1 overflow-hidden border shadow-lg rounded-xl bg-white no-scrollbar m-4 mt-2", style: { borderColor: "var(--calendar-grid)" }, children: [
@@ -1798,17 +1796,17 @@ const mt = ({ onChange: t, timeFormat: c, slotInterval: n, timezone: r, enabledT
               /* @__PURE__ */ e(
                 "button",
                 {
-                  onClick: ne,
+                  onClick: X,
                   className: "p-1 hover:bg-gray-100 rounded transition-colors",
                   style: { color: "var(--calendar-text)" },
                   children: "◀"
                 }
               ),
-              /* @__PURE__ */ e("div", { className: "font-semibold text-sm", style: { color: "var(--calendar-text)" }, children: re.format("MMMM YYYY") }),
+              /* @__PURE__ */ e("div", { className: "font-semibold text-sm", style: { color: "var(--calendar-text)" }, children: le.format("MMMM YYYY") }),
               /* @__PURE__ */ e(
                 "button",
                 {
-                  onClick: ke,
+                  onClick: De,
                   className: "p-1 hover:bg-gray-100 rounded transition-colors",
                   style: { color: "var(--calendar-text)" },
                   children: "▶"
@@ -1816,18 +1814,18 @@ const mt = ({ onChange: t, timeFormat: c, slotInterval: n, timezone: r, enabledT
               )
             ] }),
             /* @__PURE__ */ e("div", { className: "grid grid-cols-7 mb-2", children: ["Su", "Mo", "Tu", "We", "Th", "Fr", "Sa"].map((x) => /* @__PURE__ */ e("div", { className: "text-center text-[10px] font-bold uppercase", style: { color: "var(--calendar-secondary-text)" }, children: x }, x)) }),
-            /* @__PURE__ */ e("div", { className: "grid grid-cols-7 gap-1", children: Z.map((x, E) => {
-              const L = x.isSame(re, "month"), ue = x.isSame(W, "day"), X = x.isSame(i().tz(c), "day");
-              let Ce = "hover:bg-gray-200", J = { color: "var(--calendar-text)" }, P = {};
-              return L || (J = { color: "var(--calendar-secondary-text)", opacity: 0.5 }), ue ? (Ce = "", P = { backgroundColor: "var(--calendar-primary)", color: "white" }, J = { color: "white" }) : X && (P = { border: "2px solid var(--calendar-primary)", fontWeight: "bold" }, J = { color: "var(--calendar-primary)" }), /* @__PURE__ */ e(
+            /* @__PURE__ */ e("div", { className: "grid grid-cols-7 gap-1", children: L.map((x, O) => {
+              const V = x.isSame(le, "month"), ve = x.isSame(Z, "day"), K = x.isSame(f().tz(c), "day");
+              let Ne = "hover:bg-gray-200", Q = { color: "var(--calendar-text)" }, _ = {};
+              return V || (Q = { color: "var(--calendar-secondary-text)", opacity: 0.5 }), ve ? (Ne = "", _ = { backgroundColor: "var(--calendar-primary)", color: "white" }, Q = { color: "white" }) : K && (_ = { border: "2px solid var(--calendar-primary)", fontWeight: "bold" }, Q = { color: "var(--calendar-primary)" }), /* @__PURE__ */ e(
                 "button",
                 {
-                  onClick: () => H(x),
-                  className: `h-8 w-8 flex items-center justify-center rounded-full text-xs transition-colors ${Ce}`,
-                  style: { ...J, ...P },
+                  onClick: () => $(x),
+                  className: `h-8 w-8 flex items-center justify-center rounded-full text-xs transition-colors ${Ne}`,
+                  style: { ...Q, ..._ },
                   children: x.date()
                 },
-                E
+                O
               );
             }) })
           ]
@@ -1837,16 +1835,16 @@ const mt = ({ onChange: t, timeFormat: c, slotInterval: n, timezone: r, enabledT
         gt,
         {
           ...t,
-          selectedDate: te,
-          onDateChange: H,
-          events: S,
-          showTimeSlots: K,
-          onAddEvent: f,
-          onEditEvent: b,
-          onDeleteEvent: D,
-          renderNavigation: () => /* @__PURE__ */ e(le, {}),
+          selectedDate: ne,
+          onDateChange: $,
+          events: Y,
+          showTimeSlots: ee,
+          onAddEvent: i,
+          onEditEvent: N,
+          onDeleteEvent: I,
+          renderNavigation: () => /* @__PURE__ */ e(se, {}),
           showTodayBelow: !1,
-          dateFormat: T,
+          dateFormat: D,
           timeFormat: v
         }
       ) })
@@ -1859,13 +1857,13 @@ export {
   Nt as MonthView,
   xe as PREDEFINED_CALENDAR_THEMES,
   xt as PREDEFINED_CONFLICT_TEMPLATES,
-  V as SLOT_HEIGHT,
+  U as SLOT_HEIGHT,
   Ct as WeekView,
   dt as calculateLayoutEvents,
-  tt as checkIsSlotEnabled,
+  et as checkIsSlotEnabled,
   vt as detectConflicts,
   ct as generateTimeSlots,
-  rt as getDayEvents,
+  tt as getDayEvents,
   st as getWorkingHoursRange,
-  Ae as normalizeDate
+  $e as normalizeDate
 };
